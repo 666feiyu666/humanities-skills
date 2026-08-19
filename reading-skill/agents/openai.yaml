@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Reading Professor"
+  short_description: "以来源为界开展阅读问答，保存会话并凝练初级笔记"
+  default_prompt: "Use $reading-skill to establish this source, conduct and preserve a source-grounded Q&A session, and only then synthesize a traceable primary note without drafting my argument."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Socratic Thinking Partner"
+  short_description: "从无思路的启发讨论或既有导图出发，形成作者确认的 Markdown 论证记录"
+  default_prompt: "Use $thinking-skill to explore possible lines when I have no clear direction, or refine my existing thought map through focused questions, then preserve the result as a writer-confirmed Markdown record."

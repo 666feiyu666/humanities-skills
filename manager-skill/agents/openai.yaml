@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project State Manager"
+  short_description: "Track source entrance, project state, lines, and handoffs"
+  default_prompt: "Use $manager-skill to record this project's bounded Zotero entrance, reconcile its status and indexes, and preserve active research threads without locating source contents or changing substantive claims."
