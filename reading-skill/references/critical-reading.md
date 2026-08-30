@@ -44,7 +44,7 @@ Critical reading includes faithful reconstruction, attention to exclusions and a
 
 Use external scholarship when the writer asks for context, when source identification requires it, or when the original is absent or incomplete and the writer wants to continue. Read [web-assisted-reading.md](web-assisted-reading.md) first.
 
-Keep commentary about the work distinct from the work itself. Cite each external source near the claim it supports, and record it in the material index or primary note.
+Keep commentary about the work distinct from the work itself. Cite each external source near the claim it supports, and record it in the material index or any reading card that uses it.
 
 ## Stop conditions
 

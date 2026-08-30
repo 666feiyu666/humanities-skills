@@ -1,13 +1,13 @@
 ---
 name: manager-skill
-description: "Reconcile and maintain the state of a long-running reading, thinking, or writing project. Use when Codex should start or resume a project, record its task type and bounded Zotero source entrance, report or update progress, register completed artifacts, preserve active research lines and author decisions, repair stale indexes or status files, or coordinate handoffs among reading-skill, thinking-skill, and writing-skill. Do not use it to locate or interpret source contents, develop arguments, or draft and revise prose."
+description: "Reconcile and maintain the state of a long-running reading, thinking, writing, or speaking project. Use when Codex should start or resume a project, record its task type and bounded Zotero source entrance, report or update progress, register completed artifacts, preserve active research lines and author decisions, repair stale indexes or status files, or coordinate handoffs among RWS skills. Do not use it to locate or interpret source contents, develop arguments, draft or revise prose, or adapt material for oral delivery."
 ---
 
 # Project State Manager
 
 ## Purpose
 
-Keep the project recoverable across conversations without taking over the intellectual work performed by `reading-skill`, `thinking-skill`, `writing-skill`, or the writer.
+Keep the project recoverable across conversations without taking over the intellectual work performed by `reading-skill`, `thinking-skill`, `writing-skill`, `speaking-skill`, or the writer.
 
 Maintain four kinds of state:
 
@@ -37,14 +37,15 @@ This skill must not:
 - promote a model suggestion into an author judgment;
 - build or repair an argument map;
 - draft, review, or revise continuous prose;
+- adapt material for oral delivery or conduct speaking rehearsal;
 - mark a source check complete without evidence from `reading-skill`;
 - mark a substantive direction confirmed without the writer's decision.
 
-Route source questions to `reading-skill`, unchosen relations or claims to `thinking-skill`, and prose work to `writing-skill`.
+Route source questions to `reading-skill`, unchosen relations or claims to `thinking-skill`, prose work to `writing-skill`, and oral adaptation or rehearsal to `speaking-skill`.
 
 ## Record the source entrance
 
-Treat the Zotero entrance and the Read-Write project as two layers of one reusable workflow. Record the entrance; do not perform source discovery or extraction yourself.
+Treat the Zotero entrance and the RWS project as two layers of one reusable workflow. Record the entrance; do not perform source discovery or extraction yourself.
 
 - Use `1-文科学习 → 00-学习导航` as the default navigation root for learning about a thinker, work, or field.
 - Use `1-文科学习 → 03-写作专题` as the default navigation root for an already concrete article, review, or writing topic.
@@ -97,11 +98,12 @@ Keep a line separate from the current article when its relation to that article 
 
 ## Process a handoff
 
-Accept compact handoff packets from the three content skills.
+Accept compact handoff packets from the content skills.
 
 - From reading: artifact, stable source identity and access limits, actual coverage, established claims, open checks, possible research lines.
 - From thinking: artifact, writer-confirmed decisions, competing or parked lines, source checks, writing readiness.
 - From writing: active version, revision layer, applied and deferred findings, source checks, author decisions, next movement.
+- From speaking: speaking artifact, audience, occasion, target and estimated duration, deliberate compressions, author checks, rehearsal focus.
 
 Update state only from the packet and inspected artifacts. If the packet conflicts with the files, report the conflict rather than silently choosing one.
 

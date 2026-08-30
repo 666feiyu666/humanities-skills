@@ -59,7 +59,7 @@ Research-line provenance:
 - `model_suggested`: proposed by Codex and not yet accepted;
 - `open`: provenance or commitment is not yet settled.
 
-Never use a completion label without stating the scope. A primary note may be `complete_for_scope` while the book remains only partially read.
+Never use a completion label without stating the scope. A reading card may be `complete_for_scope` while the book remains only partially read.
 
 ## Index policy
 

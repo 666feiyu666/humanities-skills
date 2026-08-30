@@ -1,0 +1,5 @@
+interface:
+  display_name: "Speaking Adapter"
+  short_description: "将既有内容改编为面向具体听众的口头表达与排练材料"
+  default_prompt: "Use $speaking-skill to adapt this established material for a specific audience and duration, then give me the smallest useful rehearsal support."
+

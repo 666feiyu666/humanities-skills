@@ -31,7 +31,7 @@ Use discovery-only material to find better sources, not as final evidence for a 
 
 ## Build an evidence ledger
 
-For every material source likely to enter a note, record:
+For every material source likely to enter a reading card, record:
 
 | Field | Meaning |
 |---|---|
@@ -47,7 +47,7 @@ Do not count several pages repeating publisher copy as independent corroboration
 
 ## Reconstruct with coverage labels
 
-Use these labels in dialogue and notes:
+Use these labels in dialogue, session records, and cards:
 
 - `directly visible`: supported by a passage actually inspected;
 - `partially visible`: supported by excerpts but whole-work context is missing;
@@ -76,9 +76,9 @@ Do not describe a whole-book architecture from one review. Do not use an exact q
 - Link to the page that supports the claim, not a search-results page.
 - Distinguish translations and never silently combine their wording.
 
-## Create a web-assisted primary note
+## Create web-assisted reading cards
 
-Use the standard primary-note schema, but make these fields mandatory:
+Use the standard reading-card routing and form, but make these fields mandatory for every card:
 
 - reading basis;
 - actual visible coverage;
@@ -86,4 +86,4 @@ Use the standard primary-note schema, but make these fields mandatory:
 - coverage gaps;
 - claims that must be checked against the original before publication.
 
-A web-assisted primary note may support later argument mapping and writing after the writer has chosen a direction. It cannot justify wording such as “the author argues on page X” unless the relevant source text and locator were directly inspected.
+A web-assisted knowledge or question card may support later argument mapping and writing after the writer has chosen a direction. It cannot justify wording such as “the author argues on page X” unless the relevant source text and locator were directly inspected.

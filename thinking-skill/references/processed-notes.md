@@ -136,7 +136,7 @@ If the memo begins to perform an essay's opening, development, or conclusion, st
 - Save or return the record when the writer says “整理一下”, “先到这里”, “这个问题有点远”, “保留目前思路”, or otherwise signals closure.
 - Do not keep questioning merely to complete the template.
 - In a writable project, use the project's processed-note location. Leave project and directory index reconciliation to `manager-skill`.
-- Link backward to primary notes, maps, and source artifacts.
+- Link backward to reading cards, maps, and source artifacts.
 - Prefer a conceptual title; use a provisional question when no center has emerged.
 - Preserve earlier versions when a consequential judgment changes.
 - If no writable project exists, return the complete record as Markdown in the response.
