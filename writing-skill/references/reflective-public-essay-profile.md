@@ -1,4 +1,10 @@
-# Style profile
+# Reflective public-essay profile
+
+## Applicability
+
+Use this profile only when the user requests this reflective philosophical public-essay voice or the active project has established it through relevant samples. It is not the default style for method explanations, design-process accounts, ordinary book reviews, or all Chinese argumentative prose.
+
+Read [chinese-prose-quality.md](chinese-prose-quality.md) for general fidelity, naturalness, and formulaic-language checks. The rules below describe one genre-specific voice.
 
 ## Core voice
 
@@ -12,7 +18,7 @@ The writing has three simultaneous qualities:
 
 ## Characteristic movement
 
-The sample essays repeatedly use a strong movement:
+Relevant sample essays often use this movement:
 
 1. Quote an everyday expression or familiar ideal.
 2. Recover the plain wish or anxiety beneath it.
@@ -23,19 +29,19 @@ The sample essays repeatedly use a strong movement:
 7. Distinguish two kinds, levels, or sources of experience.
 8. End by returning freedom and judgment to a finite person.
 
-Useful examples from the samples include pain A / pain B, upward life / forward life, seriousness / absurdity, and process / trace. These pairs work because each term answers a different question. Avoid pairs that merely rename good and bad.
+Treat this as a recurring possibility, not a required template. Use only the movements supported by the current material. Useful examples from the samples include pain A / pain B, upward life / forward life, seriousness / absurdity, and process / trace. These pairs work because each term answers a different question. Avoid pairs that merely rename good and bad.
 
 ## Sentence and paragraph habits
 
 - Prefer ordinary vocabulary: `卡住`, `迟滞`, `绕路`, `写不顺`, `被拉回去`.
-- Define a concept immediately after naming it.
-- Move from abstract claim to a specific scene within one or two paragraphs.
-- Keep causal links visible: `这意味着`, `因此`, `也正是在这里`, `从这个角度看`.
-- Use `问题在于` only for a genuine turn. Vary transitions when the relation is continuation rather than objection.
+- Define a concept soon after naming it.
+- Move from abstract claim to a specific scene when the supplied material supports one.
+- Keep causal and inferential links visible without repeating the same connective.
+- Use `问题在于` only for a genuine turn.
 - Let paragraphs accumulate an argument. Avoid isolated aphorisms.
-- Use rhetorical questions sparingly and answer them. One strong question carries more force than a series.
+- Use rhetorical questions sparingly and answer them.
 
-## Preference added by the author
+## Preferences added by the author
 
 The samples often rely on contrastive negation. The author now prefers fewer negative constructions. Preserve the conceptual distinction while shifting the sentence toward affirmative description.
 
@@ -52,18 +58,18 @@ Examples:
 
 Do not ban negation. Use it when a mistaken reading must be blocked or a conceptual boundary would otherwise blur. Avoid chains of `不是`, `不再`, `不能`, and repeated `不是……而是……` as the main engine of several consecutive paragraphs.
 
-The author also prefers fewer colons. Do not use a colon merely to announce an explanation, conclusion, or short list that can flow as a complete sentence. Prefer connective phrases, commas, full stops, or paragraph breaks. Retain colons when introducing a genuine definition, a quotation, or an enumeration whose structure would otherwise be unclear.
+The author also prefers fewer colons. Do not use a colon merely to announce an explanation, conclusion, or short list that can flow as a complete sentence. Retain colons for genuine definitions, quotations, or enumerations whose structure would otherwise be unclear.
 
 ## Openings
 
-Favor openings that establish recognition quickly:
+For this genre, openings may establish recognition through:
 
 - a contemporary joke or phrase;
 - a familiar life instruction such as `生活要向上`;
 - a small contradiction in an ordinary aspiration;
 - a direct question whose terms will later be revised.
 
-Move from the hook to the philosophical problem within three to six paragraphs. Keep cultural references functional.
+Move from the hook to the philosophical problem without allowing the cultural reference to become decoration.
 
 ## Thinkers and sources
 
@@ -76,17 +82,14 @@ Move from the hook to the philosophical problem within three to six paragraphs. 
 
 ## Endings
 
-Return to the opening image or question. Offer a changed way of judging experience rather than a motivational formula. Keep conclusions proportionate: finite agency, a loosened interpretation, a practical distinction, or one newly available question.
+When the article's actual movement supports it, return to the opening image or question. Offer a changed way of judging experience rather than a motivational formula. Keep conclusions proportionate: finite agency, a loosened interpretation, a practical distinction, or one newly available question.
 
-## Revision checklist
+## Profile-specific checklist
 
-- Can the central claim be stated in two sentences?
-- Does each section perform a distinct argumentative task?
 - Does the thinker change the question rather than merely endorse the author?
-- Does every abstract paragraph connect to an experience or practice?
+- Does each abstract movement connect to a supplied experience or practice?
 - Are social explanations specific enough to avoid slogans such as `现代社会让人焦虑`?
-- Have repeated meanings been consolidated?
 - Can any chain of negative contrasts become one affirmative sentence?
-- Can any colon be replaced by a complete sentence or a natural connective without weakening clarity?
+- Can unnecessary colons become complete sentences or natural connectives?
 - Does the conclusion answer the opening at the same conceptual level?
 - Are all citations and attributions traceable to supplied material?

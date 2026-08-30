@@ -1,6 +1,6 @@
 # Rhetorical review
 
-Use this reference for the **macro** observation layer inside [revision-cycle.md](revision-cycle.md). Do not treat macro review as the first step of an irreversible chain. After review or authorized revision, choose whether to stay, advance to relations, return to invention, or exit.
+Use this reference for the **macro** observation layer in either an ordinary review or the formal [revision-cycle.md](revision-cycle.md). Do not treat macro review as the first step of an irreversible chain.
 
 ## Role
 
@@ -23,7 +23,7 @@ When these are absent, reconstruct them as hypotheses and label them as inferred
 
 ## Reconstruct before judging
 
-Read the prose without forcing it to match the writer's stated intention. Report:
+Read the prose without forcing it to match the writer's stated intention. Reconstruct:
 
 1. the question the opening leads a reader to expect;
 2. every plausible candidate for the central claim;
@@ -33,6 +33,8 @@ Read the prose without forcing it to match the writer's stated intention. Report
 6. the position into which the text places the writer, reader, and people under discussion.
 
 If the text contains several central claims, do not choose the best one. Explain whether they form a hierarchy, a sequence, or an unresolved competition. State what structural consequences follow from choosing each candidate.
+
+Surface the full reconstruction only when the user requests systematic diagnosis or it is needed to explain a governing problem. For an ordinary review, return only the parts that support the prioritized findings.
 
 ## Review from whole text to sentence
 
@@ -53,7 +55,7 @@ If the text contains several central claims, do not choose the best one. Explain
 
 ### Argument and rebuttal
 
-Use [argument-audit.md](argument-audit.md). Pay special attention to unstated warrants, changes of scope, and normative conclusions. Treat rebuttal as a test of the conditions under which a claim holds, not as a courtesy paragraph acknowledging another side.
+Use [argument-audit.md](argument-audit.md) when claims, warrants, scope, objections, or conclusions need explicit audit. Pay special attention to unstated warrants, changes of scope, and normative conclusions. Treat rebuttal as a test of the conditions under which a claim holds, not as a courtesy paragraph acknowledging another side.
 
 Ask whether the strongest plausible objection changes the claim, its qualifier, its evidence requirement, or its scope. Flag a rebuttal that answers a weaker objection than the one created by the essay.
 
@@ -73,7 +75,7 @@ Describe these effects without assuming they were intended.
 
 ### Style
 
-Use [style-profile.md](style-profile.md) for the writer's preferences. Also check precision, reference, sentence subjects, concept stability, paragraph rhythm, excessive qualification, repeated semantic work, and overly neat closure. Do not treat personal style preferences as universal errors.
+Use [chinese-prose-quality.md](chinese-prose-quality.md) for general fidelity, naturalness, and formulaic-language checks. Use [reflective-public-essay-profile.md](reflective-public-essay-profile.md) only when that specific profile applies. Also check precision, reference, sentence subjects, concept stability, paragraph rhythm, excessive qualification, repeated semantic work, and overly neat closure. Do not treat personal or genre preferences as universal errors.
 
 ## Prioritize comments
 
@@ -89,7 +91,9 @@ Do not bury a governing problem under many sentence-level comments. Give represe
 
 ## Return the review
 
-Return:
+For an ordinary review, return the strongest achieved effect and a short set of prioritized, actionable findings with locations, evidence, and consequences. Include an author decision only when the prose cannot be responsibly revised without it.
+
+When the user requests systematic diagnosis or the formal revision cycle is active, also return:
 
 - **实际文章地图**: the reader-visible question, candidate central claim or claims, and one line per section;
 - **已经实现的效果**: the strongest passage or rhetorical achievement and why it works;

@@ -1,4 +1,4 @@
 interface:
-  display_name: "Continuous Prose Writer"
-  short_description: "起草中文论说文，分类审阅意见，并按结构或语言轮次分层修订"
-  default_prompt: "Use $writing-skill to draft or revise my prose, classify every review comment, apply only the active structure or language layer, and preserve deferred changes without altering my substantive position."
+  display_name: "Chinese Prose Collaborator"
+  short_description: "细化可审阅大纲，协作起草、续写并修订中文论说文"
+  default_prompt: "Use $writing-skill to choose the appropriate mode from my prompt, refine a reviewable outline when useful, and draft or revise Chinese prose without replacing my substantive judgment."
