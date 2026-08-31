@@ -4,6 +4,8 @@
 
 A reading card is a reusable semantic unit distilled from source-grounded reading and dialogue. It does not replace the chronological Q&A record. A session preserves how understanding developed; a card preserves one result worth finding and using again.
 
+Choose the card language from the writer's explicit request, the active card, or the current dialogue when creating a new card. Render headings, prompts, status labels, and human-facing provenance markers naturally in that language. Preserve quotations in the source wording actually inspected and label any model translation. The English labels used below name semantic roles rather than mandatory surface wording.
+
 Card creation is selected by the writer, not decided by the skill and not required as a closing ritual. Codex may identify and explain candidates, but the writer decides whether to create no cards, one card, or several cards of different types. One card may draw on several sessions or passages.
 
 Before creating writer-selected cards from a substantive multi-turn dialogue in a declared local project, preserve that dialogue according to [reading-sessions.md](reading-sessions.md) and link the relevant session record from each card.
@@ -26,10 +28,10 @@ The writer should exercise agency over what the card means, not only whether the
 
 Before drafting, recover relevant writer contributions already present in the dialogue. These may include a tentative title, the problem as the writer sees it, a proposed logic or distinction, a point of confusion, an example, or an experience. Do not ask the writer to repeat material that already supplies the center.
 
-If the center is missing or materially ambiguous, ask one focused construction question. Useful prompts include:
+If the center is missing or materially ambiguous, ask one focused construction question in the dialogue language. Useful prompts are equivalent to:
 
-- for a knowledge card: “你最希望这张卡片解释清楚的关系是什么？”
-- for a question card: “这个问题对你来说真正没有解决的部分是什么？”
+- for a knowledge card: “What relationship do you most want this card to clarify?”
+- for a question card: “What part of this question remains genuinely unresolved for you?”
 
 Do not turn this into a form-filling interview. Once the writer has supplied or confirmed the center, Codex may build a compact working skeleton, test it against the source, point out missing links, offer alternatives, add verified context and locators, and improve readability.
 
@@ -74,34 +76,34 @@ A knowledge card should remain readable after the immediate conversation has bee
 Suggested form:
 
 ```markdown
-# 标题：这个知识单元解释了什么
+# Title: What this knowledge unit explains
 
-## 逻辑骨架
+## Logical skeleton
 
-问题或条件
+Problem or condition
 
-→ 关键区分或关系
+→ Key distinction or relation
 
-→ 结论、作用或后果
+→ Conclusion, function, or consequence
 
-## 简要展开
+## Brief development
 
-用连贯文字解释逻辑骨架。说明概念之间为什么形成这种关系，
-而不是把骨架重复成更长的列表。
+Explain the logical skeleton in connected prose. Show why the concepts have this
+relation instead of repeating the skeleton as a longer list.
 
-## 我的经验与实践推演
+## My experience and practical extension
 
-只在已有真实经验、例子或写作者确认的推演时使用。
+Use only when real experience, an example, or a writer-confirmed extension exists.
 
-## 来源与理解边界
+## Sources and limits of understanding
 
-- 来源与位置：
-- 实际阅读范围：
-- 阅读基础：原书 / 部分原文 / 网络重建
-- 相关讨论记录：
-- 尚待核查：
+- Source and locator:
+- Actual reading coverage:
+- Reading basis: direct source / partial source / web reconstruction
+- Related session record:
+- Still to verify:
 
-## 关联与尚待展开
+## Relations and further questions
 ```
 
 Use only sections that carry information. The logic chain, brief expansion, and source boundary are normally essential. The experience section is optional; never invent personal experience. Faithfully preserve experience or practical reasoning already supplied or confirmed by the writer, but hand off to `thinking-skill` when that reasoning still needs to be developed or tested. A model-proposed extension remains an interpretation or open question until the writer confirms it.
@@ -113,47 +115,47 @@ A question card preserves an open problem as a productive entrance, not as a fai
 Suggested form:
 
 ```markdown
-# 核心问题
+# Central question
 
-## 问题如何产生
+## How the question arose
 
-说明触发问题的段落、概念冲突、经验或讨论节点。
+Identify the passage, conceptual tension, experience, or dialogue point that raised it.
 
-## 当前已能确认
+## What is currently established
 
-区分原文明确支持的内容、合理解释和写作者的判断。
+Separate direct source support, reasonable interpretation, and writer judgment.
 
-## 仍不确定或存在分歧
+## What remains uncertain or disputed
 
-不要为了显得完整而提前作答。
+Do not answer prematurely for the sake of completeness.
 
-## 下一步需要回到哪里
+## Where to return next
 
-- 需要重读的章节或段落：
-- 需要补充的来源：
-- 可以继续追问的具体问题：
+- Chapter or passage to reread:
+- Additional source needed:
+- Specific question to continue:
 
-## 来源与关联
+## Sources and relations
 
-- 来源与位置：
-- 实际阅读范围：
-- 相关讨论记录：
-- 相关知识卡片：
-- 状态：开放 / 部分解决 / 已解决
+- Source and locator:
+- Actual reading coverage:
+- Related session record:
+- Related knowledge card:
+- Status: open / partially resolved / resolved
 ```
 
 When later reading resolves the question, update its status and link the answer or resulting knowledge card. Do not silently rewrite the original question into a claim.
 
 ## Shared provenance
 
-Use compact markers whenever a statement could later be mistaken for the source:
+Use localized equivalents of these compact markers whenever a statement could later be mistaken for the source:
 
-- `[原文]`
-- `[概括]`
-- `[二手重建]`
-- `[解释]`
-- `[我的想法]`
-- `[待核查]`
+- `[quotation]`
+- `[source reconstruction]`
+- `[secondary reconstruction]`
+- `[interpretation]`
+- `[my thought]`
+- `[needs verification]`
 
 Locators may be pages, ebook locations, chapter and section names, or stable paragraph identifiers. Never fabricate a locator. When a claim comes from web research, cite the actual page and do not replace its locator with an inferred book page.
 
@@ -172,12 +174,12 @@ Question cards and knowledge cards may link to each other, but do not force a on
 End with a small handoff block only when useful:
 
 ```markdown
-## 交给 thinking-skill 的材料
+## Material for thinking-skill
 
-- 触动点：
-- 可继续追问：
-- 可用引文：
-- 尚需回原书核查：
+- Point of interest:
+- Question to continue:
+- Usable quotation:
+- Still to verify in the source:
 ```
 
 Keep this block source-facing. Do not preselect a central claim or arrange an article on the writer's behalf.

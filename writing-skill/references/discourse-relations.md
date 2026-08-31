@@ -27,13 +27,13 @@ Common relations include:
 ## Detect common failures
 
 - **False cause**: temporal order, association, or repeated co-occurrence is written as causation.
-- **Missing warrant**: `因此` jumps from material to a conclusion whose bridge remains unstated.
-- **Decorative contrast**: `但是` or `不过` introduces continuation, qualification, or a new topic rather than a genuine contrast.
-- **Pseudo-concession**: `当然` names no real pressure on the main claim and only performs politeness.
-- **Unequal comparison**: two terms contrasted by `一方面／另一方面` answer different questions or operate at different levels.
+- **Missing warrant**: `因此` or `therefore` jumps from material to a conclusion whose bridge remains unstated.
+- **Decorative contrast**: `但是`, `不过`, `but`, or `however` introduces continuation, qualification, or a new topic rather than a genuine contrast.
+- **Pseudo-concession**: `当然`, `of course`, or `to be sure` names no real pressure on the main claim and only performs politeness.
+- **Unequal comparison**: two terms contrasted by `一方面／另一方面` or `on one hand / on the other hand` answer different questions or operate at different levels.
 - **Hidden reorientation**: a paragraph changes from explanation to evaluation, or from individual experience to a social claim, without marking the shift.
 - **Excessive chaining**: every paragraph begins with a connector, making the sequence sound logical without establishing its hierarchy.
-- **Pronoun discontinuity**: `这`, `这种`, `它`, or `因此` has more than one plausible antecedent.
+- **Pronoun discontinuity**: `这`, `这种`, `它`, `this`, `it`, or `they` has more than one plausible antecedent.
 
 ## Review at three scales
 

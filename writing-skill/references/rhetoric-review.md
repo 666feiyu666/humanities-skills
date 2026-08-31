@@ -4,7 +4,7 @@ Use this reference for the **macro** observation layer in either an ordinary rev
 
 ## Role
 
-Act as a professor of rhetoric commenting on an existing Chinese argumentative essay. Diagnose how the text works before proposing changes. Judge the realization of the writer's chosen purpose, not the truth, originality, moral value, or philosophical worth of the position itself.
+Act as a professor of rhetoric commenting on an existing Chinese or English argumentative essay. Diagnose how the text works before proposing changes. Judge the realization of the writer's chosen purpose, not the truth, originality, moral value, or philosophical worth of the position itself.
 
 Default to comments. Do not rewrite during the first review.
 
@@ -61,7 +61,7 @@ Ask whether the strongest plausible objection changes the claim, its qualifier, 
 
 ### Discourse relations
 
-Use [discourse-relations.md](discourse-relations.md). Reconstruct the actual relation between adjacent sentences, paragraphs, and sections before evaluating the connective. A grammatically correct `因此`, `但是`, or `当然` can still misdescribe the thought.
+Use [discourse-relations.md](discourse-relations.md). Reconstruct the actual relation between adjacent sentences, paragraphs, and sections before evaluating the connective. A grammatically correct `因此`, `但是`, or `当然`—or `therefore`, `however`, or `of course`—can still misdescribe the thought.
 
 ### Identification and ethos
 
@@ -75,7 +75,7 @@ Describe these effects without assuming they were intended.
 
 ### Style
 
-Use [chinese-prose-quality.md](chinese-prose-quality.md) for general fidelity, naturalness, and formulaic-language checks. Use [reflective-public-essay-profile.md](reflective-public-essay-profile.md) only when that specific profile applies. Also check precision, reference, sentence subjects, concept stability, paragraph rhythm, excessive qualification, repeated semantic work, and overly neat closure. Do not treat personal or genre preferences as universal errors.
+Use [chinese-prose-quality.md](chinese-prose-quality.md) for Chinese target prose or [english-prose-quality.md](english-prose-quality.md) for English target prose. Use [reflective-public-essay-profile.md](reflective-public-essay-profile.md) only for Chinese prose when that specific profile applies. Also check precision, reference, sentence subjects, concept stability, paragraph rhythm, excessive qualification, repeated semantic work, and overly neat closure. Do not treat personal or genre preferences as universal errors.
 
 ## Prioritize comments
 
@@ -93,13 +93,13 @@ Do not bury a governing problem under many sentence-level comments. Give represe
 
 For an ordinary review, return the strongest achieved effect and a short set of prioritized, actionable findings with locations, evidence, and consequences. Include an author decision only when the prose cannot be responsibly revised without it.
 
-When the user requests systematic diagnosis or the formal revision cycle is active, also return:
+When the user requests systematic diagnosis or the formal revision cycle is active, render the following semantic headings in the discussion language and return:
 
-- **实际文章地图**: the reader-visible question, candidate central claim or claims, and one line per section;
-- **已经实现的效果**: the strongest passage or rhetorical achievement and why it works;
-- **主要问题**: prioritized findings with locations, textual evidence, and consequences;
-- **作者决定**: choices that require the writer's substantive judgment;
-- **条件化修改路径**: `如果选择 A……；如果选择 B……` without ranking A and B by value.
-- **循环移动**: `stay`, `advance`, `return_to_invention`, or `exit`, with the reason and next layer when applicable.
+- **Realized article map**: the reader-visible question, candidate central claim or claims, and one line per section;
+- **Strongest achieved effect**: the strongest passage or rhetorical achievement and why it works;
+- **Main problems**: prioritized findings with locations, textual evidence, and consequences;
+- **Writer decisions**: choices that require the writer's substantive judgment;
+- **Conditional revision paths**: `if A ...; if B ...` without ranking A and B by value;
+- **Cycle movement**: `stay`, `advance`, `return_to_invention`, or `exit`, with the reason and next layer when applicable.
 
 Keep comments specific enough that a later revision can be checked against them.

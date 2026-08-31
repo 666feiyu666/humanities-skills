@@ -6,22 +6,24 @@ A processed thinking record preserves what happens when source material, experie
 
 Every substantive thinking process should leave a Markdown record at closure unless the writer declines. The record may remain exploratory; it does not need a settled thesis.
 
+Choose the record language from the writer's explicit request, the active record, or the local dialogue when no record exists. Render headings, field labels, relation labels, and status markers naturally in that language. Preserve quotations in their established wording and label any model translation. The English labels below name semantic roles rather than mandatory surface wording.
+
 ## Preserve ownership
 
-Use only labels that clarify provenance or status:
+Use localized equivalents of these labels only when they clarify provenance or status:
 
-- `[来源主张]`
-- `[材料]`
-- `[作者问题]`
-- `[作者判断]`
-- `[作者理由]`
-- `[个人经验]`
-- `[模型建议]`
-- `[待核查]`
-- `[待决定]`
-- `[已确认]`
-- `[已放弃路径]`
-- `[范围决定]`
+- `[source claim]`
+- `[material]`
+- `[writer question]`
+- `[writer judgment]`
+- `[writer reason]`
+- `[personal experience]`
+- `[model suggestion]`
+- `[needs verification]`
+- `[needs decision]`
+- `[confirmed]`
+- `[abandoned path]`
+- `[scope decision]`
 
 Do not make a tentative response more universal, confident, moralized, or theoretically complete than the writer has authorized. Never relabel a model proposal as an author judgment without confirmation.
 
@@ -44,31 +46,31 @@ Preserve:
 Suggested structure:
 
 ```markdown
-# 概念性标题或暂定问题
+# Conceptual title or provisional question
 
-## 输入与触发
+## Input and trigger
 
-## 当前还不清楚什么
+## What remains unclear
 
-## 启发式讨论记录
+## Heuristic dialogue record
 
-- [材料／个人经验] …
-- [模型建议] 可尝试区分 A 与 B。
-- [作者回应] …
+- [material / personal experience] …
+- [model suggestion] One possible move is to distinguish A from B.
+- [writer response] …
 
-## 浮现出的可能方向
+## Emerging directions
 
-### 方向一
+### Direction one
 
-- 回答的问题：
-- 可组织的材料：
-- 当前状态：[待决定／已确认／已放弃路径]
+- Question it would answer:
+- Material it could organize:
+- Current status: [needs decision / confirmed / abandoned path]
 
-## 作者决定与范围
+## Writer decisions and scope
 
-## 未解决问题
+## Unresolved questions
 
-## 与其他笔记的关系
+## Relations to other notes
 ```
 
 Do not disguise exploratory suggestions as an argument map. Several live directions may remain.
@@ -91,27 +93,27 @@ Preserve:
 Suggested structure:
 
 ```markdown
-# 概念性标题
+# Conceptual title
 
-## 输入与范围
+## Input and scope
 
-## 原图忠实重建
+## Faithful reconstruction of the original map
 
-## 结构诊断
+## Structural diagnosis
 
-## 追问与修正记录
+## Questions and corrections
 
-## 作者确认的论证图
+## Writer-confirmed argument map
 
-## 关键关系
+## Key relations
 
-- A —支持／限制／反驳／重新定义→ B
+- A —supports / qualifies / rebuts / redefines→ B
 
-## 作者决定
+## Writer decisions
 
-## 依据与状态
+## Basis and status
 
-## 未解决问题
+## Unresolved questions
 ```
 
 Do not silently replace the original map. When a judgment changes, append the correction or mark the earlier path as superseded.
@@ -133,7 +135,7 @@ If the memo begins to perform an essay's opening, development, or conclusion, st
 
 ## Closure rules
 
-- Save or return the record when the writer says “整理一下”, “先到这里”, “这个问题有点远”, “保留目前思路”, or otherwise signals closure.
+- Save or return the record when the writer says “整理一下” / “summarize this”, “先到这里” / “let's stop here”, “这个问题有点远” / “this is moving too far afield”, “保留目前思路” / “preserve the current thinking”, or otherwise signals closure.
 - Do not keep questioning merely to complete the template.
 - In a writable project, use the project's processed-note location. Leave project and directory index reconciliation to `manager-skill`.
 - Link backward to reading cards, maps, and source artifacts.

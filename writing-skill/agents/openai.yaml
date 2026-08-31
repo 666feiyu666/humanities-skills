@@ -1,4 +1,4 @@
 interface:
-  display_name: "Chinese Prose Collaborator"
-  short_description: "细化可审阅大纲，协作起草、续写并修订中文论说文"
-  default_prompt: "Use $writing-skill to choose the appropriate mode from my prompt, refine a reviewable outline when useful, and draft or revise Chinese prose without replacing my substantive judgment."
+  display_name: "Prose Collaborator"
+  short_description: "Draft and revise Chinese or English argumentative prose"
+  default_prompt: "Use $writing-skill to outline, draft, review, or revise argumentative prose in my requested language."

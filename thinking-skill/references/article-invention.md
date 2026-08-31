@@ -39,39 +39,41 @@ Do not express this as publication prose. Keep it as an editable map and decisio
 
 ## Writing brief
 
+Render all headings and field labels in the brief language. The English labels below identify semantic fields rather than mandatory surface wording.
+
 ```markdown
-# 写作项目说明
+# Writing project brief
 
-## 写作情境
+## Writing situation
 
-- 文体：
-- 读者：
-- 发布场景：
-- 篇幅或其他约束：
+- Genre:
+- Readers:
+- Publication setting:
+- Length or other constraints:
 
-## 核心问题
+## Central question
 
-## 作者确认的中心判断
+## Writer-confirmed central judgment
 
-- 确认程度：
+- Degree of commitment:
 
-## 本文不打算主张
+## What this piece will not claim
 
-## 已确认论证图
+## Confirmed argument map
 
-## 材料与论证关系
+## Relations between material and argument
 
-## 暂定结构
+## Provisional structure
 
-## 需要返回 reading-skill 核查
+## Checks to return to reading-skill
 
-## 尚待作者决定
+## Writer decisions still open
 
-## 交给 writing-skill
+## Handoff to writing-skill
 
-- 可开始的写作范围：
-- 必须保留的限定：
-- 不得替作者决定：
+- Draftable scope:
+- Qualifications that must remain:
+- Decisions writing-skill must not make:
 ```
 
 Create the brief only after the central direction is chosen or explicitly provisional. If candidates still compete, return conditional maps rather than a confident outline.

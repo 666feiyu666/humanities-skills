@@ -97,7 +97,7 @@ After a consequential correction:
 
 ## Compact outline form
 
-Use a natural structure appropriate to the article. When explicit labels help review, use this compact form:
+Use a natural structure appropriate to the article. Render headings and review labels in the outline language. When explicit labels help review, use this compact form:
 
 ```markdown
 ## Section heading

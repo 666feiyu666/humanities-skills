@@ -16,25 +16,25 @@ Choose the highest consequential unresolved layer unless the writer explicitly n
 
 ## Classify findings in a formal cycle
 
-Use category labels when they help preserve work across rounds:
+Use localized equivalents of these category labels when they help preserve work across rounds:
 
-- `[结构｜宏观]`: governing action, central claim, argument path, audience, section order, opening, or conclusion;
-- `[结构｜关系]`: section necessity, paragraph job, evidence-to-claim bridge, adjacent relation, or transition;
-- `[语言]`: diction, reference, syntax, punctuation, rhythm, repetition, naturalness, or applicable voice;
-- `[来源核查]`: quotation, attribution, factual basis, concept, comparison, evidence, or scope for `reading-skill`;
-- `[作者决定]`: a substantive position, scope, governing question, or overall argument choice reserved for the writer.
+- `[structure | macro]`: governing action, central claim, argument path, audience, section order, opening, or conclusion;
+- `[structure | relations]`: section necessity, paragraph job, evidence-to-claim bridge, adjacent relation, or transition;
+- `[language]`: diction, reference, syntax, punctuation, rhythm, repetition, naturalness, or applicable voice;
+- `[source check]`: quotation, attribution, factual basis, concept, comparison, evidence, or scope for `reading-skill`;
+- `[writer decision]`: a substantive position, scope, governing question, or overall argument choice reserved for the writer.
 
-Statuses may be:
+Statuses may be localized equivalents of:
 
-- `[本轮]`: authorized for the current version;
-- `[递延]`: preserve for a later version;
-- `[返回]`: stop at the writing boundary for reading, thinking, or a writer decision.
+- `[current round]`: authorized for the current version;
+- `[deferred]`: preserve for a later version;
+- `[return]`: stop at the writing boundary for reading, thinking, or a writer decision.
 
 Do not require these labels outside a formal cycle.
 
 ## Set the version contract
 
-Follow an existing project naming convention. If none exists and a name is useful, use a concise label such as `D00N-结构修订` or `D00N-语言修订`. Use a mixed or purpose-specific label only when the writer authorizes that scope.
+Follow an existing project naming convention. If none exists and a name is useful, use a concise label in the project language such as `D00N-structural-revision` or `D00N-language-revision`. Use a mixed or purpose-specific label only when the writer authorizes that scope.
 
 In a structure round, make the local wording changes needed to keep moved, split, merged, or newly connected prose grammatical. Defer broader polishing.
 
@@ -75,7 +75,7 @@ Repair the relation before replacing the connective. Return to macro only when r
 
 ### Language
 
-Read [chinese-prose-quality.md](chinese-prose-quality.md). Read [reflective-public-essay-profile.md](reflective-public-essay-profile.md) only when that profile applies.
+Read [chinese-prose-quality.md](chinese-prose-quality.md) for Chinese target prose or [english-prose-quality.md](english-prose-quality.md) for English target prose. Read [reflective-public-essay-profile.md](reflective-public-essay-profile.md) only for Chinese prose when that profile applies.
 
 Check exact diction, stable concepts, sentence subjects, reference, modifier and negation scope, punctuation, rhythm, repeated formulae, nominalization, over-neat closure, and preservation of the writer's recognizable voice.
 

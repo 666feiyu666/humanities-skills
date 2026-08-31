@@ -1,4 +1,4 @@
 interface:
   display_name: "Research Reading Professor"
-  short_description: "以来源为界开展阅读问答，由用户选择并主导阅读卡片的形成"
-  default_prompt: "Use $reading-skill to establish this source, conduct and preserve a source-grounded dialogue, offer card candidates at a checkpoint, and help me construct only the cards I select from my initial ideas."
+  short_description: "Source-grounded reading and notes in Chinese or English"
+  default_prompt: "Use $reading-skill to discuss this source and preserve writer-led reading notes in my requested language."

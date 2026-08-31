@@ -126,18 +126,20 @@ At closure, save these layers in a processed Markdown note following `processed-
 
 Use a Markdown tree or list by default:
 
-```markdown
-# 论证图
+Render headings, node labels, and relation labels in the map language. The English labels below identify semantic roles rather than mandatory surface wording.
 
-- 核心问题：
-  - 材料：
-  - 暂定判断：
-    - 理由一：
-      - 证据：
-      - 推论桥梁：
-    - 限定：
-    - 异议：
-  - 下一问题：
+```markdown
+# Argument map
+
+- Central question:
+  - Material:
+  - Provisional judgment:
+    - Reason one:
+      - Evidence:
+      - Warrant:
+    - Qualification:
+    - Objection:
+  - Next question:
 ```
 
 Use Mermaid when relations become easier to inspect visually. Quote labels containing punctuation. Keep the map editable and pair it with a short decision ledger.

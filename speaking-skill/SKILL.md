@@ -1,6 +1,6 @@
 ---
 name: speaking-skill
-description: "Adapt user-supplied or established project material into spoken explanations, talks, teaching scripts, cue cards, and rehearsal support for a specified audience, occasion, and duration. Use when Codex should make existing content work in oral delivery or help rehearse it. Do not use to determine an academic argument, create slide visuals, or invent evidence."
+description: "Adapt user-supplied or established project material into Chinese or English spoken explanations, talks, teaching scripts, cue cards, and rehearsal support for a specified audience, occasion, and duration. Use when Codex should make existing content work in oral delivery or help rehearse it. Do not use to determine an academic argument, create slide visuals, or invent evidence."
 ---
 
 # Speaking Skill
@@ -22,6 +22,8 @@ Infer from the request when possible, and otherwise establish only the missing d
 - language, tone, and delivery constraints.
 
 Do not require a formal brief when the request and supplied material already answer these questions.
+
+Support both Chinese and English delivery. This skill may be invoked directly or receive established material from reading, thinking, or writing. Preserve an explicit delivery language, translation choice, or terminology convention in the request or handoff unless the user overrides it; otherwise infer the delivery language from the requested artifact and established material, and ask only when ambiguity would materially change the result.
 
 ## Adapt for oral delivery
 
@@ -62,4 +64,3 @@ Return unresolved source claims to the relevant reading workflow and unresolved 
 ## Return results
 
 Return the requested speaking artifact first. Then add only the delivery information that helps the next use: estimated duration, deliberate omissions or compressions, passages needing author confirmation, and one practical rehearsal focus when relevant.
-

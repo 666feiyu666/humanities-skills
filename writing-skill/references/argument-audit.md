@@ -64,26 +64,25 @@ Check whether:
 - the conclusion follows from the established claims and stays within their scope;
 - the article preserves uncertainty where material remains provisional.
 
-Use these markers for unresolved gaps:
+Use localized equivalents of these markers for unresolved gaps:
 
-- `[论点不清]`
-- `[论证跳跃]`
-- `[缺少材料]`
-- `[需要来源]`
-- `[范围过大]`
-- `[重复论证]`
-- `[与全文主张关系不明]`
-- `[反驳未命中]`
-- `[连接关系不成立]`
+- `[unclear claim]`
+- `[inferential gap]`
+- `[missing material]`
+- `[source needed]`
+- `[scope too broad]`
+- `[repeated argument]`
+- `[relation to central claim unclear]`
+- `[rebuttal misses its target]`
+- `[relation not established]`
 
 Do not silently invent the missing premise, evidence, source, or conclusion.
 
 ## Return a compact memo
 
-After the prose, report:
+After the prose, render these semantic headings in the discussion language and report:
 
-- **中心论点**: one or two sentences;
-- **论证路径**: one short line per numbered section;
-- **论证缺口**: only material gaps, inferential jumps, or scope problems that remain;
-- **长度检查**: the unit count and pass/fail result for every numbered section when mechanically verified.
-- **循环移动**: whether the result should stay at macro, advance to relations, or return to invention.
+- **Central claim**: one or two sentences;
+- **Argument path**: one short line per substantial section;
+- **Argument gaps**: only material gaps, inferential jumps, or scope problems that remain;
+- **Cycle movement**: whether the result should stay at macro, advance to relations, or return to invention.

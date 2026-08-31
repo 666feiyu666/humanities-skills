@@ -1,17 +1,23 @@
 ---
 name: writing-skill
-description: "Act as a continuous-prose collaborator for Chinese argumentative writing. Use when Codex should refine an author-reviewable drafting outline, draft or continue from either a confirmed brief or writer-owned rough material, or review and revise existing prose. Choose the mode from the user's prompt and materials. Make local writing decisions without replacing substantive judgment; return only unchosen central questions, claims, or overall paths to thinking-skill and source uncertainty to reading-skill. Perform all writing directly in Codex."
+description: "Act as a continuous-prose collaborator for Chinese or English argumentative writing. Use when Codex should refine an author-reviewable drafting outline, draft or continue from either a confirmed brief or writer-owned rough material, or review and revise existing prose in the requested target language. Choose the mode from the user's prompt and materials. Make local writing decisions without replacing substantive judgment; return only unchosen central questions, claims, or overall paths to thinking-skill and source uncertainty to reading-skill. Perform all writing directly in Codex."
 ---
 
 # Writing Skill
 
 ## Purpose
 
-Own the movement from a writer-owned direction and actual material into an author-reviewable writing outline and continuous Chinese prose, then help review or revise that prose without replacing the writer's substantive commitments.
+Own the movement from a writer-owned direction and actual material into an author-reviewable writing outline and continuous Chinese or English prose, then help review or revise that prose without replacing the writer's substantive commitments.
 
 `writing-skill` owns article openings, audience-directed exposition, transitions, body paragraphs, conclusions, and the local writing decisions needed to produce them. It may organize and elaborate an existing direction; it must not choose what the writer ought to believe.
 
 Perform all work directly in Codex. Do not route outlines, drafts, reviews, or revision prompts to an external model or API.
+
+## Resolve language locally
+
+This skill may be invoked directly or as part of a coordinated reading-to-speaking workflow. It must not require a prior skill, but when an incoming writing brief, handoff, or active draft states a target prose language, preserve that established choice unless the writer overrides it. Otherwise, follow an explicit request for Chinese or English, use the language of existing prose as the target prose language, and infer the language of a new draft from the request and established local material. Use the writer's current language for discussion and review comments unless they request another language. Ask one focused question only when the ambiguity would materially change the deliverable.
+
+The language of notes or sources does not automatically determine the target prose language. Preserve quotations in the supplied wording, label any model translation, and keep technical terms stable within the draft. A change in discussion language does not authorize translating or rewriting the active prose.
 
 ## Choose the mode from the request
 
@@ -62,7 +68,7 @@ Structural elaboration may make existing material writable. It must not silently
 
 ## Draft or continue prose
 
-Treat the confirmed outline, brief, writer-authored notes, and later corrections as authoritative for substantive direction. Read [references/chinese-prose-quality.md](references/chinese-prose-quality.md) for drafting and language revision. Read [references/reflective-public-essay-profile.md](references/reflective-public-essay-profile.md) only when that specific reflective public-essay profile is explicitly requested or established for the project.
+Treat the confirmed outline, brief, writer-authored notes, and later corrections as authoritative for substantive direction. For drafting and language revision, read [references/chinese-prose-quality.md](references/chinese-prose-quality.md) when the target prose is Chinese and [references/english-prose-quality.md](references/english-prose-quality.md) when it is English. Read [references/reflective-public-essay-profile.md](references/reflective-public-essay-profile.md) only for Chinese prose when that specific reflective public-essay profile is explicitly requested or established for the project; do not transfer it to English prose by translation.
 
 Preserve quotations, citations, examples, conceptual distinctions, humor, hesitation, qualification, and uncertainty. Mark missing support rather than inventing it. Do not strengthen, universalize, moralize, or settle a tentative idea merely to make the prose complete.
 
@@ -89,7 +95,7 @@ For an ordinary review or revision, follow the user's requested scope directly. 
 
 - **Macro**: rhetorical situation, central claim, audience, and arrangement. Read [references/rhetoric-review.md](references/rhetoric-review.md), and [references/argument-audit.md](references/argument-audit.md) when an argument audit is actually needed.
 - **Relations**: section necessity, paragraph jobs, sentence relations, and transitions. Read [references/discourse-relations.md](references/discourse-relations.md).
-- **Language**: precision, reference, syntax, punctuation, rhythm, naturalness, and formulaic or AI-like tendencies. Read [references/chinese-prose-quality.md](references/chinese-prose-quality.md), plus the reflective profile only when it applies.
+- **Language**: precision, reference, syntax, punctuation, rhythm, naturalness, and formulaic or AI-like tendencies. Read [references/chinese-prose-quality.md](references/chinese-prose-quality.md) for Chinese target prose or [references/english-prose-quality.md](references/english-prose-quality.md) for English target prose, plus the Chinese reflective profile only when it applies.
 
 Do not require category labels, version names, or a deferred ledger for a normal local edit. Make the smallest coherent set of changes that fulfills the request, then re-read the affected whole.
 
@@ -108,9 +114,9 @@ Compare omissions, additions, reordered relations, and productive deviations. Do
 
 ## Control length and style
 
-Treat length as a publication constraint, not a universal sign of quality. Use [scripts/check_sections.py](scripts/check_sections.py) only when the writer requests section budgets or the active brief already contains them. Do not pad an underdeveloped claim to meet a minimum.
+Treat length as a publication constraint, not a universal sign of quality. Check length only when the writer requests it or the active brief contains an explicit constraint, and use the requested metric such as Chinese characters or English words. Do not invent a default budget, combine unlike metrics into one unit, or pad an underdeveloped claim to meet a minimum.
 
-Prefer accurate, natural Chinese over generic completeness. Let paragraphs perform recognizable work without forcing identical shapes, numbered symmetry, manufactured turns, or an inflated conclusion. Preserve necessary complexity and the writer's recognizable wording.
+Prefer accurate, natural prose in the target language over generic completeness. Let paragraphs perform recognizable work without forcing identical shapes, numbered symmetry, manufactured turns, or an inflated conclusion. Preserve necessary complexity and the writer's recognizable wording.
 
 ## Return results
 

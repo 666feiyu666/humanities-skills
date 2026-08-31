@@ -4,6 +4,8 @@
 
 A reading-session record preserves how source understanding developed before selective synthesis. Keep it chronological and minimally edited. It is provenance for later reading cards, not a card itself and not an argument map or article commentary.
 
+Choose the record language from the writer's explicit request, the active record, or the local dialogue when no record exists. Render all headings, field labels, and status labels naturally in that language. Preserve each writer question in the language in which it was asked and preserve quotations in the source wording actually inspected.
+
 ## When to preserve one
 
 In a declared local reading project, a dialogue becomes eligible for preservation when it contains multiple substantive source questions. Do not write it immediately for that reason alone. Promote it to a session record only at a writer-confirmed checkpoint when:
@@ -20,27 +22,29 @@ Once promoted, keep the session as persistent provenance rather than temporary c
 
 ## Minimal structure
 
+The English labels below identify semantic fields; localize them when the record is in Chinese.
+
 ```markdown
-# 阅读问答：主题
+# Reading Q&A: Topic
 
-## 会话信息
+## Session information
 
-- 书目与来源标识：
-- 阅读基础与实际可见范围：
-- 位置系统与提取限制：
-- 会话日期：
+- Bibliographic and source identity:
+- Reading basis and actual visible coverage:
+- Locator system and extraction limits:
+- Session date:
 
-## 问答记录
+## Q&A record
 
 ### Q1
 
-**写作者：** 原问题
+**Writer:** Original question
 
-**Codex：** 当时回答
+**Codex:** Answer given at the time
 
-- 来源依据与位置：
-- 状态：原文重建 / 模型解释 / 待核查
-- 后续修正：
+- Source basis and locator:
+- Status: source reconstruction / model interpretation / needs verification
+- Later correction:
 ```
 
 Use only fields that carry information. Preserve the writer's questions verbatim. Preserve Codex's answers verbatim when practical; if a response must be shortened, mark it `[edited for length]` and do not strengthen its claims.

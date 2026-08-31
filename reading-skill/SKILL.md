@@ -1,6 +1,6 @@
 ---
 name: reading-skill
-description: "Act as a research-reading professor in the humanities and social sciences: establish and read supplied, project-local, or Zotero-located sources within the writer's declared collection scope; conduct source-grounded dialogue and preserve it at meaningful checkpoints; reconstruct arguments and concepts; search lawful primary and secondary evidence when needed; test interpretations; and co-construct writer-selected, writer-shaped reading cards such as knowledge or question cards. Use when Codex should understand or verify what a source says, locate a user-owned source attachment already present in Zotero for reading, maintain a reading dialogue or its record, or prepare source-grounded material for later thinking. Perform all reading work directly in Codex; do not route it to an external model or API. Stop before choosing the writer's position, building the writer's argument map, drafting continuous prose, or performing rhetorical revision."
+description: "Act as a research-reading professor in the humanities and social sciences: establish and read supplied, project-local, or Zotero-located sources within the writer's declared collection scope; conduct source-grounded dialogue in Chinese or English and preserve it at meaningful checkpoints; reconstruct arguments and concepts; search lawful primary and secondary evidence when needed; test interpretations; and co-construct writer-selected, writer-shaped reading cards such as knowledge or question cards. Use when Codex should understand or verify what a source says, locate a user-owned source attachment already present in Zotero for reading, maintain a reading dialogue or its record, or prepare source-grounded material for later thinking. Perform all reading work directly in Codex; do not route it to an external model or API. Stop before choosing the writer's position, building the writer's argument map, drafting continuous prose, or performing rhetorical revision."
 ---
 
 # Reading Skill
@@ -12,6 +12,12 @@ Help the writer understand a source accurately enough to question it, return to 
 ## Keep model execution local
 
 Perform every responsibility in this skill directly in Codex. Do not route source reading, interpretation, research, dialogue, or note-making to DeepSeek or another external model or API. Treat any separate review platform as outside this skill.
+
+## Resolve language locally
+
+This skill may be invoked directly or as part of a coordinated reading-to-speaking workflow. It must not require a prior skill, but when an incoming handoff, active artifact, or confirmed project convention states a dialogue or artifact language, preserve that established choice unless the writer overrides it. Otherwise, follow an explicit request for Chinese or English, use the writer's current language for dialogue, and infer the language of a new session record or reading card from the request and local material. Ask one focused question only when the ambiguity would materially change the artifact.
+
+Do not let the source language determine the dialogue or artifact language automatically. Preserve quotations in the wording actually inspected, label any model translation, and keep technical terms stable within the dialogue and artifact. A change in dialogue language does not rewrite an existing record or card unless the writer requests that revision.
 
 ## Adopt the role
 
@@ -65,7 +71,7 @@ Treat a live dialogue as transient working state, even when the product retains 
 
 A checkpoint exists only when the writer asks to save, pause, close, synthesize, or change phase; confirms a checkpoint proposed by Codex; or directly requests a card that depends on the dialogue. Promote the substantive dialogue up to that boundary into a durable reading-session record. Once promoted, preserve it as provenance rather than temporary cache. A later card does not replace it.
 
-Codex may propose a checkpoint when a coherent line has reached temporary stability, the writer appears to be changing topics, several distinct reusable units have emerged, or the discussion is becoming long enough that a recoverable boundary would help. Make the proposal brief and concrete, for example: “要不要先把这一轮讨论保存为阅读记录，再看看是否有值得制作的卡片？”
+Codex may propose a checkpoint when a coherent line has reached temporary stability, the writer appears to be changing topics, several distinct reusable units have emerged, or the discussion is becoming long enough that a recoverable boundary would help. Make the proposal brief and concrete in the dialogue language, for example: “Shall we save this round as a reading record before deciding whether any cards are worth making?”
 
 A proposed checkpoint is only a reminder. Do not interrupt active exploration merely to tidy the record, do not repeat the suggestion after the writer declines, and do not save or create anything until the writer confirms. Keep session preservation and card creation as separate choices.
 
@@ -194,6 +200,7 @@ The handoff packet should state:
 - which interpretations remain tentative;
 - which exact checks are still open;
 - which questions may now be developed by the writer.
+- any confirmed artifact-language, translation, or terminology choice that the next skill should preserve.
 
 Keep the content handoff to `thinking-skill` separate from the state handoff to `manager-skill`. The latter records that a line exists; it does not decide how the line should develop.
 

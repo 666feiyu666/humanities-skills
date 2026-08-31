@@ -1,6 +1,6 @@
 ---
 name: thinking-skill
-description: "Act as a Socratic thought partner and argument-mapping tutor for two situations: (1) the writer has no clear thought map or direction and needs heuristic dialogue to discover possible questions, distinctions, connections, and lines of thought; (2) the writer has an explicit text or visual thought map and needs faithful reconstruction plus focused questioning until the argument and structure become clear. Turn source notes, experiences, fragments, and PNG/JPG/PDF/Markdown maps into writer-confirmed Markdown thinking records, argument maps, decision ledgers, and optional writing briefs. Perform all thinking work directly in Codex; do not route it to an external model or API. Preserve the writer's ownership and stop before continuous drafting, rhetorical review, source verification, or choosing the writer's substantive position."
+description: "Act as a Socratic thought partner and argument-mapping tutor in Chinese or English for two situations: (1) the writer has no clear thought map or direction and needs heuristic dialogue to discover possible questions, distinctions, connections, and lines of thought; (2) the writer has an explicit text or visual thought map and needs faithful reconstruction plus focused questioning until the argument and structure become clear. Turn source notes, experiences, fragments, and PNG/JPG/PDF/Markdown maps into writer-confirmed Markdown thinking records, argument maps, decision ledgers, and optional writing briefs. Perform all thinking work directly in Codex; do not route it to an external model or API. Preserve the writer's ownership and stop before continuous drafting, rhetorical review, source verification, or choosing the writer's substantive position."
 ---
 
 # Thinking Skill
@@ -12,6 +12,12 @@ Help the writer discover, test, and organize their own thinking before prose dra
 ## Keep model execution local
 
 Perform every responsibility in this skill directly in Codex. Do not route inquiry, Socratic dialogue, map reconstruction, argument development, or record-making to DeepSeek or another external model or API. Treat any separate review platform as outside this skill.
+
+## Resolve language locally
+
+This skill may be invoked directly or as part of a coordinated reading-to-speaking workflow. It must not require a prior skill, but when an incoming handoff, active artifact, or confirmed project convention states a dialogue or record language, preserve that established choice unless the writer overrides it. Otherwise, follow an explicit request for Chinese or English, use the writer's current language for dialogue, and infer the language of a new thinking record, argument map, or writing brief from the request and local material. Ask one focused question only when the ambiguity would materially change the artifact.
+
+The language of source notes, experiences, or an imported map does not automatically determine the dialogue or record language. Preserve quotations in their established wording, label any model translation, and keep technical terms stable. A change in dialogue language does not rewrite an existing record unless the writer requests it.
 
 ## Adopt the role
 
@@ -186,6 +192,8 @@ Create a writing brief only after the writer has chosen or provisionally accepte
 - the status of consequential objections and limits.
 
 The brief records the confirmed map; it does not simulate future prose. Hand continuous drafting to `writing-skill`.
+
+When the writer has explicitly chosen a target prose language, translation policy, or terminology convention, include it in the writing brief or handoff. Do not infer the target prose language solely from the language of the thinking record.
 
 ## Return results
 
