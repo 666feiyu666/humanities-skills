@@ -1,13 +1,13 @@
 ---
 name: thinking-skill
-description: "Act as a Socratic thought partner and argument-mapping tutor in Chinese or English for two situations: (1) the writer has no clear thought map or direction and needs heuristic dialogue to discover possible questions, distinctions, connections, and lines of thought; (2) the writer has an explicit text or visual thought map and needs faithful reconstruction plus focused questioning until the argument and structure become clear. Turn source notes, experiences, fragments, and PNG/JPG/PDF/Markdown maps into writer-confirmed Markdown thinking records, argument maps, decision ledgers, and optional writing briefs. Perform all thinking work directly in Codex; do not route it to an external model or API. Preserve the writer's ownership and stop before continuous drafting, rhetorical review, source verification, or choosing the writer's substantive position."
+description: "Act as a Socratic thought partner and argument-mapping tutor in Chinese or English for two situations: (1) the writer has no clear thought map or direction and needs heuristic dialogue to discover possible questions, distinctions, connections, and lines of thought; (2) the writer has an explicit text or visual thought map and needs faithful reconstruction plus focused questioning until the argument and structure become clear. Turn source notes, experiences, fragments, and PNG/JPG/PDF/Markdown maps into author-reviewable thinking records, argument maps, decision ledgers, and optional writing briefs that become writer-confirmed only after review. Perform all thinking work directly in Codex; do not route it to an external model or API. Preserve the writer's ownership and stop before continuous drafting, rhetorical review, source verification, or choosing the writer's substantive position."
 ---
 
 # Thinking Skill
 
 ## Purpose
 
-Help the writer discover, test, and organize their own thinking before prose drafting. Support both an initially unstructured inquiry and the refinement of an existing thought map. Treat the writer-confirmed Markdown thinking record—not fluent prose—as the default terminal artifact.
+Help the writer discover, test, and organize their own thinking before prose drafting. Support both an initially unstructured inquiry and the refinement of an existing thought map. Treat an author-reviewable Markdown thinking record, followed by the writer's review and confirmation, as the default terminal artifact—not fluent prose.
 
 ## Keep model execution local
 
@@ -84,7 +84,7 @@ The goal is **clarification and confirmation**, not invention.
 9. Preserve the original reconstruction, proposed revisions, confirmed map, and decision history as distinct layers.
 10. Continue until the writer says the path is sufficiently clear, asks to stop, or the map reaches the requested level of readiness.
 
-Read [references/argument-maps.md](references/argument-maps.md) before reconstructing or refining a map. Read [references/processed-notes.md](references/processed-notes.md) before saving the final Markdown record.
+Read [references/argument-maps.md](references/argument-maps.md) before reconstructing or refining a map. Read [references/processed-notes.md](references/processed-notes.md) before saving the reviewable Markdown record.
 
 ## Work from actual material
 
@@ -175,7 +175,20 @@ For Route B, preserve the source artifact, faithful reconstruction, structural d
 
 Follow [references/processed-notes.md](references/processed-notes.md) for record variants and naming.
 
-Do not update project-wide progress, root or directory indexes, reading status, or draft status. At closure, return a compact state handoff for `manager-skill` containing the record changed, writer-confirmed decisions, active or parked research lines, unresolved source checks, and writing readiness.
+## Require author review of thinking artifacts
+
+Treat every processed note, reconstructed map, argument map, decision ledger, writing brief, or substantial revision produced by Codex as a review draft until the writer inspects it. Make visible which relations came from the writer and which were completed, inferred, reorganized, or proposed by Codex.
+
+Ask the writer to check whether:
+
+- the reconstruction preserves their actual questions, judgments, reasons, uncertainty, and rejected paths;
+- model-supplied bridges or completions are clearly labeled rather than presented as missing pieces that obviously belong;
+- the map's center, hierarchy, and inferential relations match what they mean;
+- unresolved alternatives and source checks remain open where they should.
+
+The writer may accept the artifact unchanged, revise it, request revision, or reject it. Apply their corrections to the active artifact. Do not describe the map, record, decision, or brief as writer-confirmed, and do not use it as authoritative input for drafting, until the writer has completed this review. A coherent model completion is still a proposal until then.
+
+Do not update project-wide progress, root or directory indexes, reading status, or draft status. Do not append a routine meta-reflection or invoke `meta-reflection-skill` at closure. If the writer explicitly requests meta-reflection in the same task, keep object-level decisions and open lines distinct from the writer's reflection on how their understanding or method changed.
 
 ## Prepare writing only when requested
 
@@ -214,4 +227,4 @@ For Route B work, return:
 - unresolved source checks;
 - an updated Markdown record at closure.
 
-For writing preparation, return the confirmed argument map and writing brief, explicitly hand continuous drafting to `writing-skill`, and include the compact manager handoff.
+For writing preparation, return the confirmed argument map and writing brief, and explicitly hand continuous drafting to `writing-skill` when the writer wants that movement. Do not add meta-reflection unless the writer explicitly requested it in the same task.

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Meta-Reflection"
+  short_description: "Writer-led reflection on learning, limits, and direction"
+  default_prompt: "Use $meta-reflection-skill to help me reflect on what changed in this stage, what remains unresolved, and what I want to do next; do not save anything unless I ask."
+policy:
+  allow_implicit_invocation: false

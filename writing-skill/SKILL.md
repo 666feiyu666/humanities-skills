@@ -118,6 +118,17 @@ Treat length as a publication constraint, not a universal sign of quality. Check
 
 Prefer accurate, natural prose in the target language over generic completeness. Let paragraphs perform recognizable work without forcing identical shapes, numbered symmetry, manufactured turns, or an inflated conclusion. Preserve necessary complexity and the writer's recognizable wording.
 
+## Require author review of writing artifacts
+
+Treat every Codex-produced outline, draft, continuation, or substantial revision as author-reviewable rather than final. After producing it, ask the writer to inspect:
+
+- whether it preserves their question, judgment, reasons, examples, uncertainty, and intended audience;
+- whether any model expansion, completion, or structural choice changes the substantive direction;
+- whether the prose still sounds like a form they are willing to own;
+- whether unresolved source checks or author decisions remain visible.
+
+The writer may accept the artifact unchanged, revise it directly, request revision, or reject it. Apply their corrections across every affected section and return the revised whole or requested scope for review. Do not call prose final, approved, publication-ready, or the writer's settled view before explicit author review. A request for immediate drafting authorizes creation of the draft, not silent closure of this review gate.
+
 ## Return results
 
 - For a visible outline stage, return the detailed writing outline first, followed only by consequential model proposals, author decisions, and source checks that need review.
@@ -125,4 +136,4 @@ Prefer accurate, natural prose in the target language over generic completeness.
 - For review, return prioritized comments with locations, reasons, and consequences; do not rewrite unless authorized.
 - For revision, return revised prose first and a short change note only when it helps the writer verify the requested work or the project requires one.
 
-Do not update project-wide progress, indexes, reading status, or research agendas. Add a state handoff for `manager-skill` only when a managed long-running project is already active or the user requests project-state maintenance.
+Do not update project-wide progress, indexes, reading status, or research agendas. Do not append meta-reflection or invoke `meta-reflection-skill` merely because a long-running project exists or a writing stage closes. If the writer explicitly requests meta-reflection in the current task, keep drafting or revision evidence distinct from the writer's judgments about what they learned and how their writing process changed.

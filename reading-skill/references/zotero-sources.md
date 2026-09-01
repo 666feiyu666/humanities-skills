@@ -15,7 +15,7 @@ Use Zotero as a source-discovery and attachment-location adapter for reading. Do
 7. Select an attachment that matches the requested edition, language, and format. If metadata does not settle the choice, inspect the file's title page, copyright page, or internal metadata before making bibliographic claims.
 8. Pass the resolved local file to the appropriate PDF, document, ebook, or filesystem extraction workflow. Preserve page, chapter, section, and ebook locator boundaries whenever the format permits.
 
-The two default collections are alternate entrances into one RWS workflow. Do not move or duplicate Zotero memberships when a learning task later becomes a writing task; preserve the stable item identity and let `manager-skill` record the transition.
+The two default collections are alternate entrances into one RWS workflow. Do not move or duplicate Zotero memberships when a learning task later becomes a writing task; preserve the stable item identity and state the transition in the reading artifact when it affects source scope. Do not turn that transition into an automatic project-state update or meta-reflection.
 
 Interpret the attachment result conservatively:
 

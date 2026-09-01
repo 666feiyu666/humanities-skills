@@ -85,7 +85,7 @@ Treat source origin and reading basis as separate dimensions. A file supplied in
 
 When the writer identifies a source in Zotero instead of supplying a file, read [references/zotero-sources.md](references/zotero-sources.md). Use `manage-zotero-library` to resolve the bibliographic item and a readable local attachment, then hand the resolved file to the relevant file-format or extraction workflow. Keep Zotero API mechanics, collection changes, and attachment-content extraction outside this skill.
 
-Treat a writer- or manager-declared navigation root as the allowed tree and its resolved task collection as the hard content boundary. The navigation root may be empty and organize lifecycle or topic branches; follow only the uniquely supported prepared branch, then use items directly in the resolved task collection. Do not crawl sibling branches, pass below that collection, or silently replace a learning entrance with a writing entrance.
+Treat a writer-declared or writer-confirmed project navigation root as the allowed tree and its resolved task collection as the hard content boundary. The navigation root may be empty and organize lifecycle or topic branches; follow only the uniquely supported prepared branch, then use items directly in the resolved task collection. Do not crawl sibling branches, pass below that collection, or silently replace a learning entrance with a writing entrance.
 
 Classify the reading basis:
 
@@ -178,7 +178,18 @@ Use the forms and routing criteria in [references/reading-cards.md](references/r
 
 When the writer asks to revise a card, edit the active card rather than creating version-suffixed copies. In a Git-managed project, use Git history for ordinary revisions. Mark a previous interpretation as corrected or superseded inside the card only when that history is important to later understanding. Never silently turn an open question into a source-supported answer.
 
-Do not maintain project-wide progress, root indexes, cross-card agendas, or writing-project status. Return a compact state handoff for `manager-skill` containing the session or cards created or changed, actual source coverage, open checks, and any promising research line. Let `manager-skill` reconcile the project files.
+## Require author review of reading artifacts
+
+Treat every session record, reading card, or substantial card revision produced by Codex as a review draft until the writer inspects it. After creating or materially expanding one, ask the writer to check:
+
+- whether the source reconstruction, quotation, locator, and coverage limits are accurate;
+- whether source claims, model interpretations, and writer responses remain distinct;
+- whether the selected question, relation, or semantic center is actually theirs;
+- whether Codex added, omitted, strengthened, or reorganized anything consequential.
+
+The writer may accept the artifact unchanged, correct it directly, request revision, or reject it. Apply requested corrections to the active artifact and return the affected whole for another review when the change is consequential. Do not call a card writer-shaped, writer-confirmed, or ready for authoritative downstream use before this review gate closes. Source verification by Codex does not substitute for the writer's review of meaning and ownership.
+
+Do not maintain project-wide progress, root indexes, cross-card agendas, or writing-project status. Do not append a routine meta-reflection or invoke `meta-reflection-skill` when reading work closes. If the writer explicitly requests meta-reflection in the same task, keep the reading result factual and distinguish source coverage and open checks from the writer's reflection on what they learned.
 
 ## Hand off
 
@@ -202,10 +213,10 @@ The handoff packet should state:
 - which questions may now be developed by the writer.
 - any confirmed artifact-language, translation, or terminology choice that the next skill should preserve.
 
-Keep the content handoff to `thinking-skill` separate from the state handoff to `manager-skill`. The latter records that a line exists; it does not decide how the line should develop.
+Keep any content handoff to `thinking-skill` inside the reading-to-thinking workflow and make it only when the writer wants that movement. Meta-reflection is a separate, writer-invoked review of the learning process; reading closure does not require it.
 
 ## Return results
 
 For dialogue, give the direct answer, its source basis, any important interpretive limit, and one useful next question only when it advances the writer's inquiry. Stay in Q&A mode until the writer asks to close, preserve, or synthesize the unit.
 
-At a checkpoint, save the session record first when required. If the writer has not selected any cards, return only a compact candidate list when useful and wait for the writer's choice; do not draft the cards. If the writer selects a card but its semantic center is not yet writer-shaped, ask one focused construction question instead of drafting it. Once the center is established, return only the selected cards created or updated, followed by unresolved source checks, possible thinking questions, and the compact manager handoff. Do not draft the later argument.
+At a reading checkpoint, save the session record first when required. If the writer has not selected any cards, return only a compact candidate list when useful and wait for the writer's choice; do not draft the cards. If the writer selects a card but its semantic center is not yet writer-shaped, ask one focused construction question instead of drafting it. Once the center is established, return only the selected cards created or updated, followed by unresolved source checks and possible thinking questions when useful. Add a distinct meta-reflection segment only when the writer explicitly requested it in the same task. Do not draft the later argument.

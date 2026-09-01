@@ -137,7 +137,7 @@ If the memo begins to perform an essay's opening, development, or conclusion, st
 
 - Save or return the record when the writer says “整理一下” / “summarize this”, “先到这里” / “let's stop here”, “这个问题有点远” / “this is moving too far afield”, “保留目前思路” / “preserve the current thinking”, or otherwise signals closure.
 - Do not keep questioning merely to complete the template.
-- In a writable project, use the project's processed-note location. Leave project and directory index reconciliation to `manager-skill`.
+- In a writable project, use the project's processed-note location. Do not reconcile project or directory indexes as part of thinking work; treat any such maintenance as a separate writer-requested task, not as thinking closure or meta-reflection.
 - Link backward to reading cards, maps, and source artifacts.
 - Prefer a conceptual title; use a provisional question when no center has emerged.
 - Preserve earlier versions when a consequential judgment changes.
