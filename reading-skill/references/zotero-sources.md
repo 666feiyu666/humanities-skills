@@ -6,8 +6,8 @@ Use Zotero as a source-discovery and attachment-location adapter for reading. Do
 
 ## Resolve the source
 
-1. Invoke `manage-zotero-library` and follow its runtime and safety rules.
-2. Resolve the navigation root before resolving source content. Treat `1-文科学习 → 00-学习导航` as the default learning root and `1-文科学习 → 03-写作专题` as the default concrete-writing root, unless the writer names another scope.
+1. Invoke the Zotero Desktop skill and use the active local API for read-only collection, item, and attachment resolution. Do not require a Zotero Web API key for ordinary reading. Use `manage-zotero-library` only when the writer explicitly requests a library-organization operation and its authenticated route is available.
+2. Resolve the navigation root before resolving source content. Treat `1-人文社科学习` (key `UFQRL86L`) as the ordinary RWS library root, `1-人文社科学习 → 00-学习导航` (key `MAUJKJJH`) as the default learning root, and `1-人文社科学习 → 03-写作专题` (key `3LXFMEQY`) as the default concrete-writing root, unless the writer names another scope. Treat names and parent chains as current navigation state: retain the stable key and refresh the displayed path before use.
 3. Resolve one prepared task collection under that root. Navigation roots may contain lifecycle and topic branches and no direct items. Use the writer's task name, collection path, or prepared-item membership to identify a unique branch; do not recursively collect every descendant or inspect unrelated siblings as content.
 4. Once resolved, restrict source selection to items directly in the task collection. Do not include items found only in its child collections, another navigation root, or unrelated library locations unless the writer explicitly expands scope.
 5. Resolve either a top-level bibliographic item or a standalone attachment intentionally prepared in the task collection. Require a unique match within scope; do not choose silently among editions, translations, similarly titled works, or duplicate attachments.
@@ -15,7 +15,7 @@ Use Zotero as a source-discovery and attachment-location adapter for reading. Do
 7. Select an attachment that matches the requested edition, language, and format. If metadata does not settle the choice, inspect the file's title page, copyright page, or internal metadata before making bibliographic claims.
 8. Pass the resolved local file to the appropriate PDF, document, ebook, or filesystem extraction workflow. Preserve page, chapter, section, and ebook locator boundaries whenever the format permits.
 
-The two default collections are alternate entrances into one RWS workflow. Do not move or duplicate Zotero memberships when a learning task later becomes a writing task; preserve the stable item identity and state the transition in the reading artifact when it affects source scope. Do not turn that transition into an automatic project-state update or meta-reflection.
+The two default collections are alternate entrances into one RWS workflow. Do not move or duplicate Zotero memberships when a learning task later becomes a writing task; preserve the stable item identity and state the transition in the reading artifact when it affects source scope. Do not turn that transition into an automatic project-state update or meta-reflection. Do not traverse the separate `2-人文社科研究` root unless the writer explicitly places a cross-workspace source or task in scope.
 
 Interpret the attachment result conservatively:
 
