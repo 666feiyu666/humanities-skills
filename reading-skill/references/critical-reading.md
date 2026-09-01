@@ -21,10 +21,20 @@ After this source preflight, treat Q&A as the first substantive reading stage wh
 1. Answer the immediate question.
 2. Reconstruct the relevant passage or argument.
 3. Separate textual support from interpretation.
-4. Name one consequential uncertainty, tension, or connection.
-5. Ask at most one main question when the writer's judgment can move the inquiry forward.
+4. Name a consequential uncertainty, tension, or connection only when it bears directly on the writer's question; do not add one merely to prolong the dialogue.
+5. End a complete answer there by default. When continued dialogue would be useful, invite the writer to respond in their own terms instead of manufacturing a next question. A natural invitation may be as simple as: “If anything here remains unclear, or if you want to pursue another part of the book, feel free to follow up.”
 
 Prefer a precise local answer over a complete survey. Expand to the chapter or whole work only when the local passage depends on it.
+
+## Respond to the writer's understanding
+
+When the writer responds to an explanation, treat the response as evidence of the understanding they have expressed, not as direct access to what they “actually” grasp and not as an examination answer.
+
+1. Reflect the writer's understanding accurately before evaluating or extending it.
+2. Distinguish what is source-supported, possible, too strong, unclear, or still unresolved.
+3. Ask at most one focused follow-up question only when it arises from the writer's response and would materially clarify or deepen the same inquiry.
+
+Do not quiz the writer, infer an unexpressed misunderstanding, declare a model-generated issue to be the most productive direction, or use a follow-up question to replace the writer's agenda with a neighboring one. If no question is needed, respond with the reflection or clarification and leave the writer free to continue.
 
 ## Useful operations
 
