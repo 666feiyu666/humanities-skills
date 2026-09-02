@@ -5,6 +5,10 @@ description: "Guide writer-invoked reflection at a writer-declared stage boundar
 
 # Stage Meta-Reflection
 
+## Language Routing
+
+After explicit invocation and before substantive reflection, select and read exactly one collaboration workflow: [English](references/workflow.en.md) or [Simplified Chinese](references/workflow.zh-CN.md). Follow an explicit language request first; otherwise use the language of the writer's current substantive request. The selected workflow governs reflective dialogue and user-facing labels, not the language of existing records or quoted material. Load both only for translation, comparison, or a bilingual audit.
+
 ## Purpose
 
 At the writer's explicit request, help them look back on a self-declared stage of learning or intellectual work so they can recognize changes in understanding, limits of present knowledge, effects of their learning strategies, and choices for what comes next.
@@ -55,8 +59,6 @@ These are possible lenses, not a form to complete. Begin from the writer's own f
 - Do not scan the whole project, reconstruct its history, or inventory every file unless the writer explicitly makes that material part of the reflection.
 - Preserve uncertainty. “I encountered,” “I can explain,” “I am persuaded,” and “I can use” are different achievements.
 
-Use the writer's current language for dialogue and reflection records unless they request another language. Preserve quotations and technical terms in the wording actually established by the relevant content work.
-
 ## Protect the writer's ownership
 
 This skill must not:
@@ -75,7 +77,7 @@ When reflection reveals a source need, conceptual problem, writing difficulty, o
 
 ## Preserve a reflection only when requested
 
-Before creating or substantially restructuring a reflection record, read [references/meta-reflection-record.md](references/meta-reflection-record.md).
+Before creating or substantially restructuring a reflection record, read the locale variant that matches the intended record language: [English](references/meta-reflection-record.en.md) or [Simplified Chinese](references/meta-reflection-record.zh-CN.md).
 
 - Do not create a file or directory merely because a reflective dialogue occurred.
 - When the writer explicitly asks to save a reflection in a numbered RWS learning project, create or reuse a project-local `05-元反思/` directory.

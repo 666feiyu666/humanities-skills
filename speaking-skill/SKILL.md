@@ -11,6 +11,10 @@ Turn established material into speech that a real audience can follow and that t
 
 This is a lightweight speaking workflow. Do not create a production pipeline, media project, or presentation system unless the user separately asks for one.
 
+## Language Routing
+
+Before substantive work, select and read exactly one collaboration workflow: [English](references/workflow.en.md) or [Simplified Chinese](references/workflow.zh-CN.md). Follow an explicit language request first; otherwise use the language of the speaker's current substantive request. The selected workflow governs collaboration and user-facing labels; determine the delivery language separately from the language of source material. Load both only for translation, comparison, or a bilingual audit.
+
 ## Establish the speaking situation
 
 Infer from the request when possible, and otherwise establish only the missing details that materially change the result:
@@ -22,8 +26,6 @@ Infer from the request when possible, and otherwise establish only the missing d
 - language, tone, and delivery constraints.
 
 Do not require a formal brief when the request and supplied material already answer these questions.
-
-Support both Chinese and English delivery. This skill may be invoked directly or receive established material from reading, thinking, or writing. Preserve an explicit delivery language, translation choice, or terminology convention in the request or handoff unless the user overrides it; otherwise infer the delivery language from the requested artifact and established material, and ask only when ambiguity would materially change the result.
 
 ## Adapt for oral delivery
 

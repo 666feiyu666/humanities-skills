@@ -1,41 +1,41 @@
-# Meta-reflection record
+# Meta-Reflection Record
 
-Use only the sections that carry writer-supplied or explicitly confirmed meaning at the present stage, plus any model observation that is visibly labeled for review. This is a reflective synthesis, not an activity log, project dashboard, artifact inventory, or compulsory questionnaire.
+Use only sections that carry writer-supplied or explicitly confirmed meaning at the present stage, plus model observations visibly labeled for review. This is a reflective synthesis, not an activity log, project dashboard, artifact inventory, or compulsory questionnaire.
 
 ```markdown
-# 阶段性元反思：阶段或主题
+# Stage Meta-Reflection: Stage or Topic
 
-- 项目：
-- 反思范围：
-- 阶段边界：（由作者声明）
-- 日期：
-- 相关材料：（仅列真正支撑本次反思的材料）
+- Project:
+- Scope of reflection:
+- Stage boundary: declared by the writer
+- Date:
+- Relevant material: only material that genuinely supports this reflection
 
-## 这一阶段实际在做什么
+## What I was actually doing in this stage
 
-## 我的理解发生了什么变化
+## How my understanding changed
 
-## 我现在能够说明、区分或使用什么
+## What I can now explain, distinguish, or use
 
-## 仍不清楚、不会或需要核验什么
+## What remains unclear, unusable, or in need of verification
 
-## 学习方式带来了什么
+## What my learning approach made possible or difficult
 
-## 我想保留、搁置或放弃什么
+## What I want to retain, pause, or abandon
 
-## 我决定的下一步
+## Next direction I have decided
 
-## 尚未决定的问题
+## Questions I have not decided
 ```
 
 Omit irrelevant sections. A short reflection with one genuine change and one unresolved limit is better than a completed template with invented content.
 
 ## Preserve voice and epistemic status
 
-- Use first-person claims only for the writer's own wording or a paraphrase they have confirmed.
+- Use first-person claims only for the writer's wording or a paraphrase they have confirmed.
 - Do not infer “I learned,” “I understand,” or “I can use” from the existence of a note, card, outline, or draft.
 - Distinguish encountering an idea, reconstructing it, accepting it, and being able to use it.
-- When provenance could be confused, use compact labels such as `[作者确认]`, `[材料依据]`, `[待核验]`, `[模型提问]`, or `[模型建议—未采纳]`.
+- When provenance could be confused, use compact labels such as `[writer confirmed]`, `[material basis]`, `[verification needed]`, `[model question]`, or `[model suggestion—not adopted]`.
 - Never place a model proposal in the writer's voice.
 - Preserve unresolved tensions instead of manufacturing closure.
 
@@ -43,8 +43,8 @@ Omit irrelevant sections. A short reflection with one genuine change and one unr
 
 - Reconstruct what changed and why it matters to the writer; do not summarize every artifact.
 - Record method observations only when they arise from this stage, not as generic study advice.
-- Record a next direction only when the writer chooses it. Keep unchosen possibilities under `尚未决定的问题` or omit them.
-- Do not add skill assignments, standing queues, deadlines, status codes, or file-maintenance findings.
+- Record a next direction only when the writer chooses it. Keep unchosen possibilities under `Questions I have not decided` or omit them.
+- Do not add Skill assignments, standing queues, deadlines, status codes, or file-maintenance findings.
 - Link supporting artifacts with project-relative paths when possible.
 
 ## Location and naming
@@ -52,7 +52,7 @@ Omit irrelevant sections. A short reflection with one genuine change and one unr
 - In a numbered RWS learning project, use `05-元反思/`.
 - In another project structure, reuse an established equivalent or ask the writer where the reflection belongs when the choice would materially affect organization.
 - Create the directory only with the first explicitly requested saved reflection.
-- Use `YYYY-MM-DD-阶段或主题.md` unless the project has an established naming convention.
+- Use `YYYY-MM-DD-stage-or-topic.md` unless the project has an established naming convention.
 - Revise the same checkpoint in place; use versioned files only when the writer wants historically distinct reflections.
 
 ## Author review after generation

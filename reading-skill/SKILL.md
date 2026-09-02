@@ -13,11 +13,9 @@ Help the writer understand a source accurately enough to question it, return to 
 
 Perform every responsibility in this skill directly in Codex. Do not route source reading, interpretation, research, dialogue, or note-making to DeepSeek or another external model or API. Treat any separate review platform as outside this skill.
 
-## Resolve language locally
+## Language Routing
 
-This skill may be invoked directly or as part of a coordinated reading-to-speaking workflow. It must not require a prior skill, but when an incoming handoff, active artifact, or confirmed project convention states a dialogue or artifact language, preserve that established choice unless the writer overrides it. Otherwise, follow an explicit request for Chinese or English, use the writer's current language for dialogue, and infer the language of a new session record or reading card from the request and local material. Ask one focused question only when the ambiguity would materially change the artifact.
-
-Do not let the source language determine the dialogue or artifact language automatically. Preserve quotations in the wording actually inspected, label any model translation, and keep technical terms stable within the dialogue and artifact. A change in dialogue language does not rewrite an existing record or card unless the writer requests that revision.
+Before substantive work, select and read exactly one collaboration workflow: [English](references/workflow.en.md) or [Simplified Chinese](references/workflow.zh-CN.md). Follow an explicit language request first; otherwise use the language of the writer's current substantive request. The selected workflow governs dialogue and user-facing labels, not the language of sources or an existing reading artifact. Load both only for translation, comparison, or a bilingual audit.
 
 ## Adopt the role
 

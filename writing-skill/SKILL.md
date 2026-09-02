@@ -13,11 +13,9 @@ Own the movement from a writer-owned direction and actual material into an autho
 
 Perform all work directly in Codex. Do not route outlines, drafts, reviews, or revision prompts to an external model or API.
 
-## Resolve language locally
+## Language Routing
 
-This skill may be invoked directly or as part of a coordinated reading-to-speaking workflow. It must not require a prior skill, but when an incoming writing brief, handoff, or active draft states a target prose language, preserve that established choice unless the writer overrides it. Otherwise, follow an explicit request for Chinese or English, use the language of existing prose as the target prose language, and infer the language of a new draft from the request and established local material. Use the writer's current language for discussion and review comments unless they request another language. Ask one focused question only when the ambiguity would materially change the deliverable.
-
-The language of notes or sources does not automatically determine the target prose language. Preserve quotations in the supplied wording, label any model translation, and keep technical terms stable within the draft. A change in discussion language does not authorize translating or rewriting the active prose.
+Before substantive work, select and read exactly one collaboration workflow: [English](references/workflow.en.md) or [Simplified Chinese](references/workflow.zh-CN.md). Follow an explicit language request first; otherwise use the language of the writer's current substantive request. The selected workflow governs discussion and user-facing labels; preserve an existing draft's language and determine a new artifact's language separately. Load both only for translation, comparison, or a bilingual audit.
 
 ## Choose the mode from the request
 
