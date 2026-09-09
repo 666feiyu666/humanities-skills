@@ -52,6 +52,12 @@ The following are appropriate Codex contributions:
 
 Even when the writer asks for a complete draft, use the discussion as their initial construction. If no writer-shaped center exists, pause for one focused contribution rather than producing the card from scratch.
 
+## Integrate rather than restate
+
+Use the writer's contribution as semantic input to the card, not as a required display section. When the writer's understanding has been source-checked and incorporated into the logical skeleton and brief development, do not repeat it under headings such as “writer-shaped synthesis,” “my construction,” or “Codex refinement.” The session record already preserves who said what and how the understanding changed; the card should preserve the compact result worth retrieving.
+
+A separate writer-response, experience, interpretation, or correction section is justified only when it adds non-duplicative content whose provenance matters to later use. Examples include a personal experience, a still-disputed interpretation, a model-proposed extension awaiting confirmation, or a correction whose history remains conceptually important. If the difference has been resolved and absorbed into the main explanation, remove the process scaffolding.
+
 ## Propose card types by epistemic function
 
 Use the state of the inquiry, not the surface topic, to choose a form:
@@ -73,7 +79,23 @@ A knowledge card should remain readable after the immediate conversation has bee
 3. when real material exists, test or extend it through the writer's experience or practice;
 4. preserve enough source context to recover the basis and limits.
 
-Suggested form:
+### Structure requirements
+
+Required sections must always appear with substantive content:
+
+- **Title**
+- **Logical skeleton**
+- **Brief development**
+- **Sources and limits of understanding**
+
+Optional sections should be omitted unless they add useful, non-duplicative material:
+
+- **My experience and practical extension**
+- **Relations and further questions**
+
+Within **Sources and limits of understanding**, always include the source and locator, actual reading coverage, and reading basis. Include a related session record when one exists, and include “Still to verify” only when open source checks remain. If the required sections cannot yet be supported, continue the dialogue or recommend a question card rather than creating an empty or speculative knowledge card.
+
+Default form:
 
 ```markdown
 # Title: What this knowledge unit explains
@@ -91,28 +113,33 @@ Problem or condition
 Explain the logical skeleton in connected prose. Show why the concepts have this
 relation instead of repeating the skeleton as a longer list.
 
-## My experience and practical extension
-
-Use only when real experience, an example, or a writer-confirmed extension exists.
-
 ## Sources and limits of understanding
 
 - Source and locator:
 - Actual reading coverage:
 - Reading basis: direct source / partial source / web reconstruction
-- Related session record:
-- Still to verify:
-
-## Relations and further questions
 ```
 
-Use only sections that carry information. The logic chain, brief expansion, and source boundary are normally essential. The experience section is optional; never invent personal experience. Faithfully preserve experience or practical reasoning already supplied or confirmed by the writer, but hand off to `thinking-skill` when that reasoning still needs to be developed or tested. A model-proposed extension remains an interpretation or open question until the writer confirms it.
+Never invent personal experience. Do not add a generic section to restate the writer's contribution or Codex's refinement after both have already been integrated into the logic chain and brief expansion. Faithfully preserve experience or practical reasoning already supplied or confirmed by the writer, but hand off to `thinking-skill` when that reasoning still needs to be developed or tested. A model-proposed extension remains an interpretation or open question until the writer confirms it.
 
 ## Question card
 
 A question card preserves an open problem as a productive entrance, not as a failed knowledge card. Supply enough context that the writer can understand later why the question mattered and what has already been tried.
 
-Suggested form:
+### Structure requirements
+
+The default question-card sections are required because together they preserve the question's origin, current state, unresolved edge, and route back into inquiry:
+
+- **Central question**
+- **How the question arose**
+- **What is currently established**
+- **What remains uncertain or disputed**
+- **Where to return next**
+- **Sources and relations**
+
+Within **Where to return next**, include at least one applicable return route: a passage to reread, an additional source to seek, or a specific question to continue. Within **Sources and relations**, always include the source and locator, actual reading coverage, reading basis, and status. Include links to a related session record or knowledge card only when those artifacts exist. Add any further optional section only when the writer accepts a distinct retrieval function for it.
+
+Default form:
 
 ```markdown
 # Central question
@@ -131,16 +158,13 @@ Do not answer prematurely for the sake of completeness.
 
 ## Where to return next
 
-- Chapter or passage to reread:
-- Additional source needed:
-- Specific question to continue:
+State at least one concrete return route: a passage to reread, an additional source to seek, or a specific question to continue.
 
 ## Sources and relations
 
 - Source and locator:
 - Actual reading coverage:
-- Related session record:
-- Related knowledge card:
+- Reading basis: direct source / partial source / web reconstruction
 - Status: open / partially resolved / resolved
 ```
 
@@ -156,6 +180,8 @@ Use localized equivalents of these compact markers whenever a statement could la
 - `[interpretation]`
 - `[my thought]`
 - `[needs verification]`
+
+Apply markers locally at the point of genuine ambiguity. Do not label every paragraph mechanically, create a separate provenance section by default, or duplicate the same content solely to show that the writer and Codex contributed to it. When an accepted synthesis can be stated once without obscuring a consequential difference of voice, let the linked session record carry the construction history.
 
 Locators may be pages, ebook locations, chapter and section names, or stable paragraph identifiers. Never fabricate a locator. When a claim comes from web research, cite the actual page and do not replace its locator with an inferred book page.
 
