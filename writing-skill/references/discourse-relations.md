@@ -2,11 +2,13 @@
 
 ## Purpose
 
-Check whether sentences, paragraphs, and sections express the relation the argument actually establishes. Treat connectives as claims about thought, not decorative signals of fluency.
+Check whether sentences, paragraphs, and sections express the relation the argument actually establishes. Use this reference while planning or drafting when the prose depends on an abstract or contested chain, not only after a problem appears. Treat connectives as claims about thought, not decorative signals of fluency.
 
 ## Reconstruct the relation first
 
 For each important transition, temporarily remove the connective and state the relation in plain language. Then decide whether the original wording is accurate.
+
+When the transition contains more than one inferential step, write the intermediate proposition separately before compressing anything. Keep it visible in the prose when a reader could not otherwise recover why the next claim follows. Do not ask one connective to carry a definition, warrant, and conclusion at once.
 
 Common relations include:
 
@@ -21,6 +23,7 @@ Common relations include:
 - **Condition**: the claim holds only under a named circumstance.
 - **Counterexample**: a case limits or defeats a general claim.
 - **Sequence**: the next unit follows in time or procedure, not necessarily in logic.
+- **Question sequence**: answering one question makes another relevant, without implying that the first answer causes or proves the second.
 - **Reorientation**: the text changes the governing question or level of analysis.
 - **Summary or closure**: the unit consolidates what has already been established.
 
@@ -28,6 +31,8 @@ Common relations include:
 
 - **False cause**: temporal order, association, or repeated co-occurrence is written as causation.
 - **Missing warrant**: `因此` or `therefore` jumps from material to a conclusion whose bridge remains unstated.
+- **Missing middle**: two defensible propositions are connected directly even though the second follows only through an intermediate claim the reader has not been given.
+- **Question-as-inference**: the next question is presented as a logical result when it is actually the next stage of exposition or a change in level.
 - **Decorative contrast**: `但是`, `不过`, `but`, or `however` introduces continuation, qualification, or a new topic rather than a genuine contrast.
 - **Pseudo-concession**: `当然`, `of course`, or `to be sure` names no real pressure on the main claim and only performs politeness.
 - **Unequal comparison**: two terms contrasted by `一方面／另一方面` or `on one hand / on the other hand` answer different questions or operate at different levels.
@@ -54,11 +59,13 @@ State why the next section is necessary after the previous one. Distinguish a lo
 Repair the underlying relation before replacing the connective. Depending on the problem:
 
 - add the missing warrant;
+- restore a missing middle step as its own sentence or clause;
 - narrow the claim;
 - reorder the units;
 - split two relations now compressed into one sentence;
 - replace a false causal statement with a descriptive association;
 - mark a genuine change of question;
-- remove the connective when juxtaposition already makes the relation clear.
+- remove the connective when juxtaposition already makes the relation clear;
+- mark a question sequence directly instead of inventing a causal or contrastive bridge.
 
 Do not improve apparent flow by inserting transitions into an argument whose relation remains unsettled.

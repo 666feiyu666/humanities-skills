@@ -4,7 +4,20 @@
 
 Help the writer move from a topic, rough outline, fragments, examples, partial judgments, or corrections into a structure that can support continuous prose. Treat this as writing work when the writer's direction exists but has not yet been arranged at article or section level.
 
-This reference does not authorize Codex to discover the writer's governing question, choose among incompatible theses, or invent a design rationale. Those remain author decisions or `thinking-skill` work.
+This reference does not authorize Codex to discover the writer's governing question, choose among incompatible theses, or invent the argument's governing rationale. Those remain author decisions or `thinking-skill` work.
+
+## Reconstruct the working brief
+
+Before arranging prose, infer the smallest useful brief from the supplied material:
+
+- what kind of text this is and what it should let its reader understand, reconsider, or do;
+- the intended reader and any relevant assumed knowledge;
+- the governing question or rhetorical action;
+- the writer's central judgment, when one has actually been supplied;
+- required concepts, sources, examples, length, format, and exclusions;
+- phrases, sentence movements, or revisions that provide evidence of the intended voice.
+
+Do not ask the writer to fill every field. Treat missing information as open only when different answers would materially change the draft. A genre label does not substitute for a rhetorical purpose: for example, a brief review may mainly explain a distinction, evaluate a work, or use the work to frame a question.
 
 ## Decide whether the outline should be visible
 
@@ -19,6 +32,8 @@ Use an internal micro-outline and continue without interruption when the request
 
 Skip a new outline when the user requests immediate drafting or has already confirmed an equivalent outline or writing brief.
 
+When a visible outline is required, return it as the deliverable for that stage and stop before continuous prose or file mutation. A commentary summary of the plan is not an outline for author review. If the writer requested both outline and prose in one turn, continue only when the outline exposes no consequential author decision.
+
 ## Reconstruct before elaborating
 
 First preserve what the writer actually supplied:
@@ -32,6 +47,13 @@ First preserve what the writer actually supplied:
 
 Do not improve the outline by replacing a specific reason with a familiar narrative. Do not treat a short heading as permission to infer a conventional claim.
 
+For conceptual or argumentative writing, rewrite the supplied material internally as the minimum claim path. For each adjacent movement, identify whether it is a definition, elaboration, question sequence, reason, warrant, cause, contrast, qualification, consequence, or reorientation. Then ask what licenses that relation.
+
+- If the license is already present, include the bridge where the reader needs it.
+- If the bridge is a low-risk unpacking of supplied material, label it clearly enough for outline review.
+- If it adds a premise, evaluation, causal mechanism, or conclusion, keep it under review rather than silently completing the argument.
+- If two topics are merely adjacent, do not turn adjacency into causation or inference for the sake of flow.
+
 ## Elaborate the writing structure
 
 For each substantial section, add only what helps the writer see how prose would proceed:
@@ -43,6 +65,8 @@ For each substantial section, add only what helps the writer see how prose would
 5. **Open status**: any author decision, source check, or model-proposed substantive addition that remains outside the confirmed structure.
 
 Use only as much detail as the scope needs. A detailed outline should make drafting inspectable, not simulate every future sentence.
+
+Preserve hierarchy rather than giving every available item equal weight. Especially in a short piece, distinguish the governing distinction and necessary inferential bridge from illustrative cases and optional coverage. Selection is part of composition: use representative examples when the full inventory would turn the paragraph into a catalogue, and keep omitted material visible only when its omission is consequential.
 
 ## Separate structural elaboration from substantive addition
 
@@ -95,27 +119,31 @@ After a consequential correction:
 4. preserve any unaffected material;
 5. do not repeat the rejected framing elsewhere under different wording.
 
+Also compare the writer's revision with the prior draft for voice evidence. A writer may be teaching the collaboration through changes in directness, sentence length, question form, density, contrast, or rhythm even when they comment on only one sentence. Apply a repeated or clearly consequential pattern across the active text. Keep a one-off local solution local when there is not enough evidence to generalize it.
+
 ## Compact outline form
 
 Use a natural structure appropriate to the article. Render headings and review labels in the outline language. When explicit labels help review, use this compact form:
 
 ```markdown
-## Section heading
+## Passage or section
 
 Writing task: ...
+
+Core point: ...
 
 - First movement using supplied material
 - Second movement or example
 - Local conclusion and relation to the next section
 
 Needs review:
-- Author decision, source check, or model proposal only if consequential
+- Missing bridge, author decision, source check, selection, or model proposal only if consequential
 ```
 
 Do not require every label when ordinary headings and bullets already make the structure clear.
 
 ## Hand off to prose
 
-When the writer confirms or corrects a visible outline, treat the accepted structure and corrections as the drafting authority. Do not reopen settled decisions merely to make the article more symmetrical or complete.
+When the writer confirms or corrects a visible outline, treat the accepted structure and corrections as the drafting authority. Do not reopen settled decisions merely to make the article more symmetrical or complete. Before returning the draft, reconstruct its realized claim path from the prose and check that it still performs the confirmed jobs without adding false relations or flattening the outline into repeated parallel sentence frames.
 
 If the user asks for both an outline and immediate prose in one prompt, provide the outline first and then draft from it unless the outline exposes a consequential author decision that would make the prose misleading.

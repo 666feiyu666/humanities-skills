@@ -16,6 +16,8 @@ Accuracy of meaning comes before fluency. A natural sentence that changes the wr
 
 Return to structure or the writer when no accurate local wording can repair the underlying idea.
 
+When a sentence feels awkward and also carries several propositions, do not begin by swapping words or connectives. State the propositions and their relation in plain language, restore any missing middle step, and then write the sentence or paragraph again. Surface fluency cannot repair an unsettled inference.
+
 ## Detect generic abstraction
 
 Flag language that sounds complete while leaving its object, agent, or reason unspecified:
@@ -51,9 +53,13 @@ Look across several paragraphs, not only one sentence:
 - uniform topic-sentence, explanation, example, summary paragraph shapes;
 - excessive balanced clauses, paired contrasts, or rhetorical triads;
 - repeated metadiscourse announcing what the essay will do or has just done;
-- uniform sentence length and cadence.
+- uniform sentence length and cadence;
+- an outline or taxonomy copied into prose through one repeated grammatical frame for every item;
+- several examples packed into one long sentence so that coverage replaces emphasis.
 
 Vary form only after the underlying relations are clear. Naturalness does not require slang, fragments, contractions, or deliberate roughness.
+
+When several parallel items are genuinely needed, first state why the set matters. Give the most important case room to develop, combine cases that perform the same work, and omit or subordinate secondary cases when the length constraint does not allow equal treatment. Do not vary sentence openings cosmetically while preserving the same mechanical paragraph underneath.
 
 ## Improve sentences and paragraphs
 
@@ -66,6 +72,7 @@ Vary form only after the underlying relations are clear. Naturalness does not re
 - Use connectives when they state a real relation, not to manufacture flow.
 - Let a paragraph have a recognizable nucleus without forcing claim-example-conclusion form.
 - End sections with what has actually been established, not a generic uplift.
+- Prefer one sentence with one governing grammatical and logical center. When a sentence must carry two relations, make their hierarchy unmistakable; when it carries three, split it unless the accumulation itself is purposeful and readable.
 
 ## Preserve the writer's English
 
@@ -75,6 +82,8 @@ Vary form only after the underlying relations are clear. Naturalness does not re
 - Prefer the writer's supplied reason over a more elegant generic explanation.
 - Do not make a non-native writer sound impersonally academic merely to remove every unusual but intelligible choice.
 - Preserve quotations exactly as supplied and label any model translation.
+
+Treat the writer's own revisions as higher-value voice evidence than generic requests such as `make it more natural`. Compare what changed: whether the writer made an agent more visible, replaced a defensive contrast with an affirmative statement, separated a hidden logical step, shortened an abstract sentence, introduced a direct question, or changed the balance of long and short sentences. Carry reliable patterns into later paragraphs while preserving genre and context.
 
 ## Compact final pass
 
@@ -86,6 +95,7 @@ Before returning drafted or language-revised prose, check:
 - Do connectives describe established relations?
 - Are contrast, enumeration, and closure earned by the material?
 - Do several paragraphs repeat the same movement or cadence?
+- Did an outline, taxonomy, or source list survive as catalogue-like prose instead of a shaped paragraph?
 - Can metadiscourse or nominalization be replaced by the actual action?
 - Does the ending remain within the scope established by the body?
 

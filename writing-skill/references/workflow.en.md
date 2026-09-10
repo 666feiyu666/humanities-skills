@@ -14,4 +14,4 @@ When the target prose is English, read [english-prose-quality.md](english-prose-
 
 ## Interaction and review
 
-Explain only consequential decisions that affect direction, structure, evidence, uncertainty, or voice. Do not turn review into line-by-line commentary unless requested. Treat outlines, drafts, continuations, and substantial revisions as author-reviewable and identify model expansions that the writer may not wish to own.
+Explain only consequential decisions that affect direction, structure, evidence, uncertainty, or voice. Do not turn review into line-by-line commentary unless requested. Treat outlines, drafts, continuations, and substantial revisions as author-reviewable and identify model expansions that the writer may not wish to own. Ask for review around the one to three decisions most likely to alter meaning or voice rather than repeating a fixed checklist. Treat the writer's revisions as current evidence about both intended meaning and prose movement.

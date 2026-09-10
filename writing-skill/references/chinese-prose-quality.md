@@ -16,12 +16,14 @@ Accuracy of meaning comes before fluency. A natural sentence that changes the wr
 
 Return to structure or the writer when no accurate local wording can repair the underlying idea.
 
+When a sentence feels awkward and also carries several propositions, do not begin by replacing words or connectives. State the propositions and their relation in plain language, restore any missing middle step, and then write the sentence or paragraph again. Surface smoothness cannot repair an unsettled inference.
+
 ## Detect generic abstraction
 
 Flag language that sounds complete while leaving its object or reason unspecified:
 
 - broad claims such as `真正的学习`, `更深层的意义`, or `新的可能性` without saying what changed;
-- generic motives substituted for the writer's stated design history;
+- generic motives substituted for the writer's stated reason or line of thought;
 - abstract nouns that hide actors and actions, such as repeated `进行……的构建`, `实现……的形成`, or `完成……的转化`;
 - a sentence that could be moved into many unrelated essays without alteration.
 
@@ -51,9 +53,13 @@ Look across several paragraphs, not only one sentence:
 - uniform sentence length and cadence;
 - a local summary after every small point;
 - repeated explanation of what the article is about to do or has just done;
-- polished closing sentences that turn each paragraph into an aphorism.
+- polished closing sentences that turn each paragraph into an aphorism;
+- an outline or taxonomy copied into prose as repeated frames such as `以……为中心，可以……却……` for every item;
+- several examples packed into one long sentence so that coverage replaces emphasis.
 
 Vary form only after the underlying relations are clear. Naturalness does not require random sentence length, slang, fragments, or deliberate roughness.
+
+When several parallel items are genuinely needed, first state why the set matters. Give the most important case room to develop, combine cases that perform the same work, and omit or subordinate secondary cases when the length constraint does not allow equal treatment. Do not vary sentence openings cosmetically while preserving the same mechanical paragraph underneath.
 
 ## Preserve the writer's presence
 
@@ -63,6 +69,8 @@ Vary form only after the underlying relations are clear. Naturalness does not re
 - Prefer the writer's supplied reason over a more elegant generic explanation.
 - Do not delete every repetition when recurrence records a real return, correction, or emphasis.
 - Do not replace a concrete `我为什么开始在意这个问题` with impersonal process language unless the genre requires it.
+
+Treat the writer's own revisions as higher-value voice evidence than generic instructions such as `更自然`. Compare what changed: whether the writer made the subject more visible, replaced a defensive contrast with an affirmative statement, separated a hidden logical step, shortened an abstract sentence, introduced a direct question, or changed the balance of long and short sentences. Carry reliable patterns into later paragraphs while preserving genre and context.
 
 ## Improve sentences and paragraphs
 
@@ -74,6 +82,7 @@ Vary form only after the underlying relations are clear. Naturalness does not re
 - Let a paragraph have a recognizable nucleus, but do not force every paragraph into claim-example-conclusion form.
 - Move between abstraction and concrete material at the pace required by the argument and genre.
 - End sections with what has actually been established, not a generic uplift.
+- Prefer one sentence with one governing grammatical and logical center. When a sentence must carry two relations, make their hierarchy unmistakable; when it carries three, split it unless the accumulation itself is purposeful and readable.
 
 ## Apply personal or genre profiles carefully
 
@@ -91,6 +100,7 @@ Before returning drafted or language-revised prose, check:
 - Do connectives describe established relations?
 - Are contrast, enumeration, and closure earned by the material?
 - Do several paragraphs repeat the same movement or cadence?
+- Did an outline, taxonomy, or source list survive as catalogue-like prose instead of a shaped paragraph?
 - Can metadiscourse or nominalization be replaced by the actual action?
 - Does the ending remain within the scope established by the body?
 
