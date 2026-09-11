@@ -43,6 +43,8 @@ Check whether apparent order exceeds the material actually established:
 
 Remove the signal, repair the relation, or mark the missing decision. Do not preserve balance or symmetry for its own sake.
 
+Treat these as warning signs, not bans. Deliberate enumeration, rhetorical questions, direct address, visible transitions, pauses, and first-person metadiscourse can orient the reader and establish the writer-reader relationship. Preserve them when they perform that work, especially when the writer has chosen them. Ask whether the structure helps this reader follow this movement, not whether it resembles a generic list of prohibited forms.
+
 ## Detect repetitive model-like movement
 
 Look across several paragraphs, not only one sentence:
@@ -53,6 +55,7 @@ Look across several paragraphs, not only one sentence:
 - uniform topic-sentence, explanation, example, summary paragraph shapes;
 - excessive balanced clauses, paired contrasts, or rhetorical triads;
 - repeated metadiscourse announcing what the essay will do or has just done;
+- planning language that describes why an example, question, or transition would be useful instead of actually using it;
 - uniform sentence length and cadence;
 - an outline or taxonomy copied into prose through one repeated grammatical frame for every item;
 - several examples packed into one long sentence so that coverage replaces emphasis.
@@ -85,6 +88,8 @@ When several parallel items are genuinely needed, first state why the set matter
 
 Treat the writer's own revisions as higher-value voice evidence than generic requests such as `make it more natural`. Compare what changed: whether the writer made an agent more visible, replaced a defensive contrast with an affirmative statement, separated a hidden logical step, shortened an abstract sentence, introduced a direct question, or changed the balance of long and short sentences. Carry reliable patterns into later paragraphs while preserving genre and context.
 
+Infer rhetorical habits as functions, not surface tokens. A writer's question may invite identification, a pause may keep the writer present, and explicit enumeration may reassure a reader facing unfamiliar material. Reproduce the relationship or movement when it recurs; do not mechanically repeat the same question form, filler phrase, or connective.
+
 ## Compact final pass
 
 Before returning drafted or language-revised prose, check:
@@ -96,6 +101,8 @@ Before returning drafted or language-revised prose, check:
 - Are contrast, enumeration, and closure earned by the material?
 - Do several paragraphs repeat the same movement or cadence?
 - Did an outline, taxonomy, or source list survive as catalogue-like prose instead of a shaped paragraph?
+- Did a planning note survive as prose that announces why an example or question is useful instead of enacting it?
+- Did a rhetorical question get misread as a literal argumentative promise, or did a real argumentative question get treated as decoration?
 - Can metadiscourse or nominalization be replaced by the actual action?
 - Does the ending remain within the scope established by the body?
 

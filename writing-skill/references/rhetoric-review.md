@@ -45,6 +45,8 @@ Surface the full reconstruction only when the user requests systematic diagnosis
 - Does the body perform the action promised by the title and opening?
 - Does the conclusion complete, narrow, or quietly replace that action?
 
+Before treating an opening question, familiar claim, shared scene, or aside as a thesis or premise, identify its rhetorical function. It may invite identification, recall a commonplace, regulate pace, anticipate distance, or reorient the discussion without becoming an argumentative promise. Flag it as misleading only when the prose actually leads the intended reader to expect a claim that the article neither makes nor fulfills.
+
 ### Focus and arrangement
 
 - Does each section advance the same governing question?

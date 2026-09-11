@@ -32,7 +32,13 @@ Use an internal micro-outline and continue without interruption when the request
 
 Skip a new outline when the user requests immediate drafting or has already confirmed an equivalent outline or writing brief.
 
-When a visible outline is required, return it as the deliverable for that stage and stop before continuous prose or file mutation. A commentary summary of the plan is not an outline for author review. If the writer requested both outline and prose in one turn, continue only when the outline exposes no consequential author decision.
+When a visible outline is required, return it as the deliverable for that stage and stop before continuous prose or mutation of the target draft. Creating or updating a persistent line-of-argument artifact is part of the outline stage, not a prohibited draft mutation. A commentary summary of the plan is not an outline for author review. If the writer requested both outline and prose in one turn, continue only when the outline exposes no consequential author decision.
+
+## Persist the outline for a substantial project
+
+When a full argumentative article or substantial section is stored as a project artifact, follow [line-of-argument.md](line-of-argument.md). Create or update the line-of-argument Markdown file as the visible outline deliverable. Return a link to it and the few decisions that most need review. Do not duplicate the entire artifact in chat unless the writer asks to see it inline.
+
+Later writer corrections update this artifact before further substantive drafting. This makes the current argument inspectable across writing rounds without turning the outline into a fixed contract: confirmed concepts and relations may change, but the change must become explicit before downstream prose relies on it.
 
 ## Reconstruct before elaborating
 

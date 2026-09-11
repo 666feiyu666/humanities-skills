@@ -42,6 +42,8 @@ Check whether apparent order exceeds the material actually established:
 
 Remove the signal, repair the relation, or mark the missing decision. Do not preserve symmetry for its own sake.
 
+Treat these as warning signs, not bans. Deliberate `首先／其次／最后`, rhetorical questions, direct address, visible transitions, pauses, and first-person metadiscourse can orient the reader and establish the writer-reader relationship. Preserve them when they perform that work, especially when the writer has chosen them. Ask whether the structure helps this reader follow this movement, not whether it resembles a generic list of prohibited forms.
+
 ## Detect repetitive model-like movement
 
 Look across several paragraphs, not only one sentence:
@@ -53,6 +55,7 @@ Look across several paragraphs, not only one sentence:
 - uniform sentence length and cadence;
 - a local summary after every small point;
 - repeated explanation of what the article is about to do or has just done;
+- planning language that describes why an example, question, or transition would be useful instead of actually using it;
 - polished closing sentences that turn each paragraph into an aphorism;
 - an outline or taxonomy copied into prose as repeated frames such as `以……为中心，可以……却……` for every item;
 - several examples packed into one long sentence so that coverage replaces emphasis.
@@ -71,6 +74,8 @@ When several parallel items are genuinely needed, first state why the set matter
 - Do not replace a concrete `我为什么开始在意这个问题` with impersonal process language unless the genre requires it.
 
 Treat the writer's own revisions as higher-value voice evidence than generic instructions such as `更自然`. Compare what changed: whether the writer made the subject more visible, replaced a defensive contrast with an affirmative statement, separated a hidden logical step, shortened an abstract sentence, introduced a direct question, or changed the balance of long and short sentences. Carry reliable patterns into later paragraphs while preserving genre and context.
+
+Infer rhetorical habits as functions, not surface tokens. A writer's use of a question may invite identification, a pause may keep the writer present, and explicit enumeration may reassure a reader facing unfamiliar material. Reproduce the relationship or movement when it recurs; do not mechanically repeat the same question form, filler word, or connective.
 
 ## Improve sentences and paragraphs
 
@@ -101,6 +106,8 @@ Before returning drafted or language-revised prose, check:
 - Are contrast, enumeration, and closure earned by the material?
 - Do several paragraphs repeat the same movement or cadence?
 - Did an outline, taxonomy, or source list survive as catalogue-like prose instead of a shaped paragraph?
+- Did a planning note survive as prose that announces why an example or question is useful instead of enacting it?
+- Did a rhetorical question get misread as a literal argumentative promise, or did a real argumentative question get treated as decoration?
 - Can metadiscourse or nominalization be replaced by the actual action?
 - Does the ending remain within the scope established by the body?
 

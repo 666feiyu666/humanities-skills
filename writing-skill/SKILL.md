@@ -1,13 +1,13 @@
 ---
 name: writing-skill
-description: "Collaborate on Chinese or English argumentative prose: turn writer-owned briefs, outlines, notes, or drafts into author-reviewable writing; review or revise existing prose; and preserve the writer's claims, reasoning, evidence boundaries, and voice. Use for outlining, drafting, continuation, prose review, or revision. Return genuinely unchosen central questions to thinking-skill and source verification to reading-skill."
+description: "Collaborate on Chinese or English argumentative prose: turn writer-owned briefs, outlines, notes, or drafts into a living line of argument and rhetorically situated, author-reviewable prose; review or revise existing writing; and preserve the writer's claims, reasoning, evidence boundaries, and voice. Use for outlining, drafting, continuation, prose review, or revision. Return genuinely unchosen central questions to thinking-skill and source verification to reading-skill."
 ---
 
 # Writing Skill
 
 ## Purpose
 
-Own the movement from a writer-owned direction and actual material into an author-reviewable writing outline and continuous Chinese or English prose, then help review or revise that prose without replacing the writer's substantive commitments.
+Own the movement from a writer-owned direction and actual material into an author-reviewable line of argument and rhetorically situated Chinese or English prose, then help review or revise that prose without replacing the writer's substantive commitments.
 
 `writing-skill` owns article openings, audience-directed exposition, transitions, body paragraphs, conclusions, and the local writing decisions needed to produce them. It may organize and elaborate an existing direction; it must not choose what the writer ought to believe.
 
@@ -34,7 +34,9 @@ Use `thinking-skill` instead when the user asks to explore what to think, discov
 
 Before outlining, drafting, or revising, inspect the material the user placed in scope: their prompt, headings, notes, examples, existing prose, relevant project files, established source packets, and corrections made during the conversation.
 
-Reconstruct a compact working brief from that material before substantial drafting: the genre or publication purpose, intended reader, governing question or action, writer-owned central judgment when one exists, required material, length or format constraints, exclusions, and available evidence of voice. Infer stable items without turning them into a questionnaire. Surface only an uncertainty that would materially change the text.
+When a substantial argumentative writing project has a persistent line-of-argument file, read it before drafting or materially revising the prose. Treat the writer's current instruction and later corrections as newer authority: update a stale line rather than using it to override the writer.
+
+Reconstruct a compact working brief from that material before substantial drafting: the genre or publication purpose, intended reader and likely starting position, desired writer-reader relationship, governing question or action, writer-owned central judgment when one exists, required material, length or format constraints, exclusions, and available evidence of voice. Infer stable items without turning them into a questionnaire. Surface only an uncertainty that would materially change the text.
 
 Keep these statuses distinct when they matter:
 
@@ -52,9 +54,19 @@ For argumentative prose, reconstruct the minimum claim path and the relation bet
 
 Consume established notes and source packets rather than browsing Zotero or extracting attachments. Return unestablished quotations, concepts, attributions, factual claims, comparisons, or evidence to `reading-skill` with the exact check required.
 
+## Maintain a living line of argument
+
+For a substantial argumentative article or section stored as a project artifact, create and maintain a separate Markdown line-of-argument file before continuous prose. Also use one when the writer explicitly asks for a living outline, argument context, or multi-round structural state. Read [references/line-of-argument.md](references/line-of-argument.md) for its scope, contents, authority, and update cycle.
+
+The line-of-argument file records the current intended argument, especially the governing question, central judgment, core concepts, relations among argumentative movements, section or passage jobs, compact rhetorical situation, assigned material, and unresolved decisions or source checks. It is neither a topic list, a prose synopsis, nor a project log.
+
+Before substantial drafting or revision, reconcile the writer's latest instruction with this file. Update the file first when a central concept, relation, claim, or section job has changed. A consequential model-proposed change remains reviewable and does not become drafting authority until the writer accepts it, unless the writer explicitly requests outline and prose together or immediate drafting. Local language edits and other changes that leave the argument intact do not require ceremonial outline edits.
+
+Any Codex modification to the persistent line-of-argument file resets its visible status to awaiting review, including an edit that incorporates explicit writer comments. Only the writer may change that status back to reviewed or writer-confirmed. Codex must not preserve or restore a reviewed status on the writer's behalf after changing the artifact.
+
 ## Refine a reviewable writing outline
 
-Read [references/collaborative-drafting.md](references/collaborative-drafting.md) when the user supplies rough material, asks for an outline, or a substantial new draft or continuation would benefit from visible structural review.
+Read [references/collaborative-drafting.md](references/collaborative-drafting.md) when the user supplies rough material, asks for an outline, or a substantial new draft or continuation would benefit from visible structural review. When the living line-of-argument workflow applies, the reviewable outline is written to that artifact rather than being discarded after the stage.
 
 For a full article or substantial new section based on a rough outline, return a more detailed writing outline for author review before continuous prose. The outline may be a compact passage map for a short unheaded essay; it need not manufacture sections. A commentary update or one-sentence plan is not the reviewable outline. End that drafting stage after the outline and do not write prose or modify the target draft until the writer confirms or corrects it, unless the writer explicitly requests immediate drafting, asks for outline and prose together, or has already confirmed an equivalent structure. For a short, clearly directed continuation, an internal micro-outline is enough unless it exposes a consequential change.
 
@@ -70,9 +82,11 @@ Structural elaboration may make existing material writable. It must not silently
 
 ## Draft or continue prose
 
-Treat the confirmed outline, brief, writer-authored notes, and later corrections as authoritative for substantive direction. For drafting and language revision, read [references/chinese-prose-quality.md](references/chinese-prose-quality.md) when the target prose is Chinese and [references/english-prose-quality.md](references/english-prose-quality.md) when it is English. Read [references/reflective-public-essay-profile.md](references/reflective-public-essay-profile.md) only for Chinese prose when that specific reflective public-essay profile is explicitly requested or established for the project; do not transfer it to English prose by translation.
+Treat the confirmed line of argument, brief, writer-authored notes, and later corrections as authoritative for substantive direction. For a full article or substantial new passage, continuation, or revision, read [references/rhetorical-drafting.md](references/rhetorical-drafting.md) before composing continuous prose. For drafting and language revision, also read [references/chinese-prose-quality.md](references/chinese-prose-quality.md) when the target prose is Chinese and [references/english-prose-quality.md](references/english-prose-quality.md) when it is English. Read [references/reflective-public-essay-profile.md](references/reflective-public-essay-profile.md) only for Chinese prose when that specific reflective public-essay profile is explicitly requested or established for the project; do not transfer it to English prose by translation.
 
-Draft from paragraph or passage jobs rather than transcribing outline bullets into sentences. Preserve the hierarchy among governing claims, necessary bridges, explanation, and examples. In a tight word or character budget, select representative material and give the central relation enough room; do not compress every available point into a catalogue of parallel clauses.
+Do not draft directly from the line-of-argument nodes or transcribe outline bullets into sentences. First convert the confirmed direction into an internal reader path: where the reader enters, how the writer invites or reorients them, what makes each next movement relevant, and where the passage should leave them. Then compose from those rhetorical movements while preserving the hierarchy among governing claims, necessary bridges, explanation, and examples. An argument node is not a paragraph, an outline arrow is not a connective, and an argumentative boundary is not automatically a disclaimer that must appear in the prose.
+
+In a tight word or character budget, select representative material and give the central relation enough room; do not compress every available point into a catalogue of parallel clauses. Explicit enumeration, questions, direct address, pauses, and metadiscourse may be appropriate rhetorical choices when they orient this reader in this piece. Judge their function rather than banning or inserting them by formula.
 
 Preserve quotations, citations, examples, conceptual distinctions, humor, hesitation, qualification, and uncertainty. Mark missing support rather than inventing it. Do not strengthen, universalize, moralize, or settle a tentative idea merely to make the prose complete.
 
@@ -80,7 +94,7 @@ Treat the writer's revisions as evidence about both meaning and the voice approp
 
 Allow productive changes in sentence order, paragraphing, emphasis, and local sequence when they realize the same confirmed direction. Report only deviations that alter the outline's substantive path.
 
-After a substantial draft or revision, silently reconstruct the realized question, claim path, paragraph jobs, and conclusion from the prose itself. Compare them with the confirmed brief or outline. Repair accidental additions, omissions, false relations, catalogue-like compression, and displaced emphasis before returning the text; surface only consequential differences that require author judgment.
+After a substantial draft or revision, run two silent reconstructions from the prose itself. First reconstruct the realized question, claim path, paragraph jobs, and conclusion, then compare them with the confirmed brief or line of argument. Second reconstruct the reader's actual path: the expectation created by the opening, the relationship established with the writer, why each movement arrives when it does, and the position in which the ending leaves the reader. Repair accidental additions, omissions, false relations, catalogue-like compression, displaced emphasis, planning language that leaked into prose, and passages that cover outline points without creating reader-visible movement. When a persistent line-of-argument artifact exists, reconcile it with any accepted substantive change; do not silently rewrite it to legitimize an unreviewed deviation in the prose. Surface only consequential differences that require author judgment.
 
 When continuing existing prose:
 
@@ -113,9 +127,9 @@ When the user asks for review, return comments rather than rewritten prose. When
 
 ## Compare intended and realized structures
 
-Use the silent comparison pass above for every substantial draft or revision governed by a confirmed outline or brief. When the writer asks for structural comparison, or when a consequential mismatch requires review, keep separate in the response:
+Use the silent comparison pass above for every substantial draft or revision governed by a confirmed line of argument or brief. When the writer asks for structural comparison, or when a consequential mismatch requires review, keep separate in the response:
 
-1. the intended structure supplied or confirmed before drafting;
+1. the intended structure supplied or confirmed before drafting, normally preserved in the line-of-argument artifact for a substantial project;
 2. the realized structure reconstructed independently from the prose.
 
 Compare omissions, additions, reordered relations, and productive deviations. Do not assume the intended structure is automatically better, and do not reinterpret an ambiguous visual argument map inside this skill.
@@ -134,7 +148,7 @@ The writer may accept the artifact unchanged, revise it directly, request revisi
 
 ## Return results
 
-- For a visible outline stage, return the detailed writing outline first, followed only by consequential model proposals, author decisions, and source checks that need review.
+- For a visible outline stage, return the detailed writing outline first or link the persistent line-of-argument artifact that contains it, followed only by consequential model proposals, author decisions, and source checks that need review.
 - For drafting or continuation, return continuous prose first. Add a compact note only when consequential proposals, source checks, deviations, or author decisions remain.
 - For review, return prioritized comments with locations, reasons, and consequences; do not rewrite unless authorized.
 - For revision, return revised prose first and a short change note only when it helps the writer verify the requested work or the project requires one.

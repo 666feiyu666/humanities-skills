@@ -25,6 +25,7 @@ Common relations include:
 - **Sequence**: the next unit follows in time or procedure, not necessarily in logic.
 - **Question sequence**: answering one question makes another relevant, without implying that the first answer causes or proves the second.
 - **Reorientation**: the text changes the governing question or level of analysis.
+- **Reader orientation or identification**: the unit recalls a shared scene, commonplace, difficulty, or stance so the reader can enter the next movement; it need not serve as a premise.
 - **Summary or closure**: the unit consolidates what has already been established.
 
 ## Detect common failures
@@ -33,6 +34,7 @@ Common relations include:
 - **Missing warrant**: `因此` or `therefore` jumps from material to a conclusion whose bridge remains unstated.
 - **Missing middle**: two defensible propositions are connected directly even though the second follows only through an intermediate claim the reader has not been given.
 - **Question-as-inference**: the next question is presented as a logical result when it is actually the next stage of exposition or a change in level.
+- **Rhetorical over-literalization**: a question, commonplace, pause, or aside that orients the reader is treated as a thesis, factual premise, causal claim, or promise that must be defended.
 - **Decorative contrast**: `但是`, `不过`, `but`, or `however` introduces continuation, qualification, or a new topic rather than a genuine contrast.
 - **Pseudo-concession**: `当然`, `of course`, or `to be sure` names no real pressure on the main claim and only performs politeness.
 - **Unequal comparison**: two terms contrasted by `一方面／另一方面` or `on one hand / on the other hand` answer different questions or operate at different levels.
@@ -65,6 +67,7 @@ Repair the underlying relation before replacing the connective. Depending on the
 - split two relations now compressed into one sentence;
 - replace a false causal statement with a descriptive association;
 - mark a genuine change of question;
+- preserve a reader-facing move without forcing it into an inferential role, clarifying it only when it creates a genuinely misleading expectation;
 - remove the connective when juxtaposition already makes the relation clear;
 - mark a question sequence directly instead of inventing a causal or contrastive bridge.
 
