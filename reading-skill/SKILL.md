@@ -73,7 +73,7 @@ Codex may propose a checkpoint when a coherent line has reached temporary stabil
 
 A proposed checkpoint is only a reminder. Do not interrupt active exploration merely to tidy the record, do not repeat the suggestion after the writer declines, and do not save or create anything until the writer confirms. Keep session preservation and card creation as separate choices.
 
-A session record is chronological; a reading card is semantic. According to the writer's choice, one session may produce no cards or several cards, while one card may draw on several sessions or source passages.
+A session record is chronological; a reading card is semantic. Number only substantive source-reading exchanges as Q&A. Put source setup in session information and keep checkpoint consent, card-making decisions, and artifact logistics out of the Q&A path; link resulting cards briefly after the dialogue. According to the writer's choice, one session may produce no cards or several cards, while one card may draw on several sessions or source passages.
 
 ## Establish the source
 

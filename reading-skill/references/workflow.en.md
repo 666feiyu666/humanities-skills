@@ -14,4 +14,4 @@ Answer the writer's live question directly, identify the source basis, and state
 
 ## Records and cards
 
-Use natural English headings and provenance labels. A checkpoint suggestion should be brief, for example: “Would you like to save this round as a reading record before deciding whether any cards are worth making?” Do not save until the writer agrees. Keep chronological session records separate from semantic reading cards, and return created or revised artifacts for author review.
+Use natural English headings and provenance labels. For a new session record, use “Session information,” “Reading dialogue,” and, when needed, “Follow-up”; use “Source,” “Source identity and origin,” “Reading basis and actual coverage,” “Locators and extraction limits,” and “Session date” for the corresponding metadata. A checkpoint suggestion should be brief, for example: “Would you like to save this round as a reading record before deciding whether any cards are worth making?” Do not save until the writer agrees. Keep chronological session records separate from semantic reading cards, and return created or revised artifacts for author review.
