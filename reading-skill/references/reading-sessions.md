@@ -63,3 +63,13 @@ The reading dialogue contains only exchanges that develop understanding of a sou
 - Retain the order of substantive questions, including detours and changes of understanding that matter.
 - Add locators only when verified; do not manufacture retrospective precision.
 - Let later reading cards link and selectively condense the session. Never delete the session because cleaner cards now exist.
+
+## Optional question-path synthesis
+
+Use only when the writer explicitly asks how a reading question developed across exchanges or sessions. Work from dialogue and records placed in scope. Select the initial question, consequential textual clarifications, changes in the question, and what remains open. These are useful elements, not required headings or a fixed early/middle/late reading sequence. Preserve only turns supported by the actual discussion; do not invent a trajectory or turn repetition, pauses, and unresolved questions into inevitable progress toward a conclusion.
+
+Keep the synthesis distinct from the chronological record. Make consequential compression, inference, and reorganization visible, and link the relevant records or exchanges when available. Never replace, overwrite, or silently repair the original Q&A. Return the synthesis for author review; do not present model-selected turning points as the writer's confirmed account.
+
+Return the synthesis in the requested form, in the response when no separate saved synthesis is requested. Existing checkpoint rules still govern preservation of the underlying multi-turn dialogue: a synthesis request authorizes the applicable session record, but not a new card. Do not automatically create a separate synthesis file, directory, card type, or a recurring end-of-answer summary. Follow the writer's explicit preservation scope and the existing card-selection rules.
+
+Keep reconstruction of how the source became clearer in reading. When the writer wants to develop their own judgments or connections, hand that work to `thinking-skill`; when they request continuous exposition, a learning article, or a review, use `writing-skill`. Do not route ordinary source-understanding changes to meta-reflection. Reflection on learning methods, mastery, or future direction requires the writer's explicit invocation of that skill.

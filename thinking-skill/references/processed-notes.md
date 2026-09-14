@@ -124,12 +124,14 @@ Use only when the writer asks to prepare for drafting and the writing-readiness 
 
 ## Line-of-thought memo
 
-When useful, add a short memo explaining how one judgment led to another. It may use connected sentences, but must remain metacognitive:
+When useful, add a short memo explaining how one judgment led to another and what reasons prompted the change. It may use connected sentences, but stays with judgments and relations in the inquiry itself:
 
 - explain the change in judgment;
 - name the relation among nodes;
 - preserve uncertainty and alternatives;
 - avoid hooks, audience address, publication transitions, and rhetorical closure.
+
+Do not infer from these changes what the writer has mastered, whether a learning method worked, or what they should do next. Those are matters for explicitly invoked meta-reflection, not this memo.
 
 If the memo begins to perform an essay's opening, development, or conclusion, stop and hand it to `writing-skill`.
 
