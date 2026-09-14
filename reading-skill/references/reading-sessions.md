@@ -22,18 +22,12 @@ Once promoted, keep the session as persistent provenance rather than temporary c
 
 ## Record shape
 
-Use the same order and semantic headings across projects: session information, reading dialogue, then a short follow-up section only when needed. The English labels below identify semantic fields; localize them when the record is in Chinese. Keep an existing record's language when revising it. Use the same names for equivalent metadata fields within one language, while omitting fields that carry no information.
+Keep the reader close to the chronological dialogue. Use the shortest useful source note; there are no mandatory header fields. A single source line is often sufficient. Omit “Session information” when it would merely wrap that line or repeat what the title and citations already establish. Add coverage, date, or a source limitation only when it matters for this record. Preserve an existing artifact’s language and the author-reviewed form. Apply the source-note relevance and author-review rules in SKILL.md.
 
 ```markdown
 # Reading session: Topic
 
-## Session information
-
-- Source:
-- Source identity and origin:
-- Reading basis and actual coverage:
-- Locators and extraction limits:
-- Session date:
+Source: Author, title; link or locator when useful.
 
 ## Reading dialogue
 
@@ -43,23 +37,22 @@ Use the same order and semantic headings across projects: session information, r
 
 **Codex:** Answer given at the time
 
-- Source basis and locator:
-- Status: source reconstruction / model interpretation / writer response / open question, as applicable
-
 ## Follow-up
 
 - Related card: Link, if one was created
 - Open source check: Specific unresolved check, if one remains
 ```
 
-Use only fields that carry information. Preserve the writer's questions verbatim. Preserve Codex's answers verbatim when practical; if a response must be shortened, mark it `[edited for length]` or a clear localized equivalent, and do not strengthen its claims. A descriptive Q heading may summarize the exchange, but it must not replace the writer's wording or turn a model formulation into the writer's question. Retain substantive follow-ups in their actual order under the relevant Q or as the next Q.
+This example is a flexible starting point, not a form to complete. Add per-answer locators or provenance notes only when they clarify something not already stated. Supplementary sources can be cited at the relevant answer rather than collected again in the header. Retain a concrete limitation such as an illegible quoted line when it affects the claim; omit routine extraction and language-history details.
 
-The reading dialogue contains only exchanges that develop understanding of a source, an interpretation, or a source-grounded extension. A request to locate a source belongs in session information or a brief source-establishment note before the dialogue. Checkpoint consent, card proposals, choices about card title or structure, implementation plans, and artifact review logistics are not reading questions and must not be numbered as Q&A. In the follow-up section, give only links to related artifacts, specific unresolved checks, or a brief boundary note needed to explain the session's continuation; do not reproduce the negotiation or duplicate the dialogue as a mini-card. Preserve a substantive correction to a source claim or interpretation in a dated post-session correction, separate from card-format changes.
+Preserve the writer's questions verbatim. Preserve Codex's answers verbatim when practical; if a response must be shortened, mark it `[edited for length]` or a clear localized equivalent, and do not strengthen its claims. A descriptive Q heading may summarize the exchange, but it must not replace the writer's wording or turn a model formulation into the writer's question. Retain substantive follow-ups in their actual order under the relevant Q or as the next Q.
+
+The reading dialogue contains only exchanges that develop understanding of a source, an interpretation, or a source-grounded extension. A request to locate a source belongs in session information or a brief source-establishment note before the dialogue. Checkpoint consent, card proposals, choices about card title or structure, implementation plans, and artifact review logistics are not reading questions and must not be numbered as Q&A. In the follow-up section, give only links to related artifacts, specific unresolved checks, or a brief boundary note needed to explain the session's continuation; do not reproduce the negotiation or duplicate the dialogue as a mini-card. Use the integrity rule below for substantive corrections; do not append routine revision histories.
 
 ## Integrity rules
 
 - Keep source reconstruction, model interpretation, writer response, and open questions distinguishable.
-- Append dated corrections or links to later turns; never silently repair an earlier answer.
+- When an uncorrected earlier answer would mislead later reading, append a concise dated correction or link to the corrected card; do not repeat the full diagnosis in both artifacts. Never silently repair an earlier answer. Honor the writer’s deliberate edits or deletions of correction notes.
 - Retain the order of substantive questions, including detours and changes of understanding that matter.
 - Add locators only when verified; do not manufacture retrospective precision.
 - Let later reading cards link and selectively condense the session. Never delete the session because cleaner cards now exist.

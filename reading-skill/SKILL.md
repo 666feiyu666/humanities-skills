@@ -77,7 +77,7 @@ A session record is chronological; a reading card is semantic. Number only subst
 
 ## Establish the source
 
-Identify the work, edition or translation when known, source origin, available reading range, extraction quality, and location system such as print page, ebook location, chapter, or section. Use the actual source file whenever an exact answer, quotation, or page reference is required.
+Identify the work, edition or translation when known, source origin, available reading range, extraction quality, and location system such as print page, ebook location, chapter, or section. These are source-establishment checks, not mandatory fields in the delivered artifact. Use the actual source file whenever an exact answer, quotation, or page reference is required.
 
 Treat source origin and reading basis as separate dimensions. A file supplied in chat, stored in the project, or located through Zotero can each support `direct_source`, but only after the relevant content has actually been inspected. Metadata, attachment availability, and library membership are not textual evidence.
 
@@ -96,6 +96,14 @@ If the relevant original is absent or incomplete after checking the sources the 
 Never invent quotations, page numbers, chapter locations, coverage, or missing arguments. Never call a web reconstruction “reading the book” without qualification.
 
 Use the relevant file-format skill or extraction tool when needed. Preserve page or section boundaries during extraction whenever possible.
+
+## Keep source notes useful
+
+Separate the evidence needed to do the work from the information worth publishing in a reading record or card. Retain what lets the writer identify the source, return to the relevant passage, understand actual coverage, and assess a specific claim. This relevance rule governs source metadata in all supporting workflows; their checklists are not instructions to publish a tool log.
+
+Keep source notes as simple as possible. There is no mandatory metadata field set: a source line may suffice, and information already clear from the title, citations, or dialogue need not be repeated. Add reading basis, coverage, dates, or limits only where their omission would hinder retrieval or mislead the reader. Add extraction details only when they change how a cited passage can be recovered or trusted. Omit routine OCR success counts, software names, complete page-offset tables, temporary or dead download paths, language-switch history, and citation-formatting history. Do not automatically write or transfer operational details into records, cards, appendices, or separate logs. Retain such details only when the writer requests them or they are necessary to resolve a concrete source problem. Keep a stable available source link or identifier; retain an unavailable path only if it is needed to recover the source. Unknown edition details deserve a caveat when they affect the claim or citation, not a routine catalog of unknowns.
+
+State a consequential limitation once where it matters. Preserve an actual source error or interpretive uncertainty; avoid generic disclaimers and repeated accounts of Codex's revisions. The chronological dialogue carries the development of understanding; the card explains the resulting knowledge unit.
 
 ## Keep voices separate
 
@@ -162,17 +170,7 @@ Do not invent the writer's motivation, experience, conceptual priority, or subst
 
 In a declared local reading project, preserve a substantive multi-turn Q&A as a chronological session record before creating writer-selected cards from it. Treat the session and cards as separate artifacts; do not silently repair, overwrite, or delete the Q&A path when producing a cleaner synthesis.
 
-Use the forms and routing criteria in [references/reading-cards.md](references/reading-cards.md). Across card types, preserve what is needed to recover and evaluate the unit:
-
-- the reading range and locators;
-- the source origin and stable source identity when one is available;
-- the reading basis and actual coverage;
-- the file format, extraction method, and any OCR or locator limits that affect verification;
-- web sources and the claims each supports when applicable;
-- a link to the relevant reading-session record when one exists;
-- the source reconstruction, open question, or other unit that gives the card its function;
-- interpretations and unresolved checks with their status;
-- the writer's interests without converting them into settled claims.
+Use the forms and routing criteria in [references/reading-cards.md](references/reading-cards.md). Make the unit's source support recoverable through useful references and a relevant session link. Clarify coverage, reading basis, interpretation, and unresolved questions where they affect understanding, without requiring separate metadata fields. Apply the source-note relevance rule above rather than reproducing the source-establishment checklist. Integrate the writer's conceptual center without turning tentative interests into settled claims.
 
 When the writer asks to revise a card, edit the active card rather than creating version-suffixed copies. In a Git-managed project, use Git history for ordinary revisions. Mark a previous interpretation as corrected or superseded inside the card only when that history is important to later understanding. Never silently turn an open question into a source-supported answer.
 
@@ -186,6 +184,8 @@ Treat every session record, reading card, or substantial card revision produced 
 - whether Codex added, omitted, strengthened, or reorganized anything consequential.
 
 The writer may accept the artifact unchanged, correct it directly, request revision, or reject it. Apply requested corrections to the active artifact and return the affected whole for another review when the change is consequential. Do not call a card writer-shaped, writer-confirmed, or ready for authoritative downstream use before this review gate closes. Source verification by Codex does not substitute for the writer's review of meaning and ownership.
+
+The author-reviewed artifact is the highest authority for subsequent edits within this workflow: its deletions, qualifications, wording, structure, and review status take precedence over skill defaults, templates, earlier drafts, and Codex’s preferred formulation. Read the current files and change only what the writer requests. Do not restore deleted material, strengthen a qualified judgment, normalize the document back to a template, or reset an unchanged reviewed artifact to draft. Source checking does not authorize silently overriding author edits; raise a specific new factual concern separately if needed. When learning from review, distinguish a reusable preference from a one-off content choice.
 
 Do not maintain project-wide progress, root indexes, cross-card agendas, or writing-project status. Do not append a routine meta-reflection or invoke `meta-reflection-skill` when reading work closes. If the writer explicitly requests meta-reflection in the same task, keep the reading result factual and distinguish source coverage and open checks from the writer's reflection on what they learned.
 

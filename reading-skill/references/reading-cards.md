@@ -81,7 +81,7 @@ A knowledge card should remain readable after the immediate conversation has bee
 
 ### Structure requirements
 
-Required sections must always appear with substantive content:
+For new knowledge cards, use the following sections with substantive content. These defaults never override the author’s reviewed structure or deletions:
 
 - **Title**
 - **Logical skeleton**
@@ -93,7 +93,7 @@ Optional sections should be omitted unless they add useful, non-duplicative mate
 - **My experience and practical extension**
 - **Relations and further questions**
 
-Within **Sources and limits of understanding**, always include the source and locator, actual reading coverage, and reading basis. Include a related session record when one exists, and include “Still to verify” only when open source checks remain. If the required sections cannot yet be supported, continue the dialogue or recommend a question card rather than creating an empty or speculative knowledge card.
+Keep **Sources and limits of understanding** as simple as possible: a useful source reference and related session link may suffice. Explain reading basis, coverage, or uncertainty only where needed to assess the unit; there is no mandatory metadata field set. Do not repeat information already clear from the explanation or citations. Apply the source-note relevance rule in SKILL.md. If the knowledge unit itself is not yet supported, continue the dialogue or recommend a question card rather than filling a template.
 
 Default form:
 
@@ -115,9 +115,7 @@ relation instead of repeating the skeleton as a longer list.
 
 ## Sources and limits of understanding
 
-- Source and locator:
-- Actual reading coverage:
-- Reading basis: direct source / partial source / web reconstruction
+Source: Useful reference or passage locator. Related session: Link, when one exists.
 ```
 
 Never invent personal experience. Do not add a generic section to restate the writer's contribution or Codex's refinement after both have already been integrated into the logic chain and brief expansion. Faithfully preserve experience or practical reasoning already supplied or confirmed by the writer, but hand off to `thinking-skill` when that reasoning still needs to be developed or tested. A model-proposed extension remains an interpretation or open question until the writer confirms it.
@@ -128,7 +126,7 @@ A question card preserves an open problem as a productive entrance, not as a fai
 
 ### Structure requirements
 
-The default question-card sections are required because together they preserve the question's origin, current state, unresolved edge, and route back into inquiry:
+For new question cards, the following default sections preserve the question’s origin, current state, unresolved edge, and route back into inquiry. Honor the author’s reviewed structure and deletions when revising:
 
 - **Central question**
 - **How the question arose**
@@ -137,7 +135,7 @@ The default question-card sections are required because together they preserve t
 - **Where to return next**
 - **Sources and relations**
 
-Within **Where to return next**, include at least one applicable return route: a passage to reread, an additional source to seek, or a specific question to continue. Within **Sources and relations**, always include the source and locator, actual reading coverage, reading basis, and status. Include links to a related session record or knowledge card only when those artifacts exist. Add any further optional section only when the writer accepts a distinct retrieval function for it.
+Within **Where to return next**, include at least one applicable return route: a passage to reread, an additional source to seek, or a specific question to continue. Within **Sources and relations**, provide the source reference and any coverage, reading-basis, or status distinction needed to understand this question, without a fixed metadata checklist. Include links to a related session record or knowledge card only when those artifacts exist. Add any further optional section only when the writer accepts a distinct retrieval function for it.
 
 Default form:
 
@@ -162,10 +160,7 @@ State at least one concrete return route: a passage to reread, an additional sou
 
 ## Sources and relations
 
-- Source and locator:
-- Actual reading coverage:
-- Reading basis: direct source / partial source / web reconstruction
-- Status: open / partially resolved / resolved
+Source: Useful reference. Add a status or coverage note only when needed.
 ```
 
 When later reading resolves the question, update its status and link the answer or resulting knowledge card. Do not silently rewrite the original question into a claim.
@@ -185,13 +180,13 @@ Apply markers locally at the point of genuine ambiguity. Do not label every para
 
 Locators may be pages, ebook locations, chapter and section names, or stable paragraph identifiers. Never fabricate a locator. When a claim comes from web research, cite the actual page and do not replace its locator with an inferred book page.
 
-For `partial_source` and `web_reconstruction`, retain actual visible coverage, an evidence ledger when multiple web sources matter, coverage gaps, and claims that require checking against the original.
+For `partial_source` and `web_reconstruction`, retain actual visible coverage and gaps affecting the claims. Use a compact evidence ledger when the source-to-claim mapping would otherwise be unclear; multiple links alone do not require a table. Do not copy the full research log into the card.
 
 For a Zotero-located source, use the bibliographic item key and attachment key as the stable local identity when useful. Record filename, content type, link mode, extraction method, and locator limits only when they affect recovery or verification. Do not preserve an absolute Zotero storage path as the durable identifier.
 
 ## Updating
 
-Edit the active card when the writer asks to revise it; do not create `v2`, `final`, or date-suffixed duplicates for ordinary changes. In a Git-managed project, let Git preserve routine history. Keep an inline correction or superseded interpretation only when the change itself matters to understanding.
+Edit the active card when the writer asks to revise it; do not create `v2`, `final`, or date-suffixed duplicates for ordinary changes. In a Git-managed project, let Git preserve routine history. Keep an inline correction or superseded interpretation only when the change itself matters to understanding. Prefer a corrected explanation and a link to the session’s concise correction over a duplicated account of the editing process. Author-reviewed removals remain authoritative.
 
 Question cards and knowledge cards may link to each other, but do not force a one-to-one conversion. A useful question can remain a durable entrance after an answer exists.
 
