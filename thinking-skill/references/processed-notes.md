@@ -133,7 +133,7 @@ When useful, add a short memo explaining how one judgment led to another and wha
 
 Do not infer from these changes what the writer has mastered, whether a learning method worked, or what they should do next. Those are matters for explicitly invoked meta-reflection, not this memo.
 
-If the memo begins to perform an essay's opening, development, or conclusion, stop and hand it to `writing-skill`.
+If the memo begins to perform an essay's opening, development, or conclusion, stop and hand it to the target-language writing skill (`writing-skill` for English prose; `writing-skill-zh` for Chinese prose).
 
 ## Closure rules
 

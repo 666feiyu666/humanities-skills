@@ -69,15 +69,15 @@ Render all headings and field labels in the brief language. The English labels b
 
 ## Writer decisions still open
 
-## Handoff to writing-skill
+## Handoff to the target-language writing skill
 
 - Draftable scope:
 - Qualifications that must remain:
-- Decisions writing-skill must not make:
+- Decisions the selected writing skill must not make:
 ```
 
 Create the brief only after the central direction is chosen or explicitly provisional. If candidates still compete, return conditional maps rather than a confident outline.
 
 ## Stop before prose
 
-The brief is the terminal artifact of `thinking-skill`. Do not draft the title hook, opening paragraph, transitions, body paragraphs, or conclusion. Hand these tasks to `writing-skill`.
+The brief is the terminal artifact of `thinking-skill`. Do not draft the title hook, opening paragraph, transitions, body paragraphs, or conclusion. Hand these tasks to the target-language writing skill (`writing-skill` for English prose; `writing-skill-zh` for Chinese prose).

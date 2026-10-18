@@ -1,4 +1,4 @@
 interface:
-  display_name: "Prose Collaborator"
-  short_description: "Draft and revise Chinese or English argumentative prose"
-  default_prompt: "Use $writing-skill to outline, draft, review, or revise argumentative prose in my requested language."
+  display_name: "English Writing"
+  short_description: "Draft, review, and revise English argumentative prose"
+  default_prompt: "Use $writing-skill to outline, draft, review, or revise my English prose while preserving my meaning and voice."

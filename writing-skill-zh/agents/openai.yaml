@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文写作"
+  short_description: "协作起草、审阅与修订中文论说文章，改善表达、标点与节奏，保留作者原意"
+  default_prompt: "使用 $writing-skill-zh 协作起草、审阅或修改我的中文文章，保留我的原意、判断边界和声音。"

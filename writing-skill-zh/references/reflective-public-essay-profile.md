@@ -4,7 +4,7 @@
 
 Use this profile only for Chinese target prose when the user requests this reflective philosophical public-essay voice or the active project has established it through relevant Chinese samples. It is not the default style for method explanations, design-process accounts, ordinary book reviews, or all Chinese argumentative prose. Do not transfer it to English prose by translating its examples or surface habits; establish any future English profile from relevant English samples or an explicit brief.
 
-Read [chinese-prose-quality.md](chinese-prose-quality.md) for general fidelity, naturalness, and formulaic-language checks. The rules below describe one genre-specific voice.
+Use [the Chinese writing skill](../SKILL.md) for general fidelity, naturalness, and formulaic-language checks. The rules below describe one genre-specific voice.
 
 ## Core voice
 

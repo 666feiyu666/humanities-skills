@@ -155,7 +155,7 @@ Do not produce:
 - a rhetorical conclusion;
 - a book review, essay, or commentary draft.
 
-When the user asks for a “complete note” without explicitly requesting an article draft, create a structured Markdown thinking record. Hand continuous drafting to `writing-skill`.
+When the user asks for a “complete note” without explicitly requesting an article draft, create a structured Markdown thinking record. Hand continuous drafting to the target-language writing skill (`writing-skill` for English prose; `writing-skill-zh` for Chinese prose).
 
 ## Close with a Markdown record
 
@@ -202,7 +202,7 @@ Create a writing brief only after the writer has chosen or provisionally accepte
 - the relevant evidence;
 - the status of consequential objections and limits.
 
-The brief records the confirmed map; it does not simulate future prose. Hand continuous drafting to `writing-skill`.
+The brief records the confirmed map; it does not simulate future prose. Hand continuous drafting to the target-language writing skill (`writing-skill` for English prose; `writing-skill-zh` for Chinese prose).
 
 When the writer has explicitly chosen a target prose language, translation policy, or terminology convention, include it in the writing brief or handoff. Do not infer the target prose language solely from the language of the thinking record.
 
@@ -225,4 +225,4 @@ For Route B work, return:
 - unresolved source checks;
 - an updated Markdown record at closure.
 
-For writing preparation, return the confirmed argument map and writing brief, and explicitly hand continuous drafting to `writing-skill` when the writer wants that movement. Do not add meta-reflection unless the writer explicitly requested it in the same task.
+For writing preparation, return the confirmed argument map and writing brief, and explicitly hand continuous drafting to the target-language writing skill (`writing-skill` for English prose; `writing-skill-zh` for Chinese prose) when the writer wants that movement. Do not add meta-reflection unless the writer explicitly requested it in the same task.

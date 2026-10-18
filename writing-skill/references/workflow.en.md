@@ -1,21 +1,8 @@
-# English Collaboration Workflow
+# English collaboration for English writing
 
-Use this profile when the collaboration language is English. The canonical capability and boundaries remain in `../SKILL.md`.
+Use English for planning, questions, review comments, and change notes. The capability and author-review requirements remain in [SKILL.md](../SKILL.md).
 
-## Language decisions
-
-- Conduct planning, drafting discussion, review comments, and revision explanation in English.
-- Preserve the language of active prose unless the writer authorizes translation. For a new draft, follow an explicit target language; otherwise infer it from the established writing brief and writer-owned material, not from sources alone.
-- Keep quotations in supplied wording, label model translations, and maintain a stable terminology choice.
-
-## English prose
-
-When the target prose is English, read [english-prose-quality.md](english-prose-quality.md) and draft directly in natural English. When the target is Chinese, read [chinese-prose-quality.md](chinese-prose-quality.md) even though collaboration remains in English. Use [reflective-public-essay-profile.md](reflective-public-essay-profile.md) only for the specifically established Chinese profile.
-
-## Prose craft within drafting and revision
-
-Use [prose-craft.md](prose-craft.md) with the target-language reference for drafting, continuation, and language work. Let the argument, reader path, and voice guide sentence structure and punctuation from the start; check the affected passage again after revision. A request for naturalness or less AI-like writing belongs within this process. Diagnose unclear relations, redundancy, rhythm, or register in context, and preserve effective passages. Keep stylistic preferences subordinate to meaning and author choice; preserve facts, attribution, qualifications, and protected file content. A review request returns comments rather than an automatic rewrite, and a punctuation-only request stays within that scope.
-
-## Interaction and review
-
-Explain only consequential decisions that affect direction, structure, evidence, uncertainty, or voice. Do not turn review into line-by-line commentary unless requested. Treat outlines, drafts, continuations, and substantial revisions as author-reviewable and identify model expansions that the writer may not wish to own. Ask for review around the one to three decisions most likely to alter meaning or voice rather than repeating a fixed checklist. Treat the writer's revisions as current evidence about both intended meaning and prose movement.
+- This skill produces or edits English prose. Collaboration language and source language do not change that target. Preserve quotations in supplied wording and label a requested model translation.
+- Follow the established English variety, genre, terminology, and voice. Do not turn a request for clarity into a new authorial position.
+- Explain only consequential choices about meaning, structure, evidence, uncertainty, or voice. Local review can remain focused; systematic reconstruction is conditional.
+- Return outlines, drafts, continuations, and substantial revisions for author review. Identify consequential model proposals without repeating a generic checklist.

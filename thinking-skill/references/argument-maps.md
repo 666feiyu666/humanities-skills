@@ -146,7 +146,7 @@ Use Mermaid when relations become easier to inspect visually. Quote labels conta
 
 ## Writing-readiness gate
 
-A map is ready to hand to `writing-skill` for the requested scope when:
+A map is ready to hand to the target-language writing skill (`writing-skill` for English prose; `writing-skill-zh` for Chinese prose) for the requested scope when:
 
 - one governing question is selected;
 - the central judgment is chosen or explicitly provisional;
