@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Review Chinese argumentative prose for fidelity, clarity, naturalness, rhythm, and recurring formulaic tendencies often experienced as `AI味`. Do not claim to detect whether text was written by AI. Diagnose observable language and rhetorical effects.
+Use with [prose-craft.md](prose-craft.md) when drafting, continuing, reviewing, or revising Chinese prose. Apply these language-specific criteria while composing as well as when editing. Review for fidelity, clarity, naturalness, rhythm, and recurring formulaic tendencies often experienced as `AI味`. Do not claim to detect whether text was written by AI. Diagnose observable language and rhetorical effects.
 
 Accuracy of meaning comes before fluency. A natural sentence that changes the writer's reason, confidence, scope, or conceptual distinction is a failed revision.
 
@@ -89,6 +89,30 @@ Infer rhetorical habits as functions, not surface tokens. A writer's use of a qu
 - End sections with what has actually been established, not a generic uplift.
 - Prefer one sentence with one governing grammatical and logical center. When a sentence must carry two relations, make their hierarchy unmistakable; when it carries three, split it unless the accumulation itself is purposeful and readable.
 
+## Chinese syntax and punctuation
+
+- Recover the topic and participants before adding subjects. Chinese can omit a recoverable subject or maintain a topic across clauses; an English-style requirement for an explicit subject in every sentence can make it less natural. Repair an unclear switch of actor or viewpoint instead.
+- Unpack a stack of `的` modifiers when the reader cannot tell what modifies what. Prefer the actual action to redundant `进行／实现／构建` constructions, while preserving aspect and scope. Formal verbs, passive clauses, and four-character expressions may be appropriate to the text.
+- Let `，` carry a continuing clause relation and `。` close a sufficiently complete movement. Split comma chains when the subject, level of claim, or qualification becomes hard to track. Chinese comma-linked clauses are not automatically English comma splices; do not impose an English clause rule on them.
+- Use `、` for a simple series and `；` when parallel clauses or internally complex items need a clearer level of separation. Check whether the items really are parallel before regularizing their punctuation.
+- Use `：` when the preceding wording calls for an explanation, quotation, or enumeration. Check where its scope ends. Repeated colon-led definitions may need a different sentence structure rather than another punctuation substitute.
+- Keep `——` when an explanation, interruption, or turn of emphasis earns the pause; keep `（……）` for a supplement that can remain subordinate. Move a premise or essential qualification into the main syntax when an aside hides its role. Neither mark is prohibited by default.
+- For newly composed Chinese prose, normally use Chinese full-width punctuation, `“……”` with `‘……’` nested, `《……》` for titles where appropriate, and `……` for an ellipsis. Follow an explicit house style or established `「……」／『……』` convention instead when applicable. Preserve quoted source wording, protected content, and existing valid project conventions; a style pass does not authorize changing citations or literal strings.
+- Use question marks, exclamation marks, and ellipses for their actual function. An ellipsis that indicates a deliberate pause is different from an omission in a quotation; do not change a source quotation or its omission marks as a voice edit. Check paired marks and closing punctuation after splitting or merging sentences.
+
+## Diagnose, repair, and preserve
+
+These locally constructed examples illustrate decisions, not replacement templates. Apply them only when their problem is present.
+
+| Wording | Diagnosis and proportionate treatment |
+| --- | --- |
+| `我正在对这三份访谈记录进行逐句的核对。` | If the extra noun frame adds nothing, write `我正在逐句核对这三份访谈记录。` Preserve the count and the ongoing action. |
+| `这份材料至少保存了十二种称呼——其中三种只出现过一次。` | The dash introduces a useful detail. Keep it; retain `至少` and the relation between the two counts. |
+| `研究者认为——这种关联可能存在——原因仍不清楚。` | If the asides obscure scope, write `研究者认为这种关联可能存在，但原因仍不清楚。` Do not turn the reported possibility into a finding of causation. |
+| `这段批注不仅是一处标记，更是一扇通往理解的大门。它记录了我当时的疑问。` | When the opening metaphor adds no distinct judgment, the supplied point can stand as `这段批注记录了我当时的疑问。` Do not invent what the question was. If the writer intends the metaphor as a substantive evaluation, retain it or ask about that choice. |
+
+Also inspect strings of praise after a factual clause, attribution such as `有人认为` that disappears during compression, unsupported stronger claims created by changing a verb, and chatbot greetings left inside an article. A greeting in a letter, a necessary attribution, or a purposeful recurrence may belong. Explain the actual mismatch rather than counting forbidden words.
+
 ## Apply personal or genre profiles carefully
 
 General prose quality is not a single voice. A saved profile is evidence about a particular genre or project, not a universal rule for all Chinese writing.
@@ -102,6 +126,8 @@ Before returning drafted or language-revised prose, check:
 - Did any fluent sentence replace the writer's actual reason?
 - Did any model proposal become an unmarked author judgment?
 - Are the main pronouns and conceptual terms stable?
+- Did counts, conditions, attribution, time, completion status, negation, and uncertainty survive any split, merge, or deletion?
+- Do punctuation and modifier placement preserve the intended scope and established Chinese convention?
 - Do connectives describe established relations?
 - Are contrast, enumeration, and closure earned by the material?
 - Do several paragraphs repeat the same movement or cadence?

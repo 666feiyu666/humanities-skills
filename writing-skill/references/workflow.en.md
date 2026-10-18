@@ -12,6 +12,10 @@ Use this profile when the collaboration language is English. The canonical capab
 
 When the target prose is English, read [english-prose-quality.md](english-prose-quality.md) and draft directly in natural English. When the target is Chinese, read [chinese-prose-quality.md](chinese-prose-quality.md) even though collaboration remains in English. Use [reflective-public-essay-profile.md](reflective-public-essay-profile.md) only for the specifically established Chinese profile.
 
+## Prose craft within drafting and revision
+
+Use [prose-craft.md](prose-craft.md) with the target-language reference for drafting, continuation, and language work. Let the argument, reader path, and voice guide sentence structure and punctuation from the start; check the affected passage again after revision. A request for naturalness or less AI-like writing belongs within this process. Diagnose unclear relations, redundancy, rhythm, or register in context, and preserve effective passages. Keep stylistic preferences subordinate to meaning and author choice; preserve facts, attribution, qualifications, and protected file content. A review request returns comments rather than an automatic rewrite, and a punctuation-only request stays within that scope.
+
 ## Interaction and review
 
 Explain only consequential decisions that affect direction, structure, evidence, uncertainty, or voice. Do not turn review into line-by-line commentary unless requested. Treat outlines, drafts, continuations, and substantial revisions as author-reviewable and identify model expansions that the writer may not wish to own. Ask for review around the one to three decisions most likely to alter meaning or voice rather than repeating a fixed checklist. Treat the writer's revisions as current evidence about both intended meaning and prose movement.

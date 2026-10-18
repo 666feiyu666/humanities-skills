@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Review English argumentative prose for fidelity, precision, idiomatic clarity, rhythm, and recurring formulaic tendencies often experienced as generic or model-like. Do not claim to detect whether text was written by AI. Diagnose observable language and rhetorical effects.
+Use with [prose-craft.md](prose-craft.md) when drafting, continuing, reviewing, or revising English prose. Apply these language-specific criteria while composing as well as when editing. Review for fidelity, precision, idiomatic clarity, rhythm, and recurring formulaic tendencies often experienced as generic or model-like. Do not claim to detect whether text was written by AI. Diagnose observable language and rhetorical effects.
 
 Accuracy of meaning comes before fluency. A natural sentence that changes the writer's reason, confidence, scope, conceptual distinction, or relation to a source is a failed revision.
 
@@ -77,6 +77,30 @@ When several parallel items are genuinely needed, first state why the set matter
 - End sections with what has actually been established, not a generic uplift.
 - Prefer one sentence with one governing grammatical and logical center. When a sentence must carry two relations, make their hierarchy unmistakable; when it carries three, split it unless the accumulation itself is purposeful and readable.
 
+## English syntax and punctuation
+
+- Keep the main subject and verb easy to locate; place a relative clause or modifier near its intended referent. An introductory participial phrase needs a recoverable grammatical attachment. If the responsible actor is not supplied, repair the construction without inventing one.
+- Check agreement, pronoun reference, and tense against the actual time relation. A consistent present tense for discussing a book does not move historical events or earlier research into that same time frame.
+- For ordinary expository prose, repair an accidental comma splice between independent clauses with a period, a semicolon, or an appropriate conjunction. Choose by relation and emphasis. Preserve a deliberate literary splice when it belongs to the writer's voice and does not confuse the reader.
+- Distinguish restrictive from supplementary clauses. Commas can change which people or objects a statement applies to. Enclose a mid-sentence supplement with paired commas, parentheses, or dashes as appropriate; do not leave half of a pair after an edit.
+- Use a colon after a grammatically complete lead-in to introduce its explanation or list in ordinary running prose. A semicolon can join related independent clauses or separate complex list items. Do not insert either simply to make sentences appear varied; headings and labels have different conventions.
+- Preserve the established variety of English and house style for serial commas, quotation marks, possessives, and punctuation around quotations. Resolve ambiguity before enforcing optional preferences. Preserve the wording and meaning of source quotations and keep citation placement tied to the supported claim.
+- Keep an em dash for a purposeful interruption or emphasis; rewrite when repeated dashes hide the underlying relation. Do not substitute hyphens for dashes or remove lexical hyphens from established terms in an attempt to erase AI-like features.
+- Use grammatical parallelism for comparable list items and paired constructions. Repair a mismatch in form without making unlike claims seem equivalent. Retain deliberate fragments, questions, contractions, or long sentences when they suit this register and reader.
+
+## Diagnose, repair, and preserve
+
+These locally constructed examples illustrate contextual editing, not a substitute voice.
+
+| Wording | Diagnosis and proportionate treatment |
+| --- | --- |
+| `The group is currently carrying out a comparison of the two accounts.` | When the noun frame adds nothing, write `The group is currently comparing the two accounts.` Preserve the ongoing action and both accounts. |
+| `The notes were anonymous, we could not identify their authors.` | For ordinary exposition, a semicolon or period can clarify the clause boundary. Do not add a causal conjunction unless that relation is established. |
+| `The manuscript—which survives in two copies—may be incomplete.` | The paired dashes hold a useful supplement. Keep them if they fit the voice, along with `may` and the number of copies. |
+| `The interviews may suggest a change, highlighting a profound shift in society.` | The trailing phrase broadens and strengthens the initial possibility without support. Remove it if it adds no writer-owned claim; otherwise flag the change in scope. Do not replace it with an invented finding. |
+
+Notice empty participial tails, stock praise, and generic statements of significance when they appear, but preserve a participial clause that supplies a supported action or relation. A watched word is a prompt to inspect meaning, not an automatic deletion.
+
 ## Preserve the writer's English
 
 - Preserve the established variety of English, spelling convention, level of formality, and ordinary vocabulary unless the writer asks to change them.
@@ -97,6 +121,8 @@ Before returning drafted or language-revised prose, check:
 - Did any fluent sentence replace the writer's actual reason?
 - Did any model proposal become an unmarked author judgment?
 - Are the main pronouns, agents, and conceptual terms stable?
+- Did quantities, conditions, attribution, time, completion status, negation, and uncertainty survive any split, merge, or deletion?
+- Do punctuation and modifier placement preserve the intended scope and established English convention?
 - Do connectives describe established relations?
 - Are contrast, enumeration, and closure earned by the material?
 - Do several paragraphs repeat the same movement or cadence?

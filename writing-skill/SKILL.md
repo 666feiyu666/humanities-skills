@@ -1,6 +1,6 @@
 ---
 name: writing-skill
-description: "Collaborate on Chinese or English argumentative prose: turn writer-owned briefs, outlines, notes, or drafts into a living line of argument and rhetorically situated, author-reviewable prose; review or revise existing writing; and preserve the writer's claims, reasoning, evidence boundaries, and voice. Use for outlining, drafting, continuation, prose review, or revision. Return genuinely unchosen central questions to thinking-skill and source verification to reading-skill."
+description: "Collaborate on Chinese or English argumentative prose: develop writer-owned material into an author-reviewable line of argument and prose; outline, draft, continue, review, or revise; improve clarity, punctuation, rhythm, and naturalness while preserving claims, evidence boundaries, and voice. Use also for language polishing or reducing formulaic AI-like writing. Return genuinely unchosen central questions to thinking-skill and source verification to reading-skill."
 ---
 
 # Writing Skill
@@ -80,6 +80,12 @@ Preserve the writer's headings and substantive judgments. A detailed writing out
 
 Structural elaboration may make existing material writable. It must not silently introduce a new motive, thesis, reason, evaluation, or conclusion. Label any consequential substantive proposal and place it outside the confirmed outline until the writer accepts it.
 
+## Integrate prose craft throughout writing
+
+Clarity, syntax, punctuation, rhythm, and naturalness belong to drafting as well as revision. For drafting, continuation, language review, or language revision, read [references/prose-craft.md](references/prose-craft.md) and the target-language quality reference routed below. Keep this work within the active mode: a request to review produces comments; a punctuation-only edit does not authorize restructuring an article. Do not require a separate humanizing stage or another project artifact.
+
+Choose wording and punctuation from the intended relation and reader path while composing. Afterward, check the affected passage for both meaning and readability. If a language repair exposes a structural gap, return to the relevant relation; do not conceal it with a fluent connective. Style heuristics remain subordinate to meaning, genre, and the writer's chosen voice. Diagnose concrete effects rather than guessing authorship or promising detector scores.
+
 ## Draft or continue prose
 
 Treat the confirmed line of argument, brief, writer-authored notes, and later corrections as authoritative for substantive direction. For a full article or substantial new passage, continuation, or revision, read [references/rhetorical-drafting.md](references/rhetorical-drafting.md) before composing continuous prose. For drafting and language revision, also read [references/chinese-prose-quality.md](references/chinese-prose-quality.md) when the target prose is Chinese and [references/english-prose-quality.md](references/english-prose-quality.md) when it is English. Read [references/reflective-public-essay-profile.md](references/reflective-public-essay-profile.md) only for Chinese prose when that specific reflective public-essay profile is explicitly requested or established for the project; do not transfer it to English prose by translation.
@@ -117,13 +123,15 @@ For an ordinary review or revision, follow the user's requested scope directly. 
 
 - **Macro**: rhetorical situation, central claim, audience, and arrangement. Read [references/rhetoric-review.md](references/rhetoric-review.md), and [references/argument-audit.md](references/argument-audit.md) when an argument audit is actually needed.
 - **Relations**: section necessity, paragraph jobs, sentence relations, and transitions. Read [references/discourse-relations.md](references/discourse-relations.md).
-- **Language**: precision, reference, syntax, punctuation, rhythm, naturalness, and formulaic or AI-like tendencies. Read [references/chinese-prose-quality.md](references/chinese-prose-quality.md) for Chinese target prose or [references/english-prose-quality.md](references/english-prose-quality.md) for English target prose, plus the Chinese reflective profile only when it applies.
+- **Language**: precision, reference, syntax, punctuation, rhythm, naturalness, and formulaic or AI-like tendencies. Read [references/prose-craft.md](references/prose-craft.md) with [references/chinese-prose-quality.md](references/chinese-prose-quality.md) for Chinese target prose or [references/english-prose-quality.md](references/english-prose-quality.md) for English target prose, plus the Chinese reflective profile only when it applies. Apply only the requested scope; explain an observed problem and its effect rather than labeling a word or punctuation mark as inherently AI-generated.
 
 Do not require category labels, version names, or a deferred ledger for a normal local edit. Make the smallest coherent set of changes that fulfills the request, then re-read the affected whole.
 
 Read [references/revision-cycle.md](references/revision-cycle.md) only when the user requests a systematic review, the work is explicitly multi-round, or an existing managed project already uses formal version contracts. In that mode, preserve out-of-scope findings without silently applying them.
 
 When the user asks for review, return comments rather than rewritten prose. When the user asks for revision without prior review, infer only low-risk textual intentions and preserve the requested layer.
+
+For edits to an existing file, write back only when requested or already authorized. Preserve quotations, citations, code, data, frontmatter, identifiers, and link targets during prose edits. Preserve headings and anchors unless their revision is in scope; when changing them, check affected references. A language edit must not silently become a summary, remove independent points, or add supporting material.
 
 ## Compare intended and realized structures
 
