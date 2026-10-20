@@ -6,6 +6,12 @@ Turn fragments or visual thought maps into an author-reviewable representation o
 
 Use this workflow only when the supplied material already has a recognisable structure or the exploratory route has produced one. Do not impose a map on a writer who is still discovering what might matter.
 
+## Confirm the plan in chat before editing
+
+Read an existing map without immediately completing or improving it. Present the faithful reconstruction and proposed changes in the conversation, discuss consequential choices, and obtain explicit confirmation of the concrete plan for the current scope before creating or modifying a map file. A map's existence or a request to improve it does not settle that plan. This gate also applies to persistent outlines and line-of-argument files, and cannot be bypassed by saving the map inside a closure record.
+
+Keep per-round answers and corrections in the discussion until the edit plan is confirmed. Agreement on one branch is not agreement on unrelated changes. Once the plan is accepted, apply only those changes without asking again; return a new consequential proposal to chat before writing it.
+
 ## Reconstruct image inputs
 
 For PNG, JPG, PDF, screenshots, or exported mind maps:
@@ -17,7 +23,7 @@ For PNG, JPG, PDF, screenshots, or exported mind maps:
 5. preserve empty nodes and question placeholders;
 6. label any inferred hierarchy or relation as inferred.
 
-Do not redraw or “complete” the map before the writer can inspect the reconstruction.
+Show the reconstruction in chat. Do not redraw or complete the map file until the writer has discussed and explicitly confirmed the concrete plan.
 
 ## Classify nodes
 
@@ -39,7 +45,7 @@ Use only roles that help the current inquiry:
 - `author_decision`: choice only the writer can make;
 - `open_question`: intentionally unresolved branch.
 
-Tag ownership when ambiguity matters: source, writer, model, or external commentator.
+Tag ownership when ambiguity matters: source, writer, model, or external commentator. These roles are aids for analysis and discussion; do not turn them into mandatory fields in the outline.
 
 ## Classify edges
 
@@ -91,7 +97,7 @@ Ask one question per round when possible. Favor questions such as:
 - Does the objection narrow the claim or defeat it?
 - Is the final question the conclusion of this piece or the opening of another?
 
-Do not ask the writer to complete a form. Let each answer update the map.
+Do not ask the writer to complete a form. Let each answer refine the working understanding in chat; it does not automatically trigger a map-file update.
 
 ## Refine through successive rounds
 
@@ -101,10 +107,10 @@ For each round:
 2. identify the one ambiguity or relation whose answer would most change the map;
 3. offer a provisional relation type or structural test;
 4. ask one focused question;
-5. update only the answered branch;
-6. record the decision or correction before moving to another branch.
+5. reflect the answered branch in the conversation and distinguish it from still-open choices;
+6. keep the decision or correction visible in chat; edit the map file only after the concrete plan for the current scope is confirmed.
 
-When the writer corrects a reconstruction, lead with the correction and revise its downstream consequences. Do not defend the earlier reading or continue questioning from a superseded map.
+When the writer corrects a reconstruction, lead with the correction and discuss its downstream consequences. Confirm the resulting edit plan before changing the file. Do not defend the earlier reading or continue questioning from a superseded understanding.
 
 When source evidence is needed to settle a concept or attribution, isolate the check and return it to `reading-skill`; after verification, resume from the same structural question.
 
@@ -118,31 +124,26 @@ Keep three layers distinct:
 2. **Proposed revision**: model-suggested nodes or relations.
 3. **Confirmed map**: relations and judgments accepted by the writer.
 
-When revising a saved map, append a dated decision or mark a path as superseded rather than silently rewriting the history of thought.
+Keep the reconstruction, proposed changes, writer corrections, and revision reasons distinct in chat. Once the concrete plan is accepted, update the saved outline to show the current argument without appending a dated decision ledger or superseded paths. Preserve that history in a separate record only when the writer requests one.
 
-At closure, save these layers in a processed Markdown note following `processed-notes.md`. The final note should make the writer's corrections and decisions recoverable without requiring the original dialogue.
+If the concrete map plan has not been confirmed in chat, return the proposed changes and open choices in the conversation; do not save an unconfirmed map as part of another note. Follow `processed-notes.md` only for a requested separate inquiry record.
 
 ## Map format
 
-Use a Markdown tree or list by default:
+Use a concise Markdown outline by default. Show the core question, ordered claims or questions, and why they connect. Group movements when it helps the argument; do not impose a fixed number of parts or steps.
 
-Render headings, node labels, and relation labels in the map language. The English labels below identify semantic roles rather than mandatory surface wording.
+Render headings and steps in the outline language. For example:
 
 ```markdown
 # Argument map
 
-- Central question:
-  - Material:
-  - Provisional judgment:
-    - Reason one:
-      - Evidence:
-      - Warrant:
-    - Qualification:
-    - Objection:
-  - Next question:
+**Core question:** …
+
+1. **Claim or question developed here.** Reasoning or example that establishes the step.
+2. **Next claim or question.** Explain how it follows from, qualifies, or extends the previous step.
 ```
 
-Use Mermaid when relations become easier to inspect visually. Quote labels containing punctuation. Keep the map editable and pair it with a short decision ledger.
+Use Mermaid when relations become easier to inspect visually. Quote labels containing punctuation. Keep the map editable; discuss revision reasons and alternatives in chat.
 
 ## Writing-readiness gate
 
@@ -151,10 +152,9 @@ A map becomes a usable outline for Humanizer (`humanizer` for English prose; `hu
 - one governing question is selected;
 - the central judgment is chosen or explicitly provisional;
 - the main reasons or movements are connected;
-- evidence is attached or missing support is visibly marked;
-- consequential qualifications and objections have a status;
-- source checks are isolated;
-- branches reserved for another piece are identified;
-- the writer has supplied or confirmed the direction, or explicitly authorized drafting from a provisional outline. Keep the latter status visible.
+- evidence is available in the established material, or missing support has been identified in the conversation;
+- consequential qualifications and objections are reflected in the claims or discussed in chat;
+- source checks and branches reserved for another piece are clear in the conversation;
+- the writer has supplied or confirmed the direction, or explicitly authorized drafting from a provisional outline. Clarify that status in chat.
 
 “Ready” does not mean exhaustive or certain. It means the remaining uncertainty can stay visible without forcing the drafter to choose the writer's position.

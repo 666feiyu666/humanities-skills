@@ -6,3 +6,7 @@ __pycache__/
 .env.*
 !.env.example
 *.log
+
+# Local links to globally maintained skills
+/humanizer
+/humanizer-zh

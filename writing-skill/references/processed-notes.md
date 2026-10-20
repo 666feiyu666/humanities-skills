@@ -4,7 +4,9 @@
 
 A processed thinking record preserves what happens when source material, experience, concepts, or an existing map enter the writer's own questions. It records a line of thought without converting it into an article.
 
-At closure, preserve a substantive inquiry in a Markdown record unless the writer declines. An updated outline may serve as the record; do not create a second file merely to satisfy this step. The record may remain exploratory and does not need a settled thesis. A focused question does not require a new artifact.
+Use this workflow when the writer requests a separate inquiry record. Keep ordinary inquiry, revision reasons, and alternatives in the conversation. An outline holds the current argument; do not expand it into a discussion record or automatically create another file. A requested record may remain exploratory and does not need a settled thesis.
+
+Preservation does not bypass the argument-map editing gate. Before saving a new or revised map, including one embedded in a processed note, discuss the concrete plan in chat and obtain the writer's explicit confirmation. If that plan remains open, return the proposal and unresolved choices in the conversation instead. A closure or consolidation request alone does not confirm an unseen map plan.
 
 Choose the record language from the writer's explicit request, the active record, or the local dialogue when no record exists. Render headings, field labels, relation labels, and status markers naturally in that language. Preserve quotations in their established wording and label any model translation. The English labels below name semantic roles rather than mandatory surface wording.
 
@@ -116,11 +118,11 @@ Suggested structure:
 ## Unresolved questions
 ```
 
-Do not silently replace the original map. When a judgment changes, append the correction or mark the earlier path as superseded.
+In this requested record, preserve the original map and distinguish later corrections or superseded paths. Keep that history out of the active outline, which shows the current agreed argument.
 
 ### Variant C: Confirmed map and writing brief
 
-Use only when the writer asks to prepare for drafting and the writing-readiness conditions are met. Follow `article-invention.md`.
+Use only when the writer requests a separate record or brief for drafting and the writing-readiness conditions are met. An ordinary request to develop an outline does not require this variant. Follow `article-invention.md`.
 
 ## Line-of-thought memo
 
@@ -137,7 +139,7 @@ A separate working passage may test an opening, transition, or argument movement
 
 ## Closure rules
 
-- Save or return the record when the writer says “整理一下” / “summarize this”, “先到这里” / “let's stop here”, “这个问题有点远” / “this is moving too far afield”, “保留目前思路” / “preserve the current thinking”, or otherwise signals closure.
+- Return a requested summary or closing synthesis in chat. Save a separate record when the writer asks to save one; a pause or topic change alone does not require a file or a process section in the outline.
 - Do not keep questioning merely to complete the template.
 - In a writable project, use the project's processed-note location. Do not reconcile project or directory indexes as part of thinking work; treat any such maintenance as a separate writer-requested task, not as thinking closure or meta-reflection.
 - Link backward to reading cards, maps, and source artifacts.
