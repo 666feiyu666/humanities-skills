@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Turn fragments or visual thought maps into a writer-confirmed representation of what is being asked, claimed, supported, contested, and left open. The map prepares writing but is not a draft.
+Turn fragments or visual thought maps into an author-reviewable representation of what is being asked, claimed, supported, contested, and left open. The map develops within writing and can be tested through exploratory passages. Treat it as writer-confirmed only after explicit review.
 
 Use this workflow only when the supplied material already has a recognisable structure or the exploratory route has produced one. Do not impose a map on a writer who is still discovering what might matter.
 
@@ -146,7 +146,7 @@ Use Mermaid when relations become easier to inspect visually. Quote labels conta
 
 ## Writing-readiness gate
 
-A map is ready to hand to the target-language writing skill (`writing-skill` for English prose; `writing-skill-zh` for Chinese prose) for the requested scope when:
+A map becomes a usable outline for Humanizer (`humanizer` for English prose; `humanizer-zh` for Chinese prose) for the requested scope when:
 
 - one governing question is selected;
 - the central judgment is chosen or explicitly provisional;
@@ -155,6 +155,6 @@ A map is ready to hand to the target-language writing skill (`writing-skill` for
 - consequential qualifications and objections have a status;
 - source checks are isolated;
 - branches reserved for another piece are identified;
-- the writer has confirmed the direction.
+- the writer has supplied or confirmed the direction, or explicitly authorized drafting from a provisional outline. Keep the latter status visible.
 
 “Ready” does not mean exhaustive or certain. It means the remaining uncertainty can stay visible without forcing the drafter to choose the writer's position.

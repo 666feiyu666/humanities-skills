@@ -118,7 +118,7 @@ relation instead of repeating the skeleton as a longer list.
 Source: Useful reference or passage locator. Related session: Link, when one exists.
 ```
 
-Never invent personal experience. Do not add a generic section to restate the writer's contribution or Codex's refinement after both have already been integrated into the logic chain and brief expansion. Faithfully preserve experience or practical reasoning already supplied or confirmed by the writer, but hand off to `thinking-skill` when that reasoning still needs to be developed or tested. A model-proposed extension remains an interpretation or open question until the writer confirms it.
+Never invent personal experience. Do not add a generic section to restate the writer's contribution or Codex's refinement after both have already been integrated into the logic chain and brief expansion. Faithfully preserve experience or practical reasoning already supplied or confirmed by the writer, but hand off to `writing-skill` when that reasoning still needs to be developed or tested. A model-proposed extension remains an interpretation or open question until the writer confirms it.
 
 ## Question card
 
@@ -195,7 +195,7 @@ Question cards and knowledge cards may link to each other, but do not force a on
 End with a small handoff block only when useful:
 
 ```markdown
-## Material for thinking-skill
+## Material for writing-skill
 
 - Point of interest:
 - Question to continue:

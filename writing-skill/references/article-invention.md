@@ -35,7 +35,7 @@ Before making a writing brief, confirm:
 - which ending follows from the established path;
 - which next question belongs to a different piece.
 
-Do not express this as publication prose. Keep it as an editable map and decision record.
+Keep the current structure editable. When useful, test a relation or reader movement through a provisional passage and feed the result back into the outline; do not treat the trial as settled publication prose.
 
 ## Writing brief
 
@@ -69,15 +69,18 @@ Render all headings and field labels in the brief language. The English labels b
 
 ## Writer decisions still open
 
-## Handoff to the target-language writing skill
+## Handoff to Humanizer
 
+- Target prose language:
+- Available material and voice evidence:
+- Outline review status:
 - Draftable scope:
 - Qualifications that must remain:
-- Decisions the selected writing skill must not make:
+- Decisions the drafting skill must leave open:
 ```
 
 Create the brief only after the central direction is chosen or explicitly provisional. If candidates still compete, return conditional maps rather than a confident outline.
 
-## Stop before prose
+## Outline and composition
 
-The brief is the terminal artifact of `thinking-skill`. Do not draft the title hook, opening paragraph, transitions, body paragraphs, or conclusion. Hand these tasks to the target-language writing skill (`writing-skill` for English prose; `writing-skill-zh` for Chinese prose).
+A detailed outline is the main composition handoff from `writing-skill`; a separate brief is optional. Exploratory sentences or passages can test the structure at any point. Complete drafting and continuation from an established outline belong to Humanizer (`humanizer` for English prose; `humanizer-zh` for Chinese prose). A user-supplied outline can go directly to Humanizer without a writing-skill session.

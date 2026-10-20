@@ -4,7 +4,7 @@
 
 A processed thinking record preserves what happens when source material, experience, concepts, or an existing map enter the writer's own questions. It records a line of thought without converting it into an article.
 
-Every substantive thinking process should leave a Markdown record at closure unless the writer declines. The record may remain exploratory; it does not need a settled thesis.
+At closure, preserve a substantive inquiry in a Markdown record unless the writer declines. An updated outline may serve as the record; do not create a second file merely to satisfy this step. The record may remain exploratory and does not need a settled thesis. A focused question does not require a new artifact.
 
 Choose the record language from the writer's explicit request, the active record, or the local dialogue when no record exists. Render headings, field labels, relation labels, and status markers naturally in that language. Preserve quotations in their established wording and label any model translation. The English labels below name semantic roles rather than mandatory surface wording.
 
@@ -133,7 +133,7 @@ When useful, add a short memo explaining how one judgment led to another and wha
 
 Do not infer from these changes what the writer has mastered, whether a learning method worked, or what they should do next. Those are matters for explicitly invoked meta-reflection, not this memo.
 
-If the memo begins to perform an essay's opening, development, or conclusion, stop and hand it to the target-language writing skill (`writing-skill` for English prose; `writing-skill-zh` for Chinese prose).
+A separate working passage may test an opening, transition, or argument movement under writing-skill. Record what it tested and what changed in the outline. Use Humanizer (`humanizer` for English prose; `humanizer-zh` for Chinese prose) when the writer wants complete composition from the outline.
 
 ## Closure rules
 

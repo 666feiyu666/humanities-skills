@@ -141,7 +141,7 @@ Reading may expose a tension, possible implication, or promising question. It mu
 - whether a tentative extension is philosophically preferable;
 - how the material should be written as continuous prose.
 
-Reading cards may faithfully preserve an experience, association, or practical example that the writer has already supplied or confirmed. Do not use the card-making step to develop that material into a new inference or position. Record undeveloped possibilities as `writer_response`, `model_interpretation`, or `open_question`, then hand them to `thinking-skill`.
+Reading cards may faithfully preserve an experience, association, or practical example that the writer has already supplied or confirmed. Do not use the card-making step to develop that material into a new inference or position. Record undeveloped possibilities as `writer_response`, `model_interpretation`, or `open_question`, then hand them to `writing-skill`.
 
 ## Create reading cards
 
@@ -191,7 +191,7 @@ Do not maintain project-wide progress, root indexes, cross-card agendas, or writ
 
 ## Hand off
 
-Hand off to `thinking-skill` when source understanding is sufficient and the writer wants to:
+Hand off to `writing-skill` when source understanding is sufficient and the writer wants to:
 
 - develop, compare, or test connections between the material and personal experience or other concepts;
 - reconstruct or refine a text or image-based thought map;
@@ -211,12 +211,12 @@ The handoff packet should state:
 - which questions may now be developed by the writer.
 - any confirmed artifact-language, translation, or terminology choice that the next skill should preserve.
 
-Keep any content handoff to `thinking-skill` inside the reading-to-thinking workflow and make it only when the writer wants that movement. Meta-reflection is a separate, writer-invoked review of the learning process; reading closure does not require it.
+Keep any content handoff to `writing-skill` inside the reading-to-writing workflow and make it only when the writer wants that movement. Meta-reflection is a separate, writer-invoked review of the learning process; reading closure does not require it.
 
 ## Return results
 
 For dialogue, give the direct answer, its source basis, and any important interpretive limit. End there by default. When continued dialogue would be useful, invite the writer to respond in their own terms about what seems clear, uncertain, important, or inconsistent with their reading. Do not manufacture a model-led next question merely to keep the exchange going. If the writer responds, reflect the understanding they expressed and base any focused follow-up question on that response, following [references/critical-reading.md](references/critical-reading.md). Stay in Q&A mode until the writer asks to close, preserve, or synthesize the unit.
 
-When the writer explicitly asks how a reading question developed across exchanges or sessions, follow the optional question-path synthesis in [references/reading-sessions.md](references/reading-sessions.md). Preserve the actual turns and unresolved questions without inventing a learning trajectory. This is a requested way of organizing source understanding, not a default artifact or new card type; development of the writer's judgments belongs to thinking, and continuous prose drafting belongs to writing.
+When the writer explicitly asks how a reading question developed across exchanges or sessions, follow the optional question-path synthesis in [references/reading-sessions.md](references/reading-sessions.md). Preserve the actual turns and unresolved questions without inventing a learning trajectory. This is a requested way of organizing source understanding, not a default artifact or new card type; development of the writer's judgments and outline belongs to writing-skill, and complete prose drafting from that outline belongs to Humanizer.
 
 At a reading checkpoint, save the session record first when required. If the writer has not selected any cards, return the requested question-path synthesis when applicable and only a compact card-candidate list when useful; wait for the writer's choice before drafting cards. If the writer selects a card but its semantic center is not yet writer-shaped, ask one focused construction question instead of drafting it. Once the center is established, return only the selected cards created or updated, followed by unresolved source checks and possible thinking questions when useful. Add a distinct meta-reflection segment only when the writer explicitly requested it in the same task. Do not draft the later argument.

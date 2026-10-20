@@ -1,4 +1,4 @@
 interface:
-  display_name: "English Writing"
-  short_description: "Draft, review, and revise English argumentative prose"
-  default_prompt: "Use $writing-skill to outline, draft, review, or revise my English prose while preserving my meaning and voice."
+  display_name: "Writing"
+  short_description: "Explore ideas, test structure, and develop outlines"
+  default_prompt: "Use $writing-skill to develop my thinking through discussion and exploratory writing, then shape an outline for my review."

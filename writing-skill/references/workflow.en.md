@@ -1,8 +1,9 @@
-# English collaboration for English writing
+# English collaboration for writing
 
-Use English for planning, questions, review comments, and change notes. The capability and author-review requirements remain in [SKILL.md](../SKILL.md).
+Use English for inquiry, exploratory writing discussion, outline development, and structural review. Capability and ownership boundaries remain in [SKILL.md](../SKILL.md).
 
-- This skill produces or edits English prose. Collaboration language and source language do not change that target. Preserve quotations in supplied wording and label a requested model translation.
-- Follow the established English variety, genre, terminology, and voice. Do not turn a request for clarity into a new authorial position.
-- Explain only consequential choices about meaning, structure, evidence, uncertainty, or voice. Local review can remain focused; systematic reconstruction is conditional.
-- Return outlines, drafts, continuations, and substantial revisions for author review. Identify consequential model proposals without repeating a generic checklist.
+- Thinking is part of this writing process. Follow the writer's concern, map, outline, or draft; ask one focused question when it will help rather than administering a questionnaire.
+- Keep collaboration language, outline or record language, target prose language, and source languages separate. Preserve existing artifact languages unless the writer changes them. For a new artifact, follow the explicit request, otherwise English; this does not choose the language of later prose.
+- Use labels such as `writer judgment`, `model proposal`, `working passage`, `open question`, `review draft`, and `writer-confirmed` only where they clarify ownership or status.
+- A working passage tests a specific relation or reader movement. Feed the result back into the outline; use Humanizer for complete drafting or language editing.
+- Return substantive outlines, maps, working passages, records, and structural revisions for author review. Accepting an artifact unchanged is sufficient. Explain consequential decisions without routine checklists.

@@ -1,62 +1,27 @@
-# English project writing
+# Project outlines and structural review
 
-Read for a substantial argumentative article or section stored in a project, a requested persistent argument context, structural diagnosis, or a formal revision cycle. Use only the relevant parts. The ordinary workflow and language guidance remain in [SKILL.md](../SKILL.md).
+Read for a saved substantial writing project, requested living outline, or systematic structural review. General inquiry and handoff rules remain in [SKILL.md](../SKILL.md).
 
-## Keep an inspectable line of argument
+## Maintain one inspectable outline
 
-Before continuous prose for a substantial saved article or section, create or update a separate Markdown argument file beside the draft. Use the project's existing convention; otherwise use `line-of-argument.md`. Also maintain one when the writer explicitly requests a living outline or persistent structural state. A short paragraph, local copyedit, or standalone review does not require one.
+Use the project's existing outline or argument file. Preserve `line-of-argument.md`, `论证线.md`, or another existing name. If a new persistent outline is needed, use `outline.md` or `提纲.md` according to artifact language. A short passage or local review does not require one.
 
-Record the current intent, not project history:
+Record current intent: question, central judgment and scope, concepts, reader situation, ordered passage jobs, reasons and source material, relations, qualifications, voice evidence, target prose language, review status, and remaining choices. Keep history out of the active outline except where a decision is needed to understand it. Link to existing inquiry records instead of copying them.
 
-- review status;
-- governing question or rhetorical action and writer-owned central judgment, with its certainty and scope;
-- core concepts and their meanings here;
-- reader's starting position, desired writer-reader relationship, intended reader movement, and reliable voice evidence;
-- claim path with explicit relations such as `supports`, `qualifies`, `contrasts with`, or `explains`;
-- section or passage jobs, their ordered development, and assigned examples or established sources;
-- consequential model proposals, author decisions, evidence checks, and boundaries still open.
+The writer's latest instruction outranks the file. Preserve the distinction between established author decisions and new model proposals. A material update makes the changed artifact reviewable; it does not erase unchanged author decisions. Only explicit author review makes that version writer-confirmed. Do not reset an unchanged reviewed artifact.
 
-Keep it economical. A topic sequence or unlabeled arrow does not establish inference. Do not turn it into a prose summary, source dump, sentence script, revision history, or task tracker. Preserve an existing project layout and meaningful variants rather than reorganizing them by default.
+## Review realized structure
 
-## Respect authority and review status
+Read the supplied prose independently of the intended outline. Recover what the opening leads the reader to expect, which claim the body actually develops, the work of each passage, the relation to its neighbor, and what the ending establishes. Compare the realized and intended paths without assuming either is better.
 
-The writer's latest instruction outranks the file. Distinguish author material, established source claims, local composition decisions, substantive model proposals, and unresolved checks.
+Where useful, distinguish claim, grounds, warrant, backing, qualifier, and rebuttal. Personal experience does not automatically establish a social pattern; explanation does not settle evaluation. Check the mechanism behind a causal claim and the evaluative premise behind a normative conclusion. Test an actual consequential objection without imposing a counterargument section.
 
-Every Codex creation or modification of the argument file resets its visible status to `Review draft`, including a correction supplied by the writer or a low-risk clarification. Only the writer may set it to `Writer-confirmed`. Do not preserve or restore an approved marker on the writer's behalf. The status marks review of the current artifact, not whether all its material must be reconsidered from scratch.
+For a difficult connection, temporarily remove its connective and state the relation. Distinguish cause, reason, sequence, evidence, qualification, concession, and a change of question or level. Restore a middle step only when the material licenses it; otherwise flag the gap. Reader invitations need not be treated as unsupported factual premises.
 
-Before substantial drafting or revision, read the current file, the affected prose, and the latest instructions. Update a changed central judgment, concept, relation, section job, evidence selection, or boundary before propagating it through prose. Keep a consequential model proposal pending until accepted, except where the writer explicitly requests immediate drafting or outline and prose together. That authorization permits a reviewable draft; it does not make the proposal the writer's settled view. Local wording and punctuation changes that preserve the argument need no ceremonial outline update.
+Return prioritized findings with locations, textual evidence, effects, and conditional repairs. Revise the outline within the requested scope; send applied prose changes to Humanizer. A substantive alternative remains a proposal rather than being written back as the writer's original intent.
 
-## Elaborate an outline and compose a reader path
+## Scope a revision cycle only when needed
 
-Preserve supplied headings, judgments, reasons, examples, qualifications, and meaningful sequence. A reviewable outline can add each passage's job, ordered material, relation to its neighbors, and unresolved choice. It may arrange supplied reasons but must not supply an unchosen motive, premise, evaluation, or conclusion.
+For requested systematic or multi-round work, distinguish argument and reader movement, relations among passages, and language expression. Writing owns the first two as inquiry and outline revision. Humanizer implements the authorized prose scope and handles language. Exact source verification returns to reading-skill; substantive choices return to the writer.
 
-For a full article or substantial unsettled movement, deliver the detailed outline and stop before prose unless immediate drafting, outline-and-prose together, or an equivalent confirmed structure authorizes proceeding. A brief commentary plan is not the reviewable outline. If a consequential author choice would make the requested prose misleading, keep that issue open rather than resolving it silently.
-
-Before prose, derive an internal reader path: entry, relevance, explanation or complication, likely resistance, and exit. This is not another required artifact. A question can orient or invite the reader without becoming an argumentative promise. A qualification recorded in the argument file need not appear as an unsolicited disclaimer in every paragraph. Give important examples room; select or subordinate secondary material when a real length constraint requires it.
-
-## Diagnose realized structure
-
-Reconstruct from the prose before judging it:
-
-1. What question does the opening lead the reader to expect?
-2. Which central claim or competing claims does the body actually develop?
-3. What job does each section perform, and why does the next follow?
-4. What conclusion is established, and what writer-reader relationship results?
-
-Compare that realized path with the writer's intended path without assuming the intended arrangement must be better. Repair accidental deviations in the prose. Present a useful substantive new path as a proposal; do not rewrite the argument file afterward to legitimize an unreviewed change.
-
-For an argument audit, separate claim, grounds, warrant, backing, qualifier, and rebuttal wherever relevant. Explain why an example supports the claim. Keep personal experience distinct from general prevalence, description from evaluation, and association from cause. A normative conclusion needs its evaluative premise. Test the strongest objection created by the claim's actual scope rather than adding a ceremonial counterargument paragraph.
-
-For a difficult transition, temporarily remove its connective and state the relation. Distinguish reason, cause, sequence, evidence, concession, comparison, and a new question. Restore a licensed missing middle step; otherwise flag the gap. A rhetorical invitation need not function as a premise, and a repeated keyword does not establish continuity.
-
-Prioritize governing problems over local polish. In review, return locations, evidence, effects, and conditional repair directions. Do not choose among incompatible central claims for the writer.
-
-## Formal multi-round revision only when applicable
-
-Use a formal cycle only for requested systematic work, explicitly multi-round revision, or a project already using version contracts. Ordinary edits need no category labels, version numbers, ledger, or self-score.
-
-Keep one authorized layer active: overall argument and audience; relations among sections and paragraphs; or language. In a structural round, make dependent wording grammatical while deferring unrelated polish. In a language round, preserve claims, evidence roles, and argument path. Diagnosing another layer does not authorize changing it.
-
-Use the project's naming convention. Keep a deferred ledger only for findings that must survive into later saved versions; distinguish structural, language, source-check, and writer-decision items. Reclassify or close each when its round arrives. After a round, state whether to stay, advance to a local layer, return to structure, request an exact source check, return a substantive decision, or end the current revision task. Completed editing does not replace author acceptance.
-
-Reconstruct the realized argument and reader path after substantial prose, then check language and fidelity. Propagate author corrections through every dependent passage. Surface only consequential differences or unresolved choices.
+Keep deferred findings only when they need to survive into a later round. Preserve project names and meaningful versions. Apply accepted corrections through affected outline branches, then pass the current outline and affected prose scope to Humanizer. A completed structural review does not make the outline or later prose author-approved.
