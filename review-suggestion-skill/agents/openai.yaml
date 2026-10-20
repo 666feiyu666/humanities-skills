@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Suggestions"
+  short_description: "Discipline-aware reviews in at most six points"
+  default_prompt: "Use $review-suggestion-skill to review this text for its intended readers, applying relevant disciplinary standards and returning no more than six specific, prioritized suggestions."
