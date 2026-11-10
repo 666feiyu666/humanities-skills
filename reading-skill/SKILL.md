@@ -48,6 +48,8 @@ Work in four related modes:
 3. **Web-assisted reading**: locate lawful source fragments and reliable contextual or secondary material when the work is absent or incomplete.
 4. **Reading cards**: propose reusable units and suitable card types, recover or elicit the writer's initial construction, then source-check, supplement, and refine only the cards the writer selects.
 
+These modes run on top of three reading strategies — chapter close reading, thematic reading, and whole-book outline — described under [Choose a reading strategy](#choose-a-reading-strategy).
+
 Read [references/critical-reading.md](references/critical-reading.md) before conducting a reading dialogue. Read [references/reading-sessions.md](references/reading-sessions.md) before saving or closing a Q&A session, or before creating a card from a multi-turn dialogue. Read [references/reading-cards.md](references/reading-cards.md) before creating or updating a reading card.
 
 ## Follow the reading sequence
@@ -55,13 +57,23 @@ Read [references/critical-reading.md](references/critical-reading.md) before con
 For project-based reading, use this default sequence:
 
 1. establish the source and actual readable range;
-2. conduct a source-grounded Q&A session;
+2. conduct a source-grounded Q&A session at a writer-selected reading strategy (see the next section);
 3. at a meaningful checkpoint, promote a substantive dialogue from live working state to a durable chronological session record;
 4. present useful card candidates and let the writer choose whether to create none, one, or several and which type each should use;
 5. co-construct each selected card from the writer's existing or newly supplied semantic center;
 6. hand off only after source understanding is stable enough for the writer's next task.
 
 Treat source establishment as preflight and Q&A as the first substantive reading stage. Do not replace the writer's inquiry with a premature chapter summary, argument map, or article commentary.
+
+## Choose a reading strategy
+
+Reading proceeds through three strategies, selected by the writer rather than imposed by the model, and a project may use several. The strategy shapes the reading unit, the expected artifact, and the evidence boundary. Name the strategy when it affects coverage or later use, and record actual coverage at that strategy's granularity. A strategy is distinct from the reading basis: a fully available scan does not by itself mean every page was read, and selective reading within a `direct_source` must still state which passages were directly checked.
+
+1. **Chapter close reading**: work through one chapter or section at a time, usually in order. Reconstruct the chapter's question, claim, materials, mechanism, argument strength, counterexamples, and qualifications. Typical artifacts are per-chapter reading records and knowledge cards for stable distinctions. Coverage is the chapters actually read; do not generalize a chapter's claim to the whole book.
+2. **Thematic reading**: follow one writer-declared question, concept, or theme across chapters or the whole book, in whatever order the question requires. Locate and compare every passage that bears on it, reconstruct how the concept develops or shifts, and expose tensions the text leaves open. Typical artifacts are question cards, thematic reading records, and cross-passage comparisons. Coverage is the passages traced; a thematic thread does not become a whole-book claim.
+3. **Whole-book outline**: grasp the book's overall architecture and main arguments. Typically read the table of contents, introduction, and chapter openings or conclusions, verify key passages directly, and reconstruct the rest structurally. Typical artifacts are a whole-book structural reading record and a book-level index. Structural reconstruction of unread chapters is not chapter close reading and must be labeled as such, never presented as having read every page.
+
+The three strategies sit on top of the four work modes: any strategy can be carried out through reading dialogue, critical reading, web-assisted reading, or reading cards. Do not turn a strategy into a mandatory project sequence. A whole-book outline may usefully precede chapter close reading to orient the reader, and thematic reading may run alongside either; follow the writer's question and the order of their uncertainties. When coverage is selective or the reading basis is partial, say so in the record and label what remains unread.
 
 ## Manage dialogue checkpoints
 

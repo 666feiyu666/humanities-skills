@@ -8,6 +8,10 @@ Use this profile when the collaboration language is English. The canonical capab
 - Preserve an established session-record or reading-card language unless the writer overrides it. For a new artifact, follow an explicit language request; otherwise use English.
 - Source language does not determine collaboration or artifact language. Keep quotations in the wording actually inspected, label model translations, and keep technical terms stable.
 
+## Reading strategies
+
+Reading proceeds at three scales, defined in `../SKILL.md` under "Choose a reading strategy": **chapter close reading**, **thematic reading**, and **whole-book outline**. The writer selects the scale; name it in dialogue or records when it affects coverage, and record actual coverage at that scale. Use these as the canonical English terms in English artifacts.
+
 ## Reading dialogue
 
 Answer the writer's live question directly, identify the source basis, and state any access or interpretive limit. When continued dialogue is useful, invite the writer to articulate what seems clear, uncertain, or significant; base later questions on that response. Avoid generic comprehension quizzes.
