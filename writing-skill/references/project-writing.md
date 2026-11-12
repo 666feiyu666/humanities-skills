@@ -6,7 +6,7 @@ Read for a saved substantial writing project, requested living outline, or syste
 
 Use the project's existing outline or argument file. Preserve `line-of-argument.md`, `论证线.md`, or another existing name. If a new persistent outline is needed, use `outline.md` or `提纲.md` according to artifact language. A short passage or local review does not require one.
 
-Read and discuss an existing file before improving it. Present the concrete plan for additions, removals, relations, and sequence in chat, and wait for the writer to confirm that plan before creating, updating, or completing the file. General project authorization, a local answer, or an end-to-end request does not confirm an unseen plan. Apply an accepted plan within its scope without repeating the same confirmation.
+Read and discuss an existing file before improving it, and follow the edit-plan confirmation gate in [SKILL.md](../SKILL.md). Apply an accepted plan within its scope without repeating the same confirmation.
 
 Keep the active outline focused on the core question, ordered claims or questions, and the reasons connecting each movement to the next. Include examples and qualifications where they make that argument intelligible. Use the agreed outline as the basis for subsequent discussion and revision.
 

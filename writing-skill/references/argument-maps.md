@@ -8,9 +8,7 @@ Use this workflow only when the supplied material already has a recognisable str
 
 ## Confirm the plan in chat before editing
 
-Read an existing map without immediately completing or improving it. Present the faithful reconstruction and proposed changes in the conversation, discuss consequential choices, and obtain explicit confirmation of the concrete plan for the current scope before creating or modifying a map file. A map's existence or a request to improve it does not settle that plan. This gate also applies to persistent outlines and line-of-argument files, and cannot be bypassed by saving the map inside a closure record.
-
-Keep per-round answers and corrections in the discussion until the edit plan is confirmed. Agreement on one branch is not agreement on unrelated changes. Once the plan is accepted, apply only those changes without asking again; return a new consequential proposal to chat before writing it.
+Follow the edit-plan confirmation gate in [SKILL.md](../SKILL.md): obtain explicit confirmation of the concrete plan for the current scope before creating or modifying a map file. A map's existence or a request to improve it does not settle that plan, and the gate cannot be bypassed by saving the map inside a closure record.
 
 ## Reconstruct image inputs
 

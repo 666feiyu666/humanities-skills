@@ -98,11 +98,11 @@ Do not automatically produce all formats.
 
 For general learning, public expression, teaching, podcasts, or video narration, this skill may own the oral adaptation.
 
-For an academic conference, defense, or research presentation, let `research-publishing`, when it owns the project, establish the scholarly content and claim hierarchy. After that content is sufficiently stable, this skill may plan oral wording, timing, delivery, rehearsal, and the relationship between screen and speech without changing the substantive argument.
+For an academic conference, defense, or research presentation, let `writing-skill`, when it owns the project, establish the scholarly content and claim hierarchy. After that content is sufficiently stable, this skill may plan oral wording, timing, delivery, rehearsal, and the relationship between screen and speech without changing the substantive argument.
 
 This skill owns the delivery structure, substantive oral adaptation, and relationship between screen and speech. It does not itself create, render, or visually style slides. It may coordinate a presentation workflow to materialize a provisional structural deck in stage 1 and a polished deck in stage 3 without allowing that workflow to change the argument silently.
 
-Return unresolved source claims to the relevant reading workflow and unresolved substantive choices to the relevant thinking workflow.
+Return unresolved source claims to `reading-skill` and unresolved substantive choices to `writing-skill`.
 
 ## Require author review of speaking artifacts
 
