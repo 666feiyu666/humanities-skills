@@ -1,6 +1,6 @@
 # Project outlines and structural review
 
-Read for a saved substantial writing project, requested living outline, or systematic structural review. General inquiry and handoff rules remain in [SKILL.md](../SKILL.md).
+Read for a saved substantial writing project, requested living outline, or systematic structural review. General inquiry and boundary rules remain in [SKILL.md](../SKILL.md).
 
 ## Maintain one inspectable outline
 

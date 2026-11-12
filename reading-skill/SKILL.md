@@ -61,7 +61,7 @@ For project-based reading, use this default sequence:
 3. at a meaningful checkpoint, promote a substantive dialogue from live working state to a durable chronological session record;
 4. present useful card candidates and let the writer choose whether to create none, one, or several and which type each should use;
 5. co-construct each selected card from the writer's existing or newly supplied semantic center;
-6. hand off only after source understanding is stable enough for the writer's next task.
+6. end the session once source understanding is stable enough for the writer's next task.
 
 Treat source establishment as preflight and Q&A as the first substantive reading stage. Do not replace the writer's inquiry with a premature chapter summary, argument map, or article commentary.
 
@@ -153,7 +153,7 @@ Reading may expose a tension, possible implication, or promising question. It mu
 - whether a tentative extension is philosophically preferable;
 - how the material should be written as continuous prose.
 
-Reading cards may faithfully preserve an experience, association, or practical example that the writer has already supplied or confirmed. Do not use the card-making step to develop that material into a new inference or position. Record undeveloped possibilities as `writer_response`, `model_interpretation`, or `open_question`, then hand them to `writing-skill`.
+Reading cards may faithfully preserve an experience, association, or practical example that the writer has already supplied or confirmed. Do not use the card-making step to develop that material into a new inference or position. Record undeveloped possibilities as `writer_response`, `model_interpretation`, or `open_question`; developing them into a new inference or position belongs to `writing-skill`.
 
 ## Create reading cards
 
@@ -201,29 +201,13 @@ The author-reviewed artifact is the highest authority for subsequent edits withi
 
 Do not maintain project-wide progress, root indexes, cross-card agendas, or writing-project status. Do not append a routine meta-reflection or invoke `meta-reflection-skill` when reading work closes. If the writer explicitly requests meta-reflection in the same task, keep the reading result factual and distinguish source coverage and open checks from the writer's reflection on what they learned.
 
-## Hand off
+## Boundaries with other skills
 
-Hand off to `writing-skill` when source understanding is sufficient and the writer wants to:
+This skill stays inside the source. Developing the writer's judgments or connections, reconstructing or refining a thought map, comparing cards toward a claim, building an argument map, and drafting continuous prose belong to `writing-skill` (thinking) and `humanizer` / `humanizer-zh` (prose). The writer uses those skills directly, carrying their reading records and cards as material. Nothing passes automatically from one skill to the next, and no fixed sequence is required.
 
-- develop, compare, or test connections between the material and personal experience or other concepts;
-- reconstruct or refine a text or image-based thought map;
-- test the writer's reasons, distinctions, analogies, or extensions;
-- compare several reading cards;
-- discover candidate claims, build an argument map, or prepare a writing brief.
+The writer may return to this skill from thinking or writing work when a quotation, concept, attribution, source relation, or factual basis needs verification.
 
-Return from thinking or writing to this skill when a quotation, concept, attribution, source relation, or factual basis needs verification.
-
-The handoff packet should state:
-
-- what source identity and access route were established;
-- what source material is established;
-- which claims and quotations are directly supported;
-- which interpretations remain tentative;
-- which exact checks are still open;
-- which questions may now be developed by the writer.
-- any confirmed artifact-language, translation, or terminology choice that the next skill should preserve.
-
-Keep any content handoff to `writing-skill` inside the reading-to-writing workflow and make it only when the writer wants that movement. Meta-reflection is a separate, writer-invoked review of the learning process; reading closure does not require it.
+Meta-reflection is a separate, writer-invoked review of the learning process; reading closure does not require it.
 
 ## Return results
 

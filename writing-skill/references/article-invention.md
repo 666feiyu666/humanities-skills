@@ -39,7 +39,7 @@ Keep the current structure editable. When useful, test a relation or reader move
 
 ## Writing brief
 
-Create a separate writing brief only when the writer requests one. Keep genre, reader, format, source-check, and handoff discussions in chat for an ordinary outline task. Do not expand the outline into the brief below. If a brief is requested, use only the fields that serve that request and render them in its language. The English labels below are optional semantic fields.
+Create a separate writing brief only when the writer requests one. Keep genre, reader, format, source-check, and drafting discussions in chat for an ordinary outline task. Do not expand the outline into the brief below. If a brief is requested, use only the fields that serve that request and render them in its language. The English labels below are optional semantic fields.
 
 ```markdown
 # Writing project brief
@@ -69,7 +69,7 @@ Create a separate writing brief only when the writer requests one. Keep genre, r
 
 ## Writer decisions still open
 
-## Handoff to Humanizer
+## For Humanizer
 
 - Target prose language:
 - Available material and voice evidence:
@@ -83,4 +83,4 @@ Create the brief only after the central direction is chosen or explicitly provis
 
 ## Outline and composition
 
-A clear outline showing claims and their logical connections is the main composition handoff from `writing-skill`. Supply available material, constraints, voice evidence, and unresolved checks through the conversation; create a separate brief only on request. Exploratory sentences or passages can test the structure at any point. Complete drafting and continuation from an established outline belong to Humanizer (`humanizer` for English prose; `humanizer-zh` for Chinese prose). A user-supplied outline can go directly to Humanizer without a writing-skill session.
+A clear outline showing claims and their logical connections is what the writer takes to Humanizer for composition. Supply available material, constraints, voice evidence, and unresolved checks through the conversation; create a separate brief only on request. Exploratory sentences or passages can test the structure at any point. Complete drafting and continuation from an established outline belong to Humanizer (`humanizer` for English prose; `humanizer-zh` for Chinese prose). A user-supplied outline can go directly to Humanizer without a writing-skill session.

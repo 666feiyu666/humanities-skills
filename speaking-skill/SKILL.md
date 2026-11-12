@@ -66,7 +66,7 @@ Do not make the projected slide a transcript of the speech. Review the working d
 
 Develop the material that need not appear on screen: explanation, evidence, examples, qualifications, transitions, and the requested degree of scripting or speaker notes. Estimate timing from this actual oral material.
 
-Test the substantive talk against the working deck. Revise slide order, titles, visible content, or transitions as much as the developed talk requires; keep the screen concise rather than copying new substance onto it. Continue using the neutral working format throughout this stage. Do not start visual design merely because individual slides appear stable. Return unresolved source claims to reading and unresolved central choices to thinking.
+Test the substantive talk against the working deck. Revise slide order, titles, visible content, or transitions as much as the developed talk requires; keep the screen concise rather than copying new substance onto it. Continue using the neutral working format throughout this stage. Do not start visual design merely because individual slides appear stable. Return unresolved source claims to `reading-skill` and unresolved central choices to `writing-skill`.
 
 Content lock occurs only when the visible deck structure and the substantive oral material work together and the user confirms they are sufficiently stable. Record the locked slide order, minimal visible copy, substantive talk or notes, sources and asset constraints, visual intent, and any wording or claims that must not change silently. Until this gate is passed, presentation automation may edit the structural working deck but must not beautify it.
 
@@ -83,9 +83,9 @@ If the user explicitly requests an autonomous end-to-end pass, Codex may proceed
 Match the artifact to the request. Useful outputs include:
 
 - a timed speaking outline;
-- a concise slide storyboard or structural working-deck handoff;
+- a concise slide storyboard or structural working-deck deliverable;
 - a substantive speaker-screen plan or talk track;
-- a content-locked handoff for presentation production;
+- a content-locked packet for presentation production;
 - a full or partial oral script;
 - cue cards or speaker prompts;
 - a rehearsal plan with pacing and emphasis notes;

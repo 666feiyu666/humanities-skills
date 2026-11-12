@@ -118,7 +118,7 @@ relation instead of repeating the skeleton as a longer list.
 Source: Useful reference or passage locator. Related session: Link, when one exists.
 ```
 
-Never invent personal experience. Do not add a generic section to restate the writer's contribution or Codex's refinement after both have already been integrated into the logic chain and brief expansion. Faithfully preserve experience or practical reasoning already supplied or confirmed by the writer, but hand off to `writing-skill` when that reasoning still needs to be developed or tested. A model-proposed extension remains an interpretation or open question until the writer confirms it.
+Never invent personal experience. Do not add a generic section to restate the writer's contribution or Codex's refinement after both have already been integrated into the logic chain and brief expansion. Faithfully preserve experience or practical reasoning already supplied or confirmed by the writer; developing or testing that reasoning further belongs to `writing-skill`. A model-proposed extension remains an interpretation or open question until the writer confirms it.
 
 ## Question card
 
@@ -190,12 +190,12 @@ Edit the active card when the writer asks to revise it; do not create `v2`, `fin
 
 Question cards and knowledge cards may link to each other, but do not force a one-to-one conversion. A useful question can remain a durable entrance after an answer exists.
 
-## Handoff block
+## Next-use note
 
-End with a small handoff block only when useful:
+End with a small next-use note only when useful:
 
 ```markdown
-## Material for writing-skill
+## Material for later work
 
 - Point of interest:
 - Question to continue:
@@ -203,4 +203,4 @@ End with a small handoff block only when useful:
 - Still to verify in the source:
 ```
 
-Keep this block source-facing. Do not preselect a central claim or arrange an article on the writer's behalf.
+Keep this note source-facing. Do not preselect a central claim or arrange an article on the writer's behalf.
