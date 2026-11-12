@@ -61,7 +61,7 @@ Retain the supported part of the writer's reading and identify the specific depa
 
 ## Evaluate theoretical gains and limits
 
-Reconstruct the source's move before evaluating it. When the question concerns a theory's or method's value, explain what the choice enables the author to explain, what premises it depends on, and what it thereby limits, excludes, or leaves unexplained. Distinguish limitations the author acknowledges, consequences reconstructed from the text, and criticism proposed by Codex. Support comparisons with other approaches using relevant sources. Do not manufacture objections or symmetrical lists of advantages and disadvantages, and do not choose the writer's position.
+Reconstruct the source's move before evaluating it. When the question concerns a theory's or method's value, explain what the choice enables the author to explain, what premises it depends on, and what it thereby limits, excludes, or leaves unexplained. Distinguish limitations the author acknowledges, consequences reconstructed from the text, and criticism proposed by the partner. Support comparisons with other approaches using relevant sources. Do not manufacture objections or symmetrical lists of advantages and disadvantages, and do not choose the writer's position.
 
 ## External context and absent sources
 

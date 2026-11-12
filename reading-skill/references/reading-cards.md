@@ -6,13 +6,13 @@ A reading card is a reusable semantic unit distilled from source-grounded readin
 
 Choose the card language from the writer's explicit request, the active card, or the current dialogue when creating a new card. Render headings, prompts, status labels, and human-facing provenance markers naturally in that language. Preserve quotations in the source wording actually inspected and label any model translation. The English labels used below name semantic roles rather than mandatory surface wording.
 
-Card creation is selected by the writer, not decided by the skill and not required as a closing ritual. Codex may identify and explain candidates, but the writer decides whether to create no cards, one card, or several cards of different types. One card may draw on several sessions or passages.
+Card creation is selected by the writer, not decided by the skill and not required as a closing ritual. The partner may identify and explain candidates, but the writer decides whether to create no cards, one card, or several cards of different types. One card may draw on several sessions or passages.
 
 Before creating writer-selected cards from a substantive multi-turn dialogue in a declared local project, preserve that dialogue according to [reading-sessions.md](reading-sessions.md) and link the relevant session record from each card.
 
 ## Keep the writer in control
 
-At a checkpoint, Codex may offer a compact list of candidates. For each candidate, give only:
+At a checkpoint, the partner may offer a compact list of candidates. For each candidate, give only:
 
 - a proposed title;
 - a proposed card type;
@@ -20,11 +20,11 @@ At a checkpoint, Codex may offer a compact list of candidates. For each candidat
 
 Do not draft a full card until the writer accepts or directly requests it. The writer may reject, defer, rename, retype, merge, or split any candidate. A request to save, pause, close, or synthesize the dialogue applies to the session record only and must not be treated as permission to create cards.
 
-When the writer directly requests a named card or card type, treat the artifact choice as confirmed. That request does not authorize Codex to invent the card's substantive center. If the source state cannot support the selected type, explain the limitation and offer a question card or continued dialogue instead.
+When the writer directly requests a named card or card type, treat the artifact choice as confirmed. That request does not authorize the partner to invent the card's substantive center. If the source state cannot support the selected type, explain the limitation and offer a question card or continued dialogue instead.
 
 ## Co-construct the content
 
-The writer should exercise agency over what the card means, not only whether the file exists. Card-making therefore begins from a writer-shaped semantic center and uses Codex as a scaffold, source checker, supplementer, and editor.
+The writer should exercise agency over what the card means, not only whether the file exists. Card-making therefore begins from a writer-shaped semantic center and uses the partner as a scaffold, source checker, supplementer, and editor.
 
 Before drafting, recover relevant writer contributions already present in the dialogue. These may include a tentative title, the problem as the writer sees it, a proposed logic or distinction, a point of confusion, an example, or an experience. Do not ask the writer to repeat material that already supplies the center.
 
@@ -33,7 +33,7 @@ If the center is missing or materially ambiguous, ask one focused construction q
 - for a knowledge card: “What relationship do you most want this card to clarify?”
 - for a question card: “What part of this question remains genuinely unresolved for you?”
 
-Do not turn this into a form-filling interview. Once the writer has supplied or confirmed the center, Codex may build a compact working skeleton, test it against the source, point out missing links, offer alternatives, add verified context and locators, and improve readability.
+Do not turn this into a form-filling interview. Once the writer has supplied or confirmed the center, the partner may build a compact working skeleton, test it against the source, point out missing links, offer alternatives, add verified context and locators, and improve readability.
 
 The following remain the writer's responsibility unless already expressed and confirmed:
 
@@ -42,7 +42,7 @@ The following remain the writer's responsibility unless already expressed and co
 - personal experience, motivation, and practical significance;
 - acceptance of any model-proposed extension.
 
-The following are appropriate Codex contributions:
+The following are appropriate the partner contributions:
 
 - faithful reconstruction of the writer's existing ideas;
 - source verification and provenance separation;
@@ -54,7 +54,7 @@ Even when the writer asks for a complete draft, use the discussion as their init
 
 ## Integrate rather than restate
 
-Use the writer's contribution as semantic input to the card, not as a required display section. When the writer's understanding has been source-checked and incorporated into the logical skeleton and brief development, do not repeat it under headings such as “writer-shaped synthesis,” “my construction,” or “Codex refinement.” The session record already preserves who said what and how the understanding changed; the card should preserve the compact result worth retrieving.
+Use the writer's contribution as semantic input to the card, not as a required display section. When the writer's understanding has been source-checked and incorporated into the logical skeleton and brief development, do not repeat it under headings such as “writer-shaped synthesis,” “my construction,” or “the partner refinement.” The session record already preserves who said what and how the understanding changed; the card should preserve the compact result worth retrieving.
 
 A separate writer-response, experience, interpretation, or correction section is justified only when it adds non-duplicative content whose provenance matters to later use. Examples include a personal experience, a still-disputed interpretation, a model-proposed extension awaiting confirmation, or a correction whose history remains conceptually important. If the difference has been resolved and absorbed into the main explanation, remove the process scaffolding.
 
@@ -118,7 +118,7 @@ relation instead of repeating the skeleton as a longer list.
 Source: Useful reference or passage locator. Related session: Link, when one exists.
 ```
 
-Never invent personal experience. Do not add a generic section to restate the writer's contribution or Codex's refinement after both have already been integrated into the logic chain and brief expansion. Faithfully preserve experience or practical reasoning already supplied or confirmed by the writer; developing or testing that reasoning further belongs to `writing-skill`. A model-proposed extension remains an interpretation or open question until the writer confirms it.
+Never invent personal experience. Do not add a generic section to restate the writer's contribution or the partner's refinement after both have already been integrated into the logic chain and brief expansion. Faithfully preserve experience or practical reasoning already supplied or confirmed by the writer; developing or testing that reasoning further belongs to `writing-skill`. A model-proposed extension remains an interpretation or open question until the writer confirms it.
 
 ## Question card
 
@@ -176,7 +176,7 @@ Use localized equivalents of these compact markers whenever a statement could la
 - `[my thought]`
 - `[needs verification]`
 
-Apply markers locally at the point of genuine ambiguity. Do not label every paragraph mechanically, create a separate provenance section by default, or duplicate the same content solely to show that the writer and Codex contributed to it. When an accepted synthesis can be stated once without obscuring a consequential difference of voice, let the linked session record carry the construction history.
+Apply markers locally at the point of genuine ambiguity. Do not label every paragraph mechanically, create a separate provenance section by default, or duplicate the same content solely to show that the writer and the partner contributed to it. When an accepted synthesis can be stated once without obscuring a consequential difference of voice, let the linked session record carry the construction history.
 
 Locators may be pages, ebook locations, chapter and section names, or stable paragraph identifiers. Never fabricate a locator. When a claim comes from web research, cite the actual page and do not replace its locator with an inferred book page.
 

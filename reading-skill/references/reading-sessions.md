@@ -11,10 +11,10 @@ Choose the record language from the writer's explicit request, the active record
 In a declared local reading project, a dialogue becomes eligible for preservation when it contains multiple substantive source questions. Do not write it immediately for that reason alone. Promote it to a session record only at a writer-confirmed checkpoint when:
 
 - the writer asks to save, pause, close, synthesize, or change phase;
-- the writer confirms a checkpoint proposed by Codex; or
+- the writer confirms a checkpoint proposed by the partner; or
 - the writer directly requests one or more reading cards that will draw on the dialogue.
 
-Codex may propose a checkpoint when a coherent line has reached temporary stability, the writer appears to be changing topics, several distinct reusable units have emerged, or the discussion is becoming long enough that a recoverable boundary would help. Ask once and continue the dialogue if the writer declines or does not accept. A proposal alone is not authorization to write a file.
+The partner may propose a checkpoint when a coherent line has reached temporary stability, the writer appears to be changing topics, several distinct reusable units have emerged, or the discussion is becoming long enough that a recoverable boundary would help. Ask once and continue the dialogue if the writer declines or does not accept. A proposal alone is not authorization to write a file.
 
 Treat the ongoing chat as transient working state, even when the product retains its history. Do not create a project artifact for a one-off question unless the writer asks. During an active session, append live only when requested; otherwise wait for a writer-confirmed checkpoint.
 
@@ -35,7 +35,7 @@ Source: Author, title; link or locator when useful.
 
 **Writer:** Original question
 
-**Codex:** Answer given at the time
+**Partner:** Answer given at the time
 
 ## Follow-up
 
@@ -45,7 +45,7 @@ Source: Author, title; link or locator when useful.
 
 This example is a flexible starting point, not a form to complete. Add per-answer locators or provenance notes only when they clarify something not already stated. Supplementary sources can be cited at the relevant answer rather than collected again in the header. Retain a concrete limitation such as an illegible quoted line when it affects the claim; omit routine extraction and language-history details.
 
-Preserve the writer's questions verbatim. Preserve Codex's answers verbatim when practical; if a response must be shortened, mark it `[edited for length]` or a clear localized equivalent, and do not strengthen its claims. A descriptive Q heading may summarize the exchange, but it must not replace the writer's wording or turn a model formulation into the writer's question. Retain substantive follow-ups in their actual order under the relevant Q or as the next Q.
+Preserve the writer's questions verbatim. Preserve the partner's answers verbatim when practical; if a response must be shortened, mark it `[edited for length]` or a clear localized equivalent, and do not strengthen its claims. A descriptive Q heading may summarize the exchange, but it must not replace the writer's wording or turn a model formulation into the writer's question. Retain substantive follow-ups in their actual order under the relevant Q or as the next Q.
 
 The reading dialogue contains only exchanges that develop understanding of a source, an interpretation, or a source-grounded extension. A request to locate a source belongs in session information or a brief source-establishment note before the dialogue. Checkpoint consent, card proposals, choices about card title or structure, implementation plans, and artifact review logistics are not reading questions and must not be numbered as Q&A. In the follow-up section, give only links to related artifacts, specific unresolved checks, or a brief boundary note needed to explain the session's continuation; do not reproduce the negotiation or duplicate the dialogue as a mini-card. Use the integrity rule below for substantive corrections; do not append routine revision histories.
 

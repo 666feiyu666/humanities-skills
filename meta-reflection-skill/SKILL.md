@@ -1,6 +1,6 @@
 ---
 name: meta-reflection-skill
-description: "Guide writer-invoked reflection at a writer-declared stage boundary in a reading, thinking, writing, or speaking project. Help the writer examine what changed in understanding, what is now usable, what remains uncertain, which learning strategies helped or hindered, and what they want to continue, pause, or change; optionally preserve an author-reviewable reflection record that becomes writer-confirmed only after review. Do not invoke automatically, evaluate the writer, choose substantive positions, or manage project files and other RWS skills by default."
+description: "Guide writer-invoked reflection at a declared stage boundary: what changed, what is usable, what remains uncertain, and what to continue, pause, or change; optionally preserve an author-reviewable record. Invoke only on explicit request."
 ---
 
 # Stage Meta-Reflection
@@ -92,10 +92,10 @@ The `05-元反思/` directory should come into existence with the first explicit
 
 ## Require author review of reflection records
 
-Treat every Codex-produced reflection synthesis or saved reflection record as a review draft until the writer inspects it. Ask them to check:
+Treat every partner-produced reflection synthesis or saved reflection record as a review draft until the writer inspects it. Ask them to check:
 
 - whether first-person statements genuinely express their experience and judgment;
-- whether Codex expansions, connections, and interpretations are visible and accurately labeled;
+- whether the partner expansions, connections, and interpretations are visible and accurately labeled;
 - whether anything important was omitted, over-organized, strengthened, or prematurely resolved;
 - whether the recorded limits and possible directions still feel true at this reflective boundary.
 

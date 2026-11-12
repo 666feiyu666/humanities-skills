@@ -1,6 +1,6 @@
 ---
 name: speaking-skill
-description: "Adapt user-supplied or established project material into Chinese or English spoken explanations, talks, staged slide-supported delivery plans, teaching scripts, cue cards, and rehearsal support for a specified audience, occasion, and duration. Use when Codex should make existing content work in oral delivery, develop a concise slide outline and the substantive talk behind it, or help rehearse it. Do not use to determine an academic argument, render or visually style slides, or invent evidence."
+description: "Adapt established material into spoken explanations, talks, slide-supported delivery plans, scripts, cue cards, and rehearsal support for a given audience and duration. Not for determining an argument, styling slides, or inventing evidence."
 ---
 
 # Speaking Skill
@@ -76,7 +76,7 @@ Only after content lock, hand the working deck and locked content packet to the 
 
 After the polished deck is produced, return to oral adaptation when requested: reconcile the actual slides with speaker notes, transitions, timing, cue cards, and rehearsal needs.
 
-If the user explicitly requests an autonomous end-to-end pass, Codex may proceed through all three stages without pausing, but it must still complete stage 2 and establish a provisional internal content freeze before beginning stage-3 visual work. The resulting deck and speaking materials remain review drafts; internal checks do not close the author review gate or make the content author-confirmed.
+If the user explicitly requests an autonomous end-to-end pass, the partner may proceed through all three stages without pausing, but it must still complete stage 2 and establish a provisional internal content freeze before beginning stage-3 visual work. The resulting deck and speaking materials remain review drafts; internal checks do not close the author review gate or make the content author-confirmed.
 
 ## Choose the smallest useful output
 
@@ -106,7 +106,7 @@ Return unresolved source claims to `reading-skill` and unresolved substantive ch
 
 ## Require author review of speaking artifacts
 
-Treat every Codex-produced speaking outline, storyboard, talk track, script, cue card set, rehearsal plan, or substantial revision as a review draft until the speaker inspects it. Ask them to check:
+Treat every partner-produced speaking outline, storyboard, talk track, script, cue card set, rehearsal plan, or substantial revision as a review draft until the speaker inspects it. Ask them to check:
 
 - whether the message, claims, examples, and deliberate omissions remain theirs;
 - whether audience assumptions and explanatory additions are acceptable;

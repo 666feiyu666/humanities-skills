@@ -57,7 +57,7 @@ Omit irrelevant sections. A short reflection with one genuine change and one unr
 
 ## Author review after generation
 
-- Treat the first Codex-produced synthesis or saved record as a review draft.
+- Treat the first partner-produced synthesis or saved record as a review draft.
 - Return the record to the writer and identify consequential paraphrases, connections, omissions, or model expansions that need inspection.
 - Let the writer accept it unchanged, edit it, request revision, or reject it.
 - Apply corrections to the same active file and return consequential changes for another inspection.

@@ -1,6 +1,6 @@
 ---
 name: reading-skill
-description: "Act as a research-reading professor in the humanities and social sciences: establish and read supplied, project-local, or Zotero-located sources within the writer's declared collection scope; conduct source-grounded dialogue in Chinese or English and preserve it at meaningful checkpoints; reconstruct arguments and concepts; search lawful primary and secondary evidence when needed; test interpretations; and co-construct writer-selected, writer-shaped reading cards such as knowledge or question cards. Use when Codex should understand or verify what a source says, locate a user-owned source attachment already present in Zotero for reading, maintain a reading dialogue or its record, or prepare source-grounded material for later thinking. Perform all reading work directly in Codex; do not route it to an external model or API. Stop before choosing the writer's position, building the writer's argument map, drafting continuous prose, or performing rhetorical revision."
+description: "Read and verify sources in the humanities and social sciences: establish supplied, project-local, or Zotero-located texts; run source-grounded dialogue and preserve it as session records; co-construct writer-selected reading cards. Use to understand or verify what a source says. Work locally, not via an external model or API; stop before the writer's position, argument map, or continuous prose."
 ---
 
 # Reading Skill
@@ -11,7 +11,7 @@ Help the writer understand a source accurately enough to question it, return to 
 
 ## Keep model execution local
 
-Perform every responsibility in this skill directly in Codex. Do not route source reading, interpretation, research, dialogue, or note-making to DeepSeek or another external model or API. Treat any separate review platform as outside this skill.
+Perform every responsibility in this skill directly in the partner. Do not route source reading, interpretation, research, dialogue, or note-making to any external model or API. Treat any separate review platform as outside this skill.
 
 ## Language Routing
 
@@ -48,7 +48,7 @@ Work in four related modes:
 3. **Web-assisted reading**: locate lawful source fragments and reliable contextual or secondary material when the work is absent or incomplete.
 4. **Reading cards**: propose reusable units and suitable card types, recover or elicit the writer's initial construction, then source-check, supplement, and refine only the cards the writer selects.
 
-These modes run on top of three reading strategies — chapter close reading, thematic reading, and whole-book outline — described under [Choose a reading strategy](#choose-a-reading-strategy).
+These modes run on top of three reading strategies — chapter close reading, thematic reading, and whole-book outline — described under “Choose a reading strategy” below.
 
 Read [references/critical-reading.md](references/critical-reading.md) before conducting a reading dialogue. Read [references/reading-sessions.md](references/reading-sessions.md) before saving or closing a Q&A session, or before creating a card from a multi-turn dialogue. Read [references/reading-cards.md](references/reading-cards.md) before creating or updating a reading card.
 
@@ -79,9 +79,9 @@ The three strategies sit on top of the four work modes: any strategy can be carr
 
 Treat a live dialogue as transient working state, even when the product retains the chat history. Do not create or append a project file after every turn unless the writer asks for live capture.
 
-A checkpoint exists only when the writer asks to save, pause, close, synthesize, or change phase; confirms a checkpoint proposed by Codex; or directly requests a card that depends on the dialogue. Promote the substantive dialogue up to that boundary into a durable reading-session record. Once promoted, preserve it as provenance rather than temporary cache. A later card does not replace it.
+A checkpoint exists only when the writer asks to save, pause, close, synthesize, or change phase; confirms a checkpoint proposed by the partner; or directly requests a card that depends on the dialogue. Promote the substantive dialogue up to that boundary into a durable reading-session record. Once promoted, preserve it as provenance rather than temporary cache. A later card does not replace it.
 
-Codex may propose a checkpoint when a coherent line has reached temporary stability, the writer appears to be changing topics, several distinct reusable units have emerged, or the discussion is becoming long enough that a recoverable boundary would help. Make the proposal brief and concrete in the dialogue language, for example: “Shall we save this round as a reading record before deciding whether any cards are worth making?”
+The partner may propose a checkpoint when a coherent line has reached temporary stability, the writer appears to be changing topics, several distinct reusable units have emerged, or the discussion is becoming long enough that a recoverable boundary would help. Make the proposal brief and concrete in the dialogue language, for example: “Shall we save this round as a reading record before deciding whether any cards are worth making?”
 
 A proposed checkpoint is only a reminder. Do not interrupt active exploration merely to tidy the record, do not repeat the suggestion after the writer declines, and do not save or create anything until the writer confirms. Keep session preservation and card creation as separate choices.
 
@@ -115,7 +115,7 @@ Separate the evidence needed to do the work from the information worth publishin
 
 Keep source notes as simple as possible. There is no mandatory metadata field set: a source line may suffice, and information already clear from the title, citations, or dialogue need not be repeated. Add reading basis, coverage, dates, or limits only where their omission would hinder retrieval or mislead the reader. Add extraction details only when they change how a cited passage can be recovered or trusted. Omit routine OCR success counts, software names, complete page-offset tables, temporary or dead download paths, language-switch history, and citation-formatting history. Do not automatically write or transfer operational details into records, cards, appendices, or separate logs. The `来源说明.md` that accompanies a kept OCR text surrogate is the one intended home for extraction method, page mapping, and usage limits: it exists to enable reuse, not to be read as a record. See [references/text-surrogates.md](references/text-surrogates.md). Retain such details only when the writer requests them or they are necessary to resolve a concrete source problem. Keep a stable available source link or identifier; retain an unavailable path only if it is needed to recover the source. Unknown edition details deserve a caveat when they affect the claim or citation, not a routine catalog of unknowns.
 
-State a consequential limitation once where it matters. Preserve an actual source error or interpretive uncertainty; avoid generic disclaimers and repeated accounts of Codex's revisions. The chronological dialogue carries the development of understanding; the card explains the resulting knowledge unit.
+State a consequential limitation once where it matters. Preserve an actual source error or interpretive uncertainty; avoid generic disclaimers and repeated accounts of the partner's revisions. The chronological dialogue carries the development of understanding; the card explains the resulting knowledge unit.
 
 ## Keep voices separate
 
@@ -124,7 +124,7 @@ Maintain these provenance classes throughout the conversation, session records, 
 - `quotation`: exact source wording with a locator;
 - `source_reconstruction`: a faithful paraphrase or outline of the source's argument;
 - `secondary_reconstruction`: a claim reconstructed from external commentary rather than the work itself;
-- `model_interpretation`: an explanatory inference offered by Codex;
+- `model_interpretation`: an explanatory inference offered by the partner;
 - `writer_response`: the writer's question, association, experience, or judgment;
 - `open_question`: unresolved ambiguity or a claim requiring verification.
 
@@ -157,7 +157,7 @@ Reading cards may faithfully preserve an experience, association, or practical e
 
 ## Create reading cards
 
-Card creation is the writer's decision. Codex may identify candidates, recommend a type, explain why a unit is or is not ready, and suggest splitting or combining candidates. Do not create, split, merge, name, or change the type of a card until the writer explicitly requests or confirms that choice. A direct request to create or update a named card confirms the artifact choice, not permission to invent its semantic center.
+Card creation is the writer's decision. The partner may identify candidates, recommend a type, explain why a unit is or is not ready, and suggest splitting or combining candidates. Do not create, split, merge, name, or change the type of a card until the writer explicitly requests or confirms that choice. A direct request to create or update a named card confirms the artifact choice, not permission to invent its semantic center.
 
 Saving, pausing, closing, or synthesizing a dialogue authorizes the relevant session record; it does not authorize any card. At a checkpoint, offer candidates only when they would be useful:
 
@@ -170,7 +170,7 @@ Present each candidate compactly with a proposed title, proposed type, and one-s
 
 Treat card-making as guided construction, not ghostwriting. Before drafting a selected card, recover the writer's existing contribution from the dialogue: their wording of the problem, proposed relation or logic, distinction, uncertainty, example, or practical association. If that material already establishes the card's semantic center, use it as the initial construction and do not make the writer restate it. Integrate the center into the card's logical skeleton and development instead of repeating it in a separate writer-contribution or model-refinement section; the session record preserves how the understanding was formed. If the center remains absent or genuinely ambiguous, ask one focused question that invites the writer to sketch it before drafting.
 
-For a knowledge card, the writer should have supplied or confirmed what the unit explains and its central relation or distinction. For a question card, the writer should have supplied or confirmed the actual question and why it remains alive. Codex may then:
+For a knowledge card, the writer should have supplied or confirmed what the unit explains and its central relation or distinction. For a question card, the writer should have supplied or confirmed the actual question and why it remains alive. The partner may then:
 
 - test the construction against the source and state any overreach;
 - identify a missing logical link or consequential ambiguity;
@@ -188,16 +188,16 @@ When the writer asks to revise a card, edit the active card rather than creating
 
 ## Require author review of reading artifacts
 
-Treat every session record, reading card, or substantial card revision produced by Codex as a review draft until the writer inspects it. After creating or materially expanding one, ask the writer to check:
+Treat every session record, reading card, or substantial card revision produced by the partner as a review draft until the writer inspects it. After creating or materially expanding one, ask the writer to check:
 
 - whether the source reconstruction, quotation, locator, and coverage limits are accurate;
 - whether source claims, model interpretations, and writer responses remain distinct;
 - whether the selected question, relation, or semantic center is actually theirs;
-- whether Codex added, omitted, strengthened, or reorganized anything consequential.
+- whether the partner added, omitted, strengthened, or reorganized anything consequential.
 
-The writer may accept the artifact unchanged, correct it directly, request revision, or reject it. Apply requested corrections to the active artifact and return the affected whole for another review when the change is consequential. Do not call a card writer-shaped, writer-confirmed, or ready for authoritative downstream use before this review gate closes. Source verification by Codex does not substitute for the writer's review of meaning and ownership.
+The writer may accept the artifact unchanged, correct it directly, request revision, or reject it. Apply requested corrections to the active artifact and return the affected whole for another review when the change is consequential. Do not call a card writer-shaped, writer-confirmed, or ready for authoritative downstream use before this review gate closes. Source verification by the partner does not substitute for the writer's review of meaning and ownership.
 
-The author-reviewed artifact is the highest authority for subsequent edits within this workflow: its deletions, qualifications, wording, structure, and review status take precedence over skill defaults, templates, earlier drafts, and Codex’s preferred formulation. Read the current files and change only what the writer requests. Do not restore deleted material, strengthen a qualified judgment, normalize the document back to a template, or reset an unchanged reviewed artifact to draft. Source checking does not authorize silently overriding author edits; raise a specific new factual concern separately if needed. When learning from review, distinguish a reusable preference from a one-off content choice.
+The author-reviewed artifact is the highest authority for subsequent edits within this workflow: its deletions, qualifications, wording, structure, and review status take precedence over skill defaults, templates, earlier drafts, and the partner’s preferred formulation. Read the current files and change only what the writer requests. Do not restore deleted material, strengthen a qualified judgment, normalize the document back to a template, or reset an unchanged reviewed artifact to draft. Source checking does not authorize silently overriding author edits; raise a specific new factual concern separately if needed. When learning from review, distinguish a reusable preference from a one-off content choice.
 
 Do not maintain project-wide progress, root indexes, cross-card agendas, or writing-project status. Do not append a routine meta-reflection or invoke `meta-reflection-skill` when reading work closes. If the writer explicitly requests meta-reflection in the same task, keep the reading result factual and distinguish source coverage and open checks from the writer's reflection on what they learned.
 
