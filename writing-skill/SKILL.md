@@ -1,11 +1,11 @@
 ---
 name: writing-skill
-description: "Develop the writer's questions, judgments, argument, and outline through dialogue, argument maps, and exploratory writing; return author-reviewable outlines. Prose drafting belongs to Humanizer; source verification belongs to reading-skill."
+description: "Develop the writer's questions, judgments, argument, and outline through dialogue, argument maps, and exploratory writing; return author-reviewable outlines. Interactive prose drafting belongs to writing-partner-skill; language editing belongs to Humanizer; source verification belongs to reading-skill."
 ---
 
 # Writing through inquiry
 
-Help the writer discover what they want to say and how the piece should develop. Thinking belongs inside writing: discussion, mapping, exploratory passages, and outline revision can inform one another. The main deliverable for composition is an inspectable outline. Complete prose drafting, continuation, and language editing belong to Humanizer.
+Help the writer discover what they want to say and how the piece should develop. Thinking belongs inside writing: discussion, mapping, exploratory passages, and outline revision can inform one another. The main deliverable for composition is an inspectable outline. Interactive prose drafting belongs to writing-partner-skill; language editing and de-AI polish belong to Humanizer.
 
 ## Language and execution
 
@@ -43,11 +43,11 @@ Read [argument-maps.md](references/argument-maps.md) when a text or visual map n
 
 Use a working sentence or passage when it can test an actual question: what a claim commits the writer to, whether an example carries the proposed inference, how two movements connect, or what the reader needs next. State the test when it is not evident; invite the writer to write or offer a clearly provisional passage as useful.
 
-Read the passage back for what it actually asserts. Discuss proposed changes to the claim, qualification, sequence, or outline in chat; edit the argument-map file only after the concrete plan is confirmed. A trial passage may be an opening, transition, or body passage, but its purpose is discovery. Do not turn successive trials into an unrequested full article or treat fluent wording as author acceptance. When the request is to complete a section or article from an established outline, use Humanizer.
+Read the passage back for what it actually asserts. Discuss proposed changes to the claim, qualification, sequence, or outline in chat; edit the argument-map file only after the concrete plan is confirmed. A trial passage may be an opening, transition, or body passage, but its purpose is discovery. Do not turn successive trials into an unrequested full article or treat fluent wording as author acceptance. When the request is to complete a section or article from an established outline, use writing-partner-skill for level-by-level drafting, or Humanizer for one-shot composition and polish.
 
 ### Review an existing draft's structure
 
-Read the prose before imposing the intended outline. Recover its actual governing question, claim path, passage jobs, conclusion, and reader relationship. Compare that path with the writer's intent without assuming the earlier arrangement is better. Return located evidence, effects, and conditional repair directions; discuss and confirm the concrete outline changes in chat before editing its file. Use Humanizer for applied prose revision and language editing. Read [project-writing.md](references/project-writing.md) for persistent argument context or systematic structural review.
+Read the prose before imposing the intended outline. Recover its actual governing question, claim path, passage jobs, conclusion, and reader relationship. Compare that path with the writer's intent without assuming the earlier arrangement is better. Return located evidence, effects, and conditional repair directions; discuss and confirm the concrete outline changes in chat before editing its file. Use writing-partner-skill for applied level-by-level revision, and Humanizer for language editing and de-AI polish. Read [project-writing.md](references/project-writing.md) for persistent argument context or systematic structural review.
 
 ## Develop the outline
 
@@ -71,9 +71,9 @@ For saved substantial projects, preserve the existing outline convention. Use a 
 
 Return every model-created or materially revised outline, map, working passage, record, or structural revision as author-reviewable. Make consequential expansions, selections, and inferential bridges visible. Only explicit writer review makes the current artifact writer-confirmed; acceptance unchanged is sufficient. An update requires review of the changed artifact without invalidating unchanged writer decisions.
 
-The writer may provide an outline directly to Humanizer; using this skill is not a prerequisite. A model-produced outline can be used after author review, or as a provisional basis when the writer explicitly requests outline-and-draft together or an end-to-end pass. This permits provisional composition; it does not bypass the chat confirmation required before writing an argument-map file or turn model choices into settled author views. Do not add a second confirmation for the same concrete edit plan already accepted in chat.
+The writer may provide an outline directly to writing-partner-skill or Humanizer; using this skill is not a prerequisite. A model-produced outline can be used after author review, or as a provisional basis when the writer explicitly requests outline-and-draft together or an end-to-end pass. This permits provisional composition; it does not bypass the chat confirmation required before writing an argument-map file or turn model choices into settled author views. Do not add a second confirmation for the same concrete edit plan already accepted in chat.
 
-For requested composition, the writer takes the reviewed outline, available material, target language, voice evidence, and requested scope to `humanizer` for English or `humanizer-zh` for Chinese. Missing evidence stays missing; unresolved substantive choices return to the writer and this inquiry rather than being silently completed in prose. A new idea discovered during drafting may send the work back to outline revision.
+For requested composition, the writer takes the reviewed outline, available material, target language, voice evidence, and requested scope to `writing-partner-skill` for level-by-level drafting, or to `humanizer` (English) / `humanizer-zh` (Chinese) for one-shot composition and language polish. Missing evidence stays missing; unresolved substantive choices return to the writer and this inquiry rather than being silently completed in prose. A new idea discovered during drafting may send the work back to outline revision.
 
 ## Preserve useful work and stop at scope
 

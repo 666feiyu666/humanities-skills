@@ -1,0 +1,4 @@
+interface:
+  display_name: "Writing Partner"
+  short_description: "Draft the article with you, level by level, and get unstuck"
+  default_prompt: "Use $writing-partner-skill to draft from my line-of-argument and help me when I'm stuck or skipping steps."

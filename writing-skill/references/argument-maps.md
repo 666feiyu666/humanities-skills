@@ -145,7 +145,7 @@ Use Mermaid when relations become easier to inspect visually. Quote labels conta
 
 ## Writing-readiness gate
 
-A map becomes a usable outline for Humanizer (`humanizer` for English prose; `humanizer-zh` for Chinese prose) for the requested scope when:
+A map becomes a usable outline for drafting (`writing-partner-skill` for level-by-level composition; `humanizer` for English or `humanizer-zh` for Chinese one-shot composition) for the requested scope when:
 
 - one governing question is selected;
 - the central judgment is chosen or explicitly provisional;

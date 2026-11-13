@@ -26,6 +26,6 @@ Return prioritized findings with locations, textual evidence, effects, and condi
 
 ## Scope a revision cycle only when needed
 
-For requested systematic or multi-round work, distinguish argument and reader movement, relations among passages, and language expression. Writing owns the first two as inquiry and outline revision. Humanizer implements the authorized prose scope and handles language. Exact source verification returns to reading-skill; substantive choices return to the writer.
+For requested systematic or multi-round work, distinguish argument and reader movement, relations among passages, and language expression. Writing owns the first two as inquiry and outline revision. writing-partner-skill implements the authorized prose scope through level-by-level drafting; Humanizer handles language editing and de-AI polish. Exact source verification returns to reading-skill; substantive choices return to the writer.
 
 Keep deferred findings only when they need to survive into a later round. Preserve project names and meaningful versions. Discuss how accepted corrections affect the outline, confirm the concrete edit plan, and then apply it through the agreed branches before passing the current outline and affected prose scope to Humanizer. A completed structural review does not make the outline or later prose author-approved.
