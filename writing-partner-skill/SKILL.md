@@ -15,8 +15,8 @@ Draft directly in the partner. Do not route material to an external model or API
 
 ## Division of labor
 
-- `writing-skill` develops the question, argument, structure, and reviewable outline; it does not draft prose.
-- This skill drafts prose from an established or explicitly provisional outline, level by level, and handles stalls and jumps.
+- `writing-skill` develops the question, argument, structure, and reviewable outline; it does not draft prose. Its exploratory working passages exist to test the argument, not to compose the piece.
+- This skill drafts prose from an established or explicitly provisional outline, level by level, and handles stalls and jumps. A passage written here is for the piece; a passage written only to test the argument belongs to `writing-skill`.
 - `humanizer` (English) / `humanizer-zh` (Chinese) polishes finished prose: removing AI tells, matching voice, and one-shot composition from a complete outline. The prose produced here is working prose; final language editing can still pass through Humanizer.
 - `reading-skill` verifies sources; `review-suggestion-skill` evaluates an existing text.
 

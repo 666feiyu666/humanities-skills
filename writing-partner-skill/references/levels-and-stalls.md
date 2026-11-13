@@ -23,9 +23,9 @@ A section is one movement of the line of argument. Organize it into paragraphs b
 Diagnose before drafting:
 
 - **No word for it.** Supply candidates, not a paragraph.
-- **Logical gap.** The step before does not license the step after. Show the missing connection and offer a transition that states it, or flag it for the outline.
+- **Logical gap.** The step before does not license the step after. If the line of argument itself is missing the step, flag it and return it to `writing-skill`; do not invent the connection. If the step is already in the argument but two sentences are not joined, offer the connective or transition that states the existing relation.
 - **Missing evidence.** The claim needs support the material does not yet give. Mark it as a source check for `reading-skill` and offer to draft around it with a placeholder.
-- **Unclear job.** The writer does not know what this passage is for. Return to the line of argument and name the job before writing.
+- **Unclear job.** The writer does not know what this passage is for. Look up the job in the line of argument and name it; if the line of argument does not assign one, flag it and return to `writing-skill` rather than inventing a purpose.
 - **Perfectionism.** The writer will not accept any phrasing. Offer an explicitly provisional draft ("先写脏稿") to unblock, and make clear it is not settled prose.
 
 Offer the smallest help that restarts drafting. One focused question beats a menu of options when the diagnosis is uncertain.
