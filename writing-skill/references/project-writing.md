@@ -8,7 +8,7 @@ Use the project's existing outline or argument file. Preserve `line-of-argument.
 
 Read and discuss an existing file before improving it, and follow the edit-plan confirmation gate in [SKILL.md](../SKILL.md). Apply an accepted plan within its scope without repeating the same confirmation.
 
-Keep the active outline focused on the core question, ordered claims or questions, and the reasons connecting each movement to the next. Include examples and qualifications where they make that argument intelligible. Use the agreed outline as the basis for subsequent discussion and revision.
+Keep the active outline focused on the governing question or shared aim, the strands that carry the argument, and, within each strand, the reasons connecting each movement to the next. Include examples and intrinsic qualifications where they make that argument intelligible; keep the movement free of defensive hedging and expository meta-discourse, and put boundaries and what the piece does not claim in a closing limits step. Use the agreed outline as the basis for subsequent discussion and revision.
 
 Discuss revision reasons, alternatives, source checks, reader and format constraints, voice evidence, review status, and drafting arrangements in chat. Do not add process or history sections to the outline. A separate brief or discussion record is a distinct writer-requested deliverable.
 

@@ -24,6 +24,8 @@ After this source preflight, treat Q&A as the first substantive reading stage wh
 4. Name a consequential uncertainty, tension, or connection only when it bears directly on the writer's question; do not add one merely to prolong the dialogue.
 5. End a complete answer there by default. When continued dialogue would be useful, invite the writer to respond in their own terms instead of manufacturing a next question. A natural invitation may be as simple as: “If anything here remains unclear, or if you want to pursue another part of the book, feel free to follow up.”
 
+Keep the answer's forward movement free of defensive hedging and expository meta-discourse. State the answer's boundary — what is clearly supported, what is inferred, what remains uncertain — compactly at the end of the answer, not interleaved through every step.
+
 Prefer a precise local answer over a complete survey. Expand to the chapter or whole work only when the local passage depends on it.
 
 Use the methods below only when they bear on the current question. They guide judgment, not a mandatory sequence or a set of labels to display in every answer.

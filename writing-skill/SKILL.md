@@ -47,19 +47,21 @@ Read the passage back for what it actually asserts. Discuss proposed changes to 
 
 ### Review an existing draft's structure
 
-Read the prose before imposing the intended outline. Recover its actual governing question, claim path, passage jobs, conclusion, and reader relationship. Compare that path with the writer's intent without assuming the earlier arrangement is better. Return located evidence, effects, and conditional repair directions; discuss and confirm the concrete outline changes in chat before editing its file. Use writing-partner-skill for applied level-by-level revision, and Humanizer for language editing and de-AI polish. Read [project-writing.md](references/project-writing.md) for persistent argument context or systematic structural review.
+Read the prose before imposing the intended outline. Recover its actual governing question or shared aim, its claim path or strands, passage jobs, conclusion, and reader relationship. Compare that path with the writer's intent without assuming the earlier arrangement is better. Return located evidence, effects, and conditional repair directions; discuss and confirm the concrete outline changes in chat before editing its file. Use writing-partner-skill for applied level-by-level revision, and Humanizer for language editing and de-AI polish. Read [project-writing.md](references/project-writing.md) for persistent argument context or systematic structural review.
 
 ## Develop the outline
 
-When the writer wants to prepare a piece, read [article-invention.md](references/article-invention.md). Move from the writer's material and live question toward a chosen or explicitly provisional center. The outline or line of argument should make the argument's progression easy to inspect.
+When the writer wants to prepare a piece, read [article-invention.md](references/article-invention.md). Move from the writer's material and live question toward a chosen or explicitly provisional center or shared aim. The outline or line of argument should make the argument's progression easy to inspect.
+
+A piece may rest on more than one line of argument: several parallel strands, each with its own local question, judgment, and progression, together carry a larger argument. The strands may stand independently and need not converge on a single conclusion. Make each strand inspectable on its own, and state how the strands relate, or that they are deliberately parallel.
 
 Default to:
 
-- the core question;
-- ordered steps stating the substantive claim or question each movement develops;
+- the governing question or the strands' shared aim;
+- for each strand, ordered steps stating the substantive claim or question that movement develops;
 - short explanations of why the steps connect, with the reasons or examples needed to understand that connection.
 
-Use the agreed current outline as the basis for subsequent discussion. Test an actual inferential gap or proposed change against its steps and connections before revising it. A topic list or arrows alone do not establish the logical chain. Keep qualifications that affect a claim's meaning, scope, or certainty within the claim.
+Use the agreed current outline as the basis for subsequent discussion. Test an actual inferential gap or proposed change against its steps and connections before revising it. A topic list or arrows alone do not establish the logical chain. Keep qualifications that affect a claim's meaning, scope, or certainty within the claim. Keep the outline's forward movement free of defensive hedging and expository meta-discourse ("this does not mean that…", "it should be noted that…", "in what follows I will…"): state the piece's boundaries, what it does not claim, and unresolved limits once, in a closing limits step, rather than scattered through the movement.
 
 Keep revision rationales, alternatives, source-check discussions, review status, decision history, writing logistics, and drafting arrangements in the conversation. Do not append them as outline sections or turn the outline into a process record. Retain a source attribution or example in a step when it helps explain the argument itself; source inventories and verification logs belong outside the outline. Create a separate brief or inquiry record only when the writer requests it, and tailor it to that request.
 

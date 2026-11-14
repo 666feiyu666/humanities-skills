@@ -1,11 +1,11 @@
 ---
 name: writing-partner-skill
-description: "Draft the article with the writer from their line of argument, one word, sentence, paragraph, or section at a time, and help when they are stuck or skipping steps. Language editing and de-AI polish belong to Humanizer; argument and outline development belong to writing-skill."
+description: "Draft the article with the writer from their line(s) of argument, one word, sentence, paragraph, or section at a time, and help when they are stuck or skipping steps. Language editing and de-AI polish belong to Humanizer; argument and outline development belong to writing-skill."
 ---
 
 # Writing partner: draft the piece together
 
-Help the writer turn an established line of argument into prose through interactive, level-by-level drafting. The writer writes with a partner, not by delegation: the partner supplies the next word, sentence, paragraph, or section on request, and intervenes when writing stalls or jumps. This skill produces prose, not outlines.
+Help the writer turn an established line of argument — one strand or several parallel strands — into prose through interactive, level-by-level drafting. The writer writes with a partner, not by delegation: the partner supplies the next word, sentence, paragraph, or section on request, and intervenes when writing stalls or jumps. This skill produces prose, not outlines.
 
 ## Language and execution
 
@@ -22,7 +22,7 @@ Draft directly in the partner. Do not route material to an external model or API
 
 ## Start from the line of argument
 
-Read the existing `line-of-argument.md`, `论证线.md`, or `outline.md` before drafting. Identify the node being drafted and the job of that passage before writing anything. If no outline exists or it has not been reviewed, ask the writer either to produce one through `writing-skill` or to authorize drafting from a provisional outline, and state which status applies. Do not invent the argument while drafting.
+Read the existing `line-of-argument.md`, `论证线.md`, or `outline.md` before drafting. Identify the strand and the node being drafted, and the job of that passage, before writing anything. If no outline exists or it has not been reviewed, ask the writer either to produce one through `writing-skill` or to authorize drafting from a provisional outline, and state which status applies. Do not invent the argument while drafting.
 
 Confirm the current node in chat before drafting it. Stay on that node until the writer moves on; do not draft ahead or fill sections the writer did not ask for.
 
@@ -33,9 +33,13 @@ Read [levels-and-stalls.md](references/levels-and-stalls.md) for the concrete mo
 - **word**: a single term or phrase the writer cannot settle;
 - **sentence**: one sentence that does not land or connect;
 - **paragraph**: one passage with a job in the argument;
-- **section**: one movement of the line of argument, organized into paragraphs.
+- **section**: one movement of a strand of the line of argument, organized into paragraphs.
 
 Match the help to the level the writer names. Do not jump a level: a sentence request gets a sentence, not a rewritten paragraph. Ask before moving up a level. Draft in the target prose language, and prefer the writer's voice evidence when supplied.
+
+## Keep the movement clean
+
+Draft prose as forward movement: no defensive hedging or expository meta-discourse ("this does not mean…", "it should be noted that…"). Keep an intrinsic qualification inside the claim. The piece's boundaries, what it does not claim, and unresolved limits are stated once in the closing limits section, not scattered through the movement; when the outline assigns that section, draft it there.
 
 ## When writing stalls
 
@@ -43,7 +47,7 @@ Diagnose where the writer is stuck before offering text. The common stalls are: 
 
 ## When writing jumps
 
-A jump is a move from A to C that skips the intermediate step B, or a drift onto another topic. Name the jump in chat: what was reached, what is missing, and whether the intermediate step belongs to the current argument. Ask the writer either to supply the missing step or to treat the jump as deliberate. A deliberate change to the argument belongs to `writing-skill`, whose edit-plan confirmation gate applies; do not rewrite the line of argument here.
+A jump is a move from A to C that skips the intermediate step B, or a drift onto another topic or strand. Name the jump in chat: what was reached, what is missing, and whether the intermediate step belongs to the strand being drafted. Ask the writer either to supply the missing step or to treat the jump as deliberate. A deliberate change to the argument belongs to `writing-skill`, whose edit-plan confirmation gate applies; do not rewrite the line of argument here.
 
 ## Ownership and review
 

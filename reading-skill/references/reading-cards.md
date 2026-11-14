@@ -79,6 +79,8 @@ A knowledge card should remain readable after the immediate conversation has bee
 3. when real material exists, test or extend it through the writer's experience or practice;
 4. preserve enough source context to recover the basis and limits.
 
+Write steps 2–3 as forward movement: no defensive hedging or expository meta-discourse. Put boundaries, what the card does not claim, and unresolved limits in **Sources and limits of understanding**, not scattered through the development.
+
 ### Structure requirements
 
 For new knowledge cards, use the following sections with substantive content. These defaults never override the author’s reviewed structure or deletions:

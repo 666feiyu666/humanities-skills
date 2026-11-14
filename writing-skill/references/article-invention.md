@@ -29,10 +29,10 @@ Before making a writing brief, confirm:
 
 - why the opening problem matters to the writer;
 - what changed or complicated the writer's initial judgment;
-- which claim is central and which claims are subordinate;
-- why each major movement follows from the previous one;
+- whether a single claim is central or several parallel strands carry the argument; which claims are subordinate within each strand;
+- why, within each strand, each major movement follows from the previous one, and how the strands relate;
 - where evidence, warrants, qualifications, and objections attach;
-- which ending follows from the established path;
+- which ending follows from the established path, or that the strands remain deliberately parallel;
 - which next question belongs to a different piece.
 
 Keep the current structure editable. When useful, test a relation or reader movement through a provisional passage and discuss its implications in chat. Present and confirm the concrete plan before creating or editing an argument-map or equivalent outline file, including an existing file that appears incomplete. Do not treat the trial as settled publication prose or a local answer as agreement to an unseen overall plan.
@@ -51,9 +51,9 @@ Create a separate writing brief only when the writer requests one. Keep genre, r
 - Publication setting:
 - Length or other constraints:
 
-## Central question
+## Central question (or shared aim of the strands)
 
-## Writer-confirmed central judgment
+## Writer-confirmed central judgment(s)
 
 - Degree of commitment:
 

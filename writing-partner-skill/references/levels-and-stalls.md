@@ -12,11 +12,11 @@ One sentence does not land or does not connect to its neighbors. Say what the se
 
 ### Paragraph
 
-A passage has a job in the argument: opening, claim, reason, example, objection, qualification, transition, or close. Name the job from the line of argument, then draft the paragraph to do that job. Keep each paragraph to one job; when the job is unclear, ask rather than drafting.
+A passage has a job in the argument: opening, claim, reason, example, objection, qualification, transition, close, or closing limits. Name the job from the relevant strand of the line of argument, then draft the paragraph to do that job. Keep each paragraph to one job; when the job is unclear, ask rather than drafting. A `qualification` here is an intrinsic condition of the claim; defensive hedging and expository meta-discourse do not belong in the movement — route them to the closing limits section.
 
 ### Section
 
-A section is one movement of the line of argument. Organize it into paragraphs by the ordered claims or questions of that movement, so the progression is inspectable. Draft the section only after the writer confirms the node; do not pad it to a length or fill it with material the outline does not support.
+A section is one movement of a strand of the argument. Organize it into paragraphs by the ordered claims or questions of that strand's movement, so the progression is inspectable. Draft the section only after the writer confirms the strand and node; do not pad it to a length or fill it with material the outline does not support.
 
 ## Stalls
 
@@ -35,7 +35,7 @@ Offer the smallest help that restarts drafting. One focused question beats a men
 A jump skips a step or changes topic. Name it in chat:
 
 - the reached point (C) and the skipped step (B);
-- whether B belongs to the current argument or to another piece.
+- whether B belongs to the strand being drafted or to another strand or piece.
 
 Ask the writer to supply B or to treat the jump as deliberate. A deliberate change to the argument returns to `writing-skill`; here, do not rewrite the line of argument. Resume drafting from the corrected node.
 

@@ -36,7 +36,8 @@ Use only roles that help the current inquiry:
 - `definition`: meaning assigned to a term;
 - `distinction`: separation of two terms or cases;
 - `objection`: pressure against a claim;
-- `qualification`: limit or condition;
+- `qualification`: limit or condition that is part of the claim — removing it changes the claim;
+- `boundary`: defensive or scope statement that does not advance the argument and belongs in the closing limits step, not the movement;
 - `implication`: what follows if a claim is accepted;
 - `transition`: why a new branch becomes necessary;
 - `source_check`: statement requiring `reading-skill`;
@@ -73,7 +74,7 @@ Look for:
 - claims without reasons;
 - material without an identified use;
 - reasons without evidence or warrant;
-- parallel branches that may be competing centers;
+- parallel branches whose relation is unclear — competing centers, or deliberately independent strands that together carry the argument;
 - a conclusion that introduces a new question rather than follows from the map;
 - shifts between source reconstruction and writer extension;
 - a personal example carrying an unjustified general claim;
@@ -128,17 +129,27 @@ If the concrete map plan has not been confirmed in chat, return the proposed cha
 
 ## Map format
 
-Use a concise Markdown outline by default. Show the core question, ordered claims or questions, and why they connect. Group movements when it helps the argument; do not impose a fixed number of parts or steps.
+Use a concise Markdown outline by default. Show the governing question or shared aim, the strands that carry the argument, and, within each strand, the ordered claims or questions and why they connect. Group movements when it helps the argument; do not impose a fixed number of parts or steps, and do not force deliberately parallel strands into one sequence.
 
 Render headings and steps in the outline language. For example:
 
 ```markdown
 # Argument map
 
-**Core question:** …
+**Governing question or shared aim:** …
+
+## Strand 1
 
 1. **Claim or question developed here.** Reasoning or example that establishes the step.
 2. **Next claim or question.** Explain how it follows from, qualifies, or extends the previous step.
+
+## Strand 2
+
+…
+
+## Relation of the strands / Closing limits
+
+State how the strands relate, or that they are deliberately parallel, and the piece's boundaries and what it does not claim.
 ```
 
 Use Mermaid when relations become easier to inspect visually. Quote labels containing punctuation. Keep the map editable; discuss revision reasons and alternatives in chat.
@@ -147,11 +158,11 @@ Use Mermaid when relations become easier to inspect visually. Quote labels conta
 
 A map becomes a usable outline for drafting (`writing-partner-skill` for level-by-level composition; `humanizer` for English or `humanizer-zh` for Chinese one-shot composition) for the requested scope when:
 
-- one governing question is selected;
-- the central judgment is chosen or explicitly provisional;
-- the main reasons or movements are connected;
+- the governing question or the strands' shared aim is selected;
+- each strand's judgment is chosen or explicitly provisional;
+- within each strand the main reasons or movements are connected, and the strands' relation (converging or deliberately parallel) is stated or explicitly left open;
 - evidence is available in the established material, or missing support has been identified in the conversation;
-- consequential qualifications and objections are reflected in the claims or discussed in chat;
+- consequential intrinsic qualifications are reflected in the claims; objections and defensive boundaries are placed in the closing limits step or discussed in chat;
 - source checks and branches reserved for another piece are clear in the conversation;
 - the writer has supplied or confirmed the direction, or explicitly authorized drafting from a provisional outline. Clarify that status in chat.
 
