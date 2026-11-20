@@ -188,7 +188,28 @@ For a Zotero-located source, use the bibliographic item key and attachment key a
 
 ## Updating
 
-Edit the active card when the writer asks to revise it; do not create `v2`, `final`, or date-suffixed duplicates for ordinary changes. In a Git-managed project, let Git preserve routine history. Keep an inline correction or superseded interpretation only when the change itself matters to understanding. Prefer a corrected explanation and a link to the session’s concise correction over a duplicated account of the editing process. Author-reviewed removals remain authoritative.
+Use two update modes:
+
+- **Ordinary edit**: update the active file for an unreviewed draft, typo, broken link, locator correction, or other change that does not need a separately retrievable state. Do not create `final`, date-suffixed, or revision copies for these changes.
+- **Versioned revision**: when the writer explicitly asks to revise an author-reviewed card while preserving the original, create a successor rather than rewriting the reviewed artifact. Name the first successor `<stem>-revised-v1.md`, then increment the number from the latest successor in that chain. Do not infer this mode merely because an ordinary edit is substantial; the writer chooses to preserve a new version.
+
+At the top of a versioned successor, keep the ordinary review marker and add a compact relation note equivalent to:
+
+```markdown
+> 待作者审阅。修订自[原卡片](relative-link)。本版在审阅前不替代原卡片。
+```
+
+Use natural equivalents in the artifact language. Link to the immediate predecessor; when the chain is longer than one revision, identify the root card only if that prevents ambiguity. The successor must explain the knowledge unit on its own. Do not turn it into a changelog, repeat the whole revision discussion, or use the relation note to claim author acceptance.
+
+Add a compact forward relation to the preserved predecessor, for example:
+
+```markdown
+> 已审阅。后续修订：[修订版 v1](relative-link)（待作者审阅）；本文件保留为原版。
+```
+
+Adding this link does not change the predecessor's substantive content or review status. While the successor is awaiting review, the predecessor remains the current author-reviewed card. If the writer accepts the successor, mark that file `已审阅`, update the relation notes to identify it as the current reviewed version, and retain the predecessor as a prior reviewed version rather than relabeling it unreviewed. Do not silently switch project indexes or downstream writing to an unreviewed successor; follow the project's index rules or the writer's explicit request after the review state is clear.
+
+For either mode, keep an inline correction or superseded interpretation only when that history matters to understanding. Prefer a corrected explanation and a link to the session’s concise correction over a duplicated account of the editing process. Author-reviewed removals remain authoritative.
 
 Question cards and knowledge cards may link to each other, but do not force a one-to-one conversion. A useful question can remain a durable entrance after an answer exists.
 
