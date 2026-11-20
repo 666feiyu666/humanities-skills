@@ -1,4 +1,4 @@
 interface:
   display_name: "Writing"
-  short_description: "Explore ideas, test structure, and develop outlines"
-  default_prompt: "Use $writing-skill to develop my thinking through discussion and exploratory writing, then shape an outline for my review."
+  short_description: "Develop arguments and reconcile outlines with prose"
+  default_prompt: "Use $writing-skill to develop or revise my line of argument, including reconciling it with prose I have already revised."

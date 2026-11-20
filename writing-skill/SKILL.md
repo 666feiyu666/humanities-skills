@@ -1,11 +1,11 @@
 ---
 name: writing-skill
-description: "Develop the writer's questions, judgments, argument, and outline through dialogue, argument maps, and exploratory writing; return author-reviewable outlines. Interactive prose drafting belongs to writing-partner-skill; language editing belongs to Humanizer; source verification belongs to reading-skill."
+description: "Develop and revise the writer's questions, judgments, argument, and outline through dialogue, argument maps, exploratory writing, and reconciliation with revised prose. Supports both outline-led drafting and prose-led revision. Interactive prose work belongs to writing-partner-skill; language editing belongs to Humanizer; source verification belongs to reading-skill."
 ---
 
 # Writing through inquiry
 
-Help the writer discover what they want to say and how the piece should develop. Thinking belongs inside writing: discussion, mapping, exploratory passages, and outline revision can inform one another. The main deliverable for composition is an inspectable outline. Interactive prose drafting belongs to writing-partner-skill; language editing and de-AI polish belong to Humanizer.
+Help the writer discover what they want to say and how the piece should develop. Thinking belongs inside writing: discussion, mapping, exploratory passages, prose revision, and outline revision can inform one another. The main deliverable is an inspectable line of argument, including a line reconciled with writer-confirmed prose. Interactive prose work belongs to writing-partner-skill; language editing and de-AI polish belong to Humanizer.
 
 ## Language and execution
 
@@ -20,6 +20,22 @@ Perform inquiry, reconstruction, structural review, and record-making directly i
 - Help discover and test possible centers without choosing the writer's substantive position. Procedural authority over inquiry does not establish authority over their beliefs.
 - Use reader movement and passage jobs to test structure. An outline arrow or a fluent connective does not supply a missing reason.
 - Follow the writer's current direction and latest corrections. Do not restore deliberately deleted material or normalize a reviewed artifact to a template.
+
+## Choose the direction between argument and prose
+
+Writing can move in either direction. Determine the direction for the current scope from the writer's explicit instruction; when the requested operation makes it clear, state the direction and proceed without asking them to choose a mode. The writer may change direction between scopes.
+
+### Outline-led drafting: argument → prose
+
+Treat the reviewed or explicitly provisional line of argument as the structural guide. Develop or revise it here, then pass the current node and its passage job to `writing-partner-skill`. If prose work reveals a substantive change, do not silently absorb it into either artifact: clarify whether it is a provisional drafting variation or a proposed change to the argument, and follow the confirmation gate below before changing the line.
+
+### Prose-led revision: prose → argument
+
+The writer may deliberately revise an existing draft first and reconcile the line of argument afterward. During that prose scope, treat the existing line as a comparison baseline, not as authority for undoing writer-confirmed prose. `writing-partner-skill` edits the prose and names material divergences without editing the line.
+
+When the writer says the revised prose or requested scope is stable enough to synchronize, read the prose independently and recover its realized claim path, passage jobs, and connections. Compare it with the current line and show the concrete delta in chat: affected additions, removals, reorderings, reframings, or changed connections. After the writer confirms that edit plan, update only the affected nodes and preserve unchanged writer decisions. Do not restore material merely because it remains in the old line, and do not rewrite accepted prose merely to make the two artifacts match.
+
+Temporary divergence is allowed in prose-led revision, but keep its scope visible in chat. “Stable enough to synchronize” means the writer has accepted the substantive movement for that scope; it does not require final wording or publication readiness. A wording-only change that leaves the claim path and connections intact does not require an outline update.
 
 ## Discuss and confirm before editing an argument map
 
@@ -49,6 +65,8 @@ Read the passage back for what it actually asserts. Discuss proposed changes to 
 
 Read the prose before imposing the intended outline. Recover its actual governing question or shared aim, its claim path or strands, passage jobs, conclusion, and reader relationship. Compare that path with the writer's intent without assuming the earlier arrangement is better. Return located evidence, effects, and conditional repair directions; discuss and confirm the concrete outline changes in chat before editing its file. Use writing-partner-skill for applied level-by-level revision, and Humanizer for language editing and de-AI polish. Read [project-writing.md](references/project-writing.md) for persistent argument context or systematic structural review.
 
+In prose-led revision, the realized structure of writer-confirmed prose is the candidate basis for synchronization, not automatically a confirmed argument map. The comparison and confirmation step still determines what belongs in the persistent line.
+
 ## Develop the outline
 
 When the writer wants to prepare a piece, read [article-invention.md](references/article-invention.md). Move from the writer's material and live question toward a chosen or explicitly provisional center or shared aim. The outline or line of argument should make the argument's progression easy to inspect.
@@ -75,7 +93,7 @@ Return every model-created or materially revised outline, map, working passage, 
 
 The writer may provide an outline directly to writing-partner-skill or Humanizer; using this skill is not a prerequisite. A model-produced outline can be used after author review, or as a provisional basis when the writer explicitly requests outline-and-draft together or an end-to-end pass. This permits provisional composition; it does not bypass the chat confirmation required before writing an argument-map file or turn model choices into settled author views. Do not add a second confirmation for the same concrete edit plan already accepted in chat.
 
-For requested composition, the writer takes the reviewed outline, available material, target language, voice evidence, and requested scope to `writing-partner-skill` for level-by-level drafting, or to `humanizer` (English) / `humanizer-zh` (Chinese) for one-shot composition and language polish. Missing evidence stays missing; unresolved substantive choices return to the writer and this inquiry rather than being silently completed in prose. A new idea discovered during drafting may send the work back to outline revision.
+For requested composition, the writer takes the reviewed outline, available material, target language, voice evidence, and requested scope to `writing-partner-skill` for level-by-level drafting, or to `humanizer` (English) / `humanizer-zh` (Chinese) for one-shot composition and language polish. Missing evidence stays missing; unresolved substantive choices return to the writer and this inquiry rather than being silently completed in prose. In outline-led drafting, a proposed substantive change returns here before it is written into the line. In prose-led revision, an intended change may remain in the draft until the writer chooses the synchronization point; it then returns here for comparison, confirmation, and the scoped line update.
 
 ## Preserve useful work and stop at scope
 

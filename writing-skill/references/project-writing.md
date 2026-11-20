@@ -18,6 +18,8 @@ The writer's latest instruction outranks the file. Preserve the distinction betw
 
 Read the supplied prose independently of the intended outline. Recover what the opening leads the reader to expect, which claim the body actually develops, the work of each passage, the relation to its neighbor, and what the ending establishes. Compare the realized and intended paths without assuming either is better.
 
+When the writer has chosen prose-led revision, use the writer-confirmed prose scope as the candidate basis for reconciliation and the old outline as the comparison baseline. Make additions, removals, reorderings, reframings, and changed connections explicit in chat. Do not silently normalize the prose to the old outline or copy every accidental feature of a draft into the argument. After the writer confirms the concrete delta, update only the affected nodes and leave unchanged decisions intact.
+
 Where useful, distinguish claim, grounds, warrant, backing, qualifier, and rebuttal. Personal experience does not automatically establish a social pattern; explanation does not settle evaluation. Check the mechanism behind a causal claim and the evaluative premise behind a normative conclusion. Test an actual consequential objection without imposing a counterargument section.
 
 For a difficult connection, temporarily remove its connective and state the relation. Distinguish cause, reason, sequence, evidence, qualification, concession, and a change of question or level. Restore a middle step only when the material licenses it; otherwise flag the gap. Reader invitations need not be treated as unsupported factual premises.
